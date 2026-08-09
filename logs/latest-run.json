@@ -1,0 +1,19 @@
+{
+  "summary": {
+    "generatedAt": "2026-08-09T06:32:03.286Z",
+    "startedAt": "2026-08-09T06:31:49.472Z",
+    "companyCount": 20,
+    "configuredCompanyCount": 20,
+    "totalReportCount": 80,
+    "newReportCount": 0,
+    "errorCount": 0,
+    "source": "kabutan.jp / tdnet-pdf.kabutan.jp",
+    "maxReportsPerCompany": 4
+  },
+  "notification": {
+    "sent": false,
+    "reason": "not requested"
+  },
+  "errors": [],
+  "newReports": []
+}

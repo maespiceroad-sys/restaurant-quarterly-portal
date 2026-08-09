@@ -1,0 +1,20 @@
+{
+  "name": "restaurant-quarterly-portal",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Portal for viewing recent quarterly earnings PDFs for major listed restaurant companies in Japan.",
+  "main": "electron/main.mjs",
+  "scripts": {
+    "update": "node src/update.mjs",
+    "serve": "node src/serve.mjs",
+    "desktop": "electron ."
+  },
+  "dependencies": {
+    "cheerio": "^1.1.2",
+    "nodemailer": "^7.0.3"
+  },
+  "devDependencies": {
+    "electron": "^42.3.3"
+  }
+}

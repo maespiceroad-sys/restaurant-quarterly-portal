@@ -1,0 +1,8 @@
+node_modules/
+site/assets/pdfs/
+logs/*.json
+!logs/latest-run.json
+logs/task-history/
+.env
+preview-*.png
+serve.*.log

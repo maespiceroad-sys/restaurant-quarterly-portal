@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>上場飲食20社 四半期決算PDFポータル</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Listed Restaurant IR Portal</p>
+          <h1>上場飲食20社の四半期決算PDFを<br>1か所で確認</h1>
+          <p class="hero-text">
+            主要飲食上場企業20社の決算短信PDFを一覧化しています。企業別の直近4件と、全体の最新データを見やすく確認できます。
+          </p>
+        </div>
+        <div class="hero-stats">
+          <div class="stat">
+            <span class="stat-label">対象企業</span>
+            <strong id="stat-company-count">0</strong>
+          </div>
+          <div class="stat">
+            <span class="stat-label">掲載PDF</span>
+            <strong id="stat-report-count">0</strong>
+          </div>
+          <div class="stat wide">
+            <span class="stat-label">最終更新</span>
+            <strong id="stat-generated-at">-</strong>
+          </div>
+        </div>
+      </header>
+
+      <section class="toolbar">
+        <label class="search-box">
+          <span>企業検索</span>
+          <input id="company-search" type="search" placeholder="企業名、証券コード、ブランド名">
+        </label>
+        <div class="toolbar-note">
+          <span id="summary-source">-</span>
+          <span id="summary-error-count">-</span>
+        </div>
+      </section>
+
+      <section class="digest-panel">
+        <div class="panel-head">
+          <div>
+            <p class="eyebrow">Latest Digest</p>
+            <h2>最新データ一覧</h2>
+          </div>
+          <span class="badge" id="digest-count-badge">0</span>
+        </div>
+        <div class="digest-table-wrap">
+          <table class="digest-table">
+            <thead>
+              <tr>
+                <th>企業名</th>
+                <th>コード</th>
+                <th>市場</th>
+                <th>最新開示日</th>
+                <th>最新タイトル</th>
+                <th>PDF</th>
+              </tr>
+            </thead>
+            <tbody id="digest-table-body"></tbody>
+          </table>
+        </div>
+        <div id="digest-card-list" class="digest-card-list"></div>
+      </section>
+
+      <main class="layout">
+        <aside class="company-panel">
+          <div class="panel-head">
+            <h2>企業一覧</h2>
+            <span id="company-count-badge" class="badge">0</span>
+          </div>
+          <div id="company-list" class="company-list"></div>
+        </aside>
+
+        <section class="viewer-panel">
+          <div id="company-detail" class="company-detail"></div>
+          <div class="pdf-frame-wrap">
+            <div class="frame-head">
+              <div>
+                <p class="eyebrow">PDF Viewer</p>
+                <h3 id="report-title">レポートを選択してください</h3>
+              </div>
+              <div class="frame-links">
+                <a id="local-pdf-link" href="#" target="_blank" rel="noopener">表示用PDF</a>
+                <a id="source-pdf-link" href="#" target="_blank" rel="noopener">ソースPDF</a>
+              </div>
+            </div>
+            <iframe id="pdf-frame" title="決算PDFビューア"></iframe>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="./data.js"></script>
+    <script src="./app.js"></script>
+  </body>
+  </html>
