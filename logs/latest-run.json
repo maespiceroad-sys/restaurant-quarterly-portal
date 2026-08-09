@@ -1,12 +1,12 @@
 {
   "summary": {
-    "generatedAt": "2026-08-09T06:32:03.286Z",
-    "startedAt": "2026-08-09T06:31:49.472Z",
-    "companyCount": 20,
+    "generatedAt": "2026-08-09T06:34:47.518Z",
+    "startedAt": "2026-08-09T06:34:38.676Z",
+    "companyCount": 0,
     "configuredCompanyCount": 20,
-    "totalReportCount": 80,
+    "totalReportCount": 0,
     "newReportCount": 0,
-    "errorCount": 0,
+    "errorCount": 20,
     "source": "kabutan.jp / tdnet-pdf.kabutan.jp",
     "maxReportsPerCompany": 4
   },
@@ -14,6 +14,107 @@
     "sent": false,
     "reason": "not requested"
   },
-  "errors": [],
+  "errors": [
+    {
+      "code": "7550",
+      "name": "ゼンショーホールディングス",
+      "error": "405 Not Allowed"
+    },
+    {
+      "code": "3197",
+      "name": "すかいらーくホールディングス",
+      "error": "405 Not Allowed"
+    },
+    {
+      "code": "7616",
+      "name": "コロワイド",
+      "error": "405 Not Allowed"
+    },
+    {
+      "code": "3397",
+      "name": "トリドールホールディングス",
+      "error": "405 Not Allowed"
+    },
+    {
+      "code": "7581",
+      "name": "サイゼリヤ",
+      "error": "405 Not Allowed"
+    },
+    {
+      "code": "9861",
+      "name": "吉野家ホールディングス",
+      "error": "405 Not Allowed"
+    },
+    {
+      "code": "3543",
+      "name": "コメダホールディングス",
+      "error": "405 Not Allowed"
+    },
+    {
+      "code": "3097",
+      "name": "物語コーポレーション",
+      "error": "405 Not Allowed"
+    },
+    {
+      "code": "2695",
+      "name": "くら寿司",
+      "error": "405 Not Allowed"
+    },
+    {
+      "code": "9936",
+      "name": "王将フードサービス",
+      "error": "405 Not Allowed"
+    },
+    {
+      "code": "3561",
+      "name": "力の源ホールディングス",
+      "error": "405 Not Allowed"
+    },
+    {
+      "code": "7611",
+      "name": "ハイデイ日高",
+      "error": "405 Not Allowed"
+    },
+    {
+      "code": "8163",
+      "name": "SRSホールディングス",
+      "error": "405 Not Allowed"
+    },
+    {
+      "code": "7522",
+      "name": "ワタミ",
+      "error": "405 Not Allowed"
+    },
+    {
+      "code": "7630",
+      "name": "壱番屋",
+      "error": "405 Not Allowed"
+    },
+    {
+      "code": "7412",
+      "name": "アトム",
+      "error": "405 Not Allowed"
+    },
+    {
+      "code": "7421",
+      "name": "カッパ・クリエイト",
+      "error": "405 Not Allowed"
+    },
+    {
+      "code": "8160",
+      "name": "木曽路",
+      "error": "405 Not Allowed"
+    },
+    {
+      "code": "3196",
+      "name": "ホットランドホールディングス",
+      "error": "405 Not Allowed"
+    },
+    {
+      "code": "7554",
+      "name": "幸楽苑",
+      "error": "405 Not Allowed"
+    }
+  ],
   "newReports": []
 }
