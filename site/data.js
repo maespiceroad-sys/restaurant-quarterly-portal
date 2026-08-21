@@ -1,7 +1,7 @@
 window.__REPORT_DATA__ = {
   "summary": {
-    "generatedAt": "2026-08-16T00:27:46.261Z",
-    "startedAt": "2026-08-16T00:27:38.418Z",
+    "generatedAt": "2026-08-21T00:29:43.568Z",
+    "startedAt": "2026-08-21T00:29:35.259Z",
     "companyCount": 0,
     "configuredCompanyCount": 20,
     "totalReportCount": 0,
