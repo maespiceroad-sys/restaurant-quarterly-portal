@@ -1,18 +1,18 @@
 window.__REPORT_DATA__ = {
   "summary": {
-    "generatedAt": "2026-10-12T04:35:47.578Z",
-    "startedAt": "2026-10-12T04:34:25.032Z",
+    "generatedAt": "2026-10-12T04:39:14.644Z",
+    "startedAt": "2026-10-12T04:38:29.628Z",
     "companyCount": 50,
     "freshCompanyCount": 50,
     "cachedCompanyCount": 0,
     "configuredCompanyCount": 50,
     "totalReportCount": 200,
-    "newReportCount": 0,
+    "newReportCount": 4,
     "errorCount": 0,
     "source": "Yahoo!ファイナンス / TDnet（予備: 株探）",
     "publicSiteUrl": "https://maespiceroad-sys.github.io/restaurant-quarterly-portal/",
     "hostedPdfs": true,
-    "nextScheduledCheckAt": "2026-10-17T04:35:47.578Z",
+    "nextScheduledCheckAt": "2026-10-17T04:39:14.644Z",
     "maxReportsPerCompany": 4
   },
   "latestRows": [
@@ -187,21 +187,6 @@ window.__REPORT_DATA__ = {
       "latestReportPdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20260910/20260909533554.pdf",
       "latestLocalPdfPath": "assets/pdfs/7682/20260910_140120260909533554.pdf",
       "preferredPdfUrl": "assets/pdfs/7682/20260910_140120260909533554.pdf"
-    },
-    {
-      "code": "9936",
-      "name": "王将フードサービス",
-      "market": "東証プライム",
-      "brands": [
-        "餃子の王将"
-      ],
-      "comparison": "全体比較",
-      "dataStatus": "fresh",
-      "latestDisclosureDate": "2026-08-18",
-      "latestReportTitle": "[Delayed] Consolidated Financial Results for the First Quarter of the Fiscal Year Ending March 31, 2027",
-      "latestReportPdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20260818/20260817522092.pdf",
-      "latestLocalPdfPath": "assets/pdfs/9936/20260818_140120260817522092.pdf",
-      "preferredPdfUrl": "assets/pdfs/9936/20260818_140120260817522092.pdf"
     },
     {
       "code": "3397",
@@ -642,6 +627,21 @@ window.__REPORT_DATA__ = {
       "preferredPdfUrl": "assets/pdfs/9853/20260806_140120260805509464.pdf"
     },
     {
+      "code": "9936",
+      "name": "王将フードサービス",
+      "market": "東証プライム",
+      "brands": [
+        "餃子の王将"
+      ],
+      "comparison": "全体比較",
+      "dataStatus": "fresh",
+      "latestDisclosureDate": "2026-07-31",
+      "latestReportTitle": "2027年3月期 第1四半期決算短信〔日本基準〕（連結）",
+      "latestReportPdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20260731/20260717596229.pdf",
+      "latestLocalPdfPath": "assets/pdfs/9936/20260731_140120260717596229.pdf",
+      "preferredPdfUrl": "assets/pdfs/9936/20260731_140120260717596229.pdf"
+    },
+    {
       "code": "7625",
       "name": "グローバルダイニング",
       "market": "東証スタンダード",
@@ -835,7 +835,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-12T04:34:26.332Z",
+      "fetchedAt": "2026-10-12T04:38:30.678Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(255 70% 60%)",
@@ -904,7 +904,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-12T04:34:27.688Z",
+      "fetchedAt": "2026-10-12T04:38:31.917Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(114 70% 60%)",
@@ -972,7 +972,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-12T04:34:28.603Z",
+      "fetchedAt": "2026-10-12T04:38:32.853Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(71 70% 60%)",
@@ -1039,7 +1039,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-12T04:34:29.186Z",
+      "fetchedAt": "2026-10-12T04:38:33.518Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(92 70% 60%)",
@@ -1105,7 +1105,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-12T04:34:30.201Z",
+      "fetchedAt": "2026-10-12T04:38:34.456Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(11 70% 60%)",
@@ -1172,7 +1172,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-12T04:34:31.127Z",
+      "fetchedAt": "2026-10-12T04:38:35.351Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(91 70% 60%)",
@@ -1239,7 +1239,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-12T04:34:31.736Z",
+      "fetchedAt": "2026-10-12T04:38:36.053Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(25 70% 60%)",
@@ -1307,7 +1307,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-12T04:34:32.910Z",
+      "fetchedAt": "2026-10-12T04:38:37.302Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(59 70% 60%)",
@@ -1373,7 +1373,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-12T04:34:33.503Z",
+      "fetchedAt": "2026-10-12T04:38:37.903Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(219 70% 60%)",
@@ -1439,26 +1439,15 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-12T04:34:34.445Z",
+      "fetchedAt": "2026-10-12T04:38:39.806Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(72 70% 60%)",
         "colorB": "hsl(107 70% 48%)"
       },
       "disclosurePageUrl": "https://finance.yahoo.co.jp/quote/9936.T/disclosure",
-      "latestDisclosureDate": "2026-08-18",
+      "latestDisclosureDate": "2026-07-31",
       "reports": [
-        {
-          "id": "9936-20260818-140120260817522092",
-          "docId": "140120260817522092",
-          "rawDate": "20260818",
-          "disclosureDate": "2026-08-18",
-          "title": "[Delayed] Consolidated Financial Results for the First Quarter of the Fiscal Year Ending March 31, 2027",
-          "pdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20260818/20260817522092.pdf",
-          "detailUrl": "https://finance.yahoo.co.jp/quote/9936.T/disclosure",
-          "localPdfPath": "assets/pdfs/9936/20260818_140120260817522092.pdf",
-          "preferredPdfUrl": "assets/pdfs/9936/20260818_140120260817522092.pdf"
-        },
         {
           "id": "9936-20260731-140120260717596229",
           "docId": "140120260717596229",
@@ -1471,17 +1460,6 @@ window.__REPORT_DATA__ = {
           "preferredPdfUrl": "assets/pdfs/9936/20260731_140120260717596229.pdf"
         },
         {
-          "id": "9936-20260610-140120260610566945",
-          "docId": "140120260610566945",
-          "rawDate": "20260610",
-          "disclosureDate": "2026-06-10",
-          "title": "[Updated]Consolidated Financial Results for the Fiscal Year Ended March 31, 2026",
-          "pdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20260610/20260610566945.pdf",
-          "detailUrl": "https://finance.yahoo.co.jp/quote/9936.T/disclosure",
-          "localPdfPath": "assets/pdfs/9936/20260610_140120260610566945.pdf",
-          "preferredPdfUrl": "assets/pdfs/9936/20260610_140120260610566945.pdf"
-        },
-        {
           "id": "9936-20260515-140120260423509585",
           "docId": "140120260423509585",
           "rawDate": "20260515",
@@ -1491,6 +1469,28 @@ window.__REPORT_DATA__ = {
           "detailUrl": "https://finance.yahoo.co.jp/quote/9936.T/disclosure",
           "localPdfPath": "assets/pdfs/9936/20260515_140120260423509585.pdf",
           "preferredPdfUrl": "assets/pdfs/9936/20260515_140120260423509585.pdf"
+        },
+        {
+          "id": "9936-20260130-140120260120536147",
+          "docId": "140120260120536147",
+          "rawDate": "20260130",
+          "disclosureDate": "2026-01-30",
+          "title": "2026年3月期 第3四半期決算短信〔日本基準〕（連結）",
+          "pdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20260130/20260120536147.pdf",
+          "detailUrl": "https://finance.yahoo.co.jp/quote/9936.T/disclosure",
+          "localPdfPath": "assets/pdfs/9936/20260130_140120260120536147.pdf",
+          "preferredPdfUrl": "assets/pdfs/9936/20260130_140120260120536147.pdf"
+        },
+        {
+          "id": "9936-20251031-140120251017575428",
+          "docId": "140120251017575428",
+          "rawDate": "20251031",
+          "disclosureDate": "2025-10-31",
+          "title": "2026年3月期第2四半期（中間期）決算短信〔日本基準〕（連結）",
+          "pdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20251031/20251017575428.pdf",
+          "detailUrl": "https://finance.yahoo.co.jp/quote/9936.T/disclosure",
+          "localPdfPath": "assets/pdfs/9936/20251031_140120251017575428.pdf",
+          "preferredPdfUrl": "assets/pdfs/9936/20251031_140120251017575428.pdf"
         }
       ]
     },
@@ -1506,7 +1506,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-12T04:34:35.508Z",
+      "fetchedAt": "2026-10-12T04:38:40.799Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(65 70% 60%)",
@@ -1572,7 +1572,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-12T04:34:36.416Z",
+      "fetchedAt": "2026-10-12T04:38:41.680Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(241 70% 60%)",
@@ -1639,7 +1639,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-12T04:34:37.357Z",
+      "fetchedAt": "2026-10-12T04:38:42.576Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(149 70% 60%)",
@@ -1658,17 +1658,6 @@ window.__REPORT_DATA__ = {
           "detailUrl": "https://finance.yahoo.co.jp/quote/8163.T/disclosure",
           "localPdfPath": "assets/pdfs/8163/20260807_140120260731504816.pdf",
           "preferredPdfUrl": "assets/pdfs/8163/20260807_140120260731504816.pdf"
-        },
-        {
-          "id": "8163-20260519-140120260518539405",
-          "docId": "140120260518539405",
-          "rawDate": "20260519",
-          "disclosureDate": "2026-05-19",
-          "title": "Financial Results for the Fiscal Year Ended March 2026",
-          "pdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20260519/20260518539405.pdf",
-          "detailUrl": "https://finance.yahoo.co.jp/quote/8163.T/disclosure",
-          "localPdfPath": "assets/pdfs/8163/20260519_140120260518539405.pdf",
-          "preferredPdfUrl": "assets/pdfs/8163/20260519_140120260518539405.pdf"
         },
         {
           "id": "8163-20260515-140120260514532121",
@@ -1691,6 +1680,17 @@ window.__REPORT_DATA__ = {
           "detailUrl": "https://finance.yahoo.co.jp/quote/8163.T/disclosure",
           "localPdfPath": "assets/pdfs/8163/20260210_140120260209552544.pdf",
           "preferredPdfUrl": "assets/pdfs/8163/20260210_140120260209552544.pdf"
+        },
+        {
+          "id": "8163-20251110-140120251107592800",
+          "docId": "140120251107592800",
+          "rawDate": "20251110",
+          "disclosureDate": "2025-11-10",
+          "title": "令和8年3月期 第2四半期（中間期）決算短信〔日本基準〕（連結）",
+          "pdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20251110/20251107592800.pdf",
+          "detailUrl": "https://finance.yahoo.co.jp/quote/8163.T/disclosure",
+          "localPdfPath": "assets/pdfs/8163/20251110_140120251107592800.pdf",
+          "preferredPdfUrl": "assets/pdfs/8163/20251110_140120251107592800.pdf"
         }
       ]
     },
@@ -1707,7 +1707,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-12T04:34:38.314Z",
+      "fetchedAt": "2026-10-12T04:38:43.471Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(103 70% 60%)",
@@ -1773,7 +1773,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-12T04:34:38.903Z",
+      "fetchedAt": "2026-10-12T04:38:44.104Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(251 70% 60%)",
@@ -1840,7 +1840,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-12T04:34:39.492Z",
+      "fetchedAt": "2026-10-12T04:38:44.697Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(225 70% 60%)",
@@ -1906,7 +1906,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-12T04:34:40.070Z",
+      "fetchedAt": "2026-10-12T04:38:45.305Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(185 70% 60%)",
@@ -1973,7 +1973,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-12T04:34:40.675Z",
+      "fetchedAt": "2026-10-12T04:38:45.933Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(137 70% 60%)",
@@ -2040,7 +2040,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-12T04:34:41.251Z",
+      "fetchedAt": "2026-10-12T04:38:46.537Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(108 70% 60%)",
@@ -2106,7 +2106,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-12T04:34:42.487Z",
+      "fetchedAt": "2026-10-12T04:38:47.787Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(14 70% 60%)",
@@ -2174,7 +2174,7 @@ window.__REPORT_DATA__ = {
       "comparison": "業態が近い",
       "comparisonNote": "東南アジア料理・都市型レストランの比較",
       "referenceUrl": "https://www.global-dining.com/",
-      "fetchedAt": "2026-10-12T04:34:43.155Z",
+      "fetchedAt": "2026-10-12T04:38:48.391Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(108 70% 60%)",
@@ -2242,7 +2242,7 @@ window.__REPORT_DATA__ = {
       "comparison": "業態が近い",
       "comparisonNote": "タイ料理ブランドの比較。決算はホームセンターを含む連結全体",
       "referenceUrl": "https://www.arclands.co.jp/ja/ir.html",
-      "fetchedAt": "2026-10-12T04:34:44.414Z",
+      "fetchedAt": "2026-10-12T04:38:49.640Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(240 70% 60%)",
@@ -2310,7 +2310,7 @@ window.__REPORT_DATA__ = {
       "comparison": "業態が近い",
       "comparisonNote": "アジア料理・商業施設出店・多業態運営の比較",
       "referenceUrl": "https://shop.create-restaurants.co.jp/cr2589/news/667/",
-      "fetchedAt": "2026-10-12T04:34:45.340Z",
+      "fetchedAt": "2026-10-12T04:38:50.556Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(74 70% 60%)",
@@ -2379,7 +2379,7 @@ window.__REPORT_DATA__ = {
       "comparison": "運営比較",
       "comparisonNote": "海外料理ブランド・多業態レストラン運営の比較",
       "referenceUrl": "https://www.wdi.co.jp/contact",
-      "fetchedAt": "2026-10-12T04:34:45.911Z",
+      "fetchedAt": "2026-10-12T04:38:51.126Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(245 70% 60%)",
@@ -2447,7 +2447,7 @@ window.__REPORT_DATA__ = {
       "comparison": "参考比較",
       "comparisonNote": "ティーヌン運営業態の参考比較。独立した直接競合として扱わない",
       "referenceUrl": "https://gourmet-kineya.co.jp/index.php/brands/menu/37",
-      "fetchedAt": "2026-10-12T04:34:46.877Z",
+      "fetchedAt": "2026-10-12T04:38:52.091Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(184 70% 60%)",
@@ -2513,7 +2513,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-12T04:34:47.437Z",
+      "fetchedAt": "2026-10-12T04:38:52.643Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(46 70% 60%)",
@@ -2580,7 +2580,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-12T04:34:48.362Z",
+      "fetchedAt": "2026-10-12T04:38:53.517Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(180 70% 60%)",
@@ -2647,7 +2647,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-12T04:34:49.499Z",
+      "fetchedAt": "2026-10-12T04:38:54.469Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(208 70% 60%)",
@@ -2715,7 +2715,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-12T04:34:50.115Z",
+      "fetchedAt": "2026-10-12T04:38:55.064Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(207 70% 60%)",
@@ -2782,7 +2782,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-12T04:34:50.992Z",
+      "fetchedAt": "2026-10-12T04:38:56.019Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(206 70% 60%)",
@@ -2849,7 +2849,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-12T04:34:51.578Z",
+      "fetchedAt": "2026-10-12T04:38:56.602Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(18 70% 60%)",
@@ -2916,7 +2916,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-12T04:34:52.492Z",
+      "fetchedAt": "2026-10-12T04:38:57.543Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(104 70% 60%)",
@@ -2948,17 +2948,6 @@ window.__REPORT_DATA__ = {
           "preferredPdfUrl": "assets/pdfs/3193/20260605_140120260605563896.pdf"
         },
         {
-          "id": "3193-20260401-140120260401595348",
-          "docId": "140120260401595348",
-          "rawDate": "20260401",
-          "disclosureDate": "2026-04-01",
-          "title": "[Delayed] 1st Half Financial Results Briefing for the Fiscal Year Ending July 31, 2026",
-          "pdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20260401/20260401595348.pdf",
-          "detailUrl": "https://finance.yahoo.co.jp/quote/3193.T/disclosure",
-          "localPdfPath": "assets/pdfs/3193/20260401_140120260401595348.pdf",
-          "preferredPdfUrl": "assets/pdfs/3193/20260401_140120260401595348.pdf"
-        },
-        {
           "id": "3193-20260313-140120260204547727",
           "docId": "140120260204547727",
           "rawDate": "20260313",
@@ -2968,6 +2957,17 @@ window.__REPORT_DATA__ = {
           "detailUrl": "https://finance.yahoo.co.jp/quote/3193.T/disclosure",
           "localPdfPath": "assets/pdfs/3193/20260313_140120260204547727.pdf",
           "preferredPdfUrl": "assets/pdfs/3193/20260313_140120260204547727.pdf"
+        },
+        {
+          "id": "3193-20251205-140120251205515379",
+          "docId": "140120251205515379",
+          "rawDate": "20251205",
+          "disclosureDate": "2025-12-05",
+          "title": "2026年７月期 第１四半期決算短信〔日本基準〕（連結）",
+          "pdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20251205/20251205515379.pdf",
+          "detailUrl": "https://finance.yahoo.co.jp/quote/3193.T/disclosure",
+          "localPdfPath": "assets/pdfs/3193/20251205_140120251205515379.pdf",
+          "preferredPdfUrl": "assets/pdfs/3193/20251205_140120251205515379.pdf"
         }
       ]
     },
@@ -2983,7 +2983,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-12T04:34:53.104Z",
+      "fetchedAt": "2026-10-12T04:38:58.168Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(186 70% 60%)",
@@ -3050,7 +3050,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-12T04:34:54.060Z",
+      "fetchedAt": "2026-10-12T04:38:59.066Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(81 70% 60%)",
@@ -3117,7 +3117,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-12T04:34:55.284Z",
+      "fetchedAt": "2026-10-12T04:39:00.358Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(245 70% 60%)",
@@ -3183,7 +3183,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-12T04:34:55.874Z",
+      "fetchedAt": "2026-10-12T04:39:00.969Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(162 70% 60%)",
@@ -3251,7 +3251,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-12T04:34:56.439Z",
+      "fetchedAt": "2026-10-12T04:39:01.597Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(235 70% 60%)",
@@ -3318,7 +3318,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-12T04:34:57.042Z",
+      "fetchedAt": "2026-10-12T04:39:02.205Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(168 70% 60%)",
@@ -3385,7 +3385,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-12T04:34:57.940Z",
+      "fetchedAt": "2026-10-12T04:39:03.129Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(178 70% 60%)",
@@ -3452,7 +3452,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-12T04:34:58.880Z",
+      "fetchedAt": "2026-10-12T04:39:04.126Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(46 70% 60%)",
@@ -3519,7 +3519,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-12T04:34:59.478Z",
+      "fetchedAt": "2026-10-12T04:39:04.757Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(177 70% 60%)",
@@ -3586,7 +3586,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-12T04:35:00.124Z",
+      "fetchedAt": "2026-10-12T04:39:05.369Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(254 70% 60%)",
@@ -3652,7 +3652,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-12T04:35:01.046Z",
+      "fetchedAt": "2026-10-12T04:39:06.265Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(87 70% 60%)",
@@ -3718,7 +3718,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-12T04:35:01.960Z",
+      "fetchedAt": "2026-10-12T04:39:07.171Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(4 70% 60%)",
@@ -3786,7 +3786,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-12T04:35:02.532Z",
+      "fetchedAt": "2026-10-12T04:39:07.773Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(21 70% 60%)",
@@ -3853,7 +3853,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-12T04:35:03.706Z",
+      "fetchedAt": "2026-10-12T04:39:08.973Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(252 70% 60%)",
@@ -3919,7 +3919,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-12T04:35:04.575Z",
+      "fetchedAt": "2026-10-12T04:39:10.010Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(44 70% 60%)",
@@ -3985,7 +3985,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-12T04:35:05.149Z",
+      "fetchedAt": "2026-10-12T04:39:10.592Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(23 70% 60%)",
@@ -4052,7 +4052,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-12T04:35:06.064Z",
+      "fetchedAt": "2026-10-12T04:39:11.544Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(72 70% 60%)",
@@ -4119,7 +4119,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-12T04:35:06.652Z",
+      "fetchedAt": "2026-10-12T04:39:12.147Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(45 70% 60%)",
