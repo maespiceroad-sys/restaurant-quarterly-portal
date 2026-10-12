@@ -1,15 +1,1537 @@
 window.__REPORT_DATA__ = {
   "summary": {
-    "generatedAt": "2026-08-09T06:36:58.113Z",
-    "startedAt": "2026-08-09T06:36:50.647Z",
-    "companyCount": 0,
+    "generatedAt": "2026-10-12T00:00:33.533Z",
+    "startedAt": "2026-10-12T00:00:19.992Z",
+    "companyCount": 20,
     "configuredCompanyCount": 20,
-    "totalReportCount": 0,
-    "newReportCount": 0,
-    "errorCount": 20,
+    "totalReportCount": 80,
+    "newReportCount": 1,
+    "errorCount": 0,
     "source": "kabutan.jp / tdnet-pdf.kabutan.jp",
     "maxReportsPerCompany": 4
   },
-  "latestRows": [],
-  "companies": []
+  "latestRows": [
+    {
+      "code": "9861",
+      "name": "吉野家ホールディングス",
+      "market": "東証プライム",
+      "brands": [
+        "吉野家",
+        "はなまるうどん"
+      ],
+      "latestDisclosureDate": "2026-10-08",
+      "latestReportTitle": "2027年2月期第2四半期（中間期）決算短信〔日本基準〕(連結)",
+      "latestReportPdfUrl": "https://tdnet-pdf.kabutan.jp/20261008/140120261008547781.pdf",
+      "latestLocalPdfPath": "assets/pdfs/9861/20261008_140120261008547781.pdf",
+      "preferredPdfUrl": "assets/pdfs/9861/20261008_140120261008547781.pdf"
+    },
+    {
+      "code": "7630",
+      "name": "壱番屋",
+      "market": "東証プライム",
+      "brands": [
+        "CoCo壱番屋"
+      ],
+      "latestDisclosureDate": "2026-10-05",
+      "latestReportTitle": "2027年2月期 第2四半期（中間期）決算短信〔日本基準〕（連結）",
+      "latestReportPdfUrl": "https://tdnet-pdf.kabutan.jp/20261005/140120261005545816.pdf",
+      "latestLocalPdfPath": "assets/pdfs/7630/20261005_140120261005545816.pdf",
+      "preferredPdfUrl": "assets/pdfs/7630/20261005_140120261005545816.pdf"
+    },
+    {
+      "code": "7611",
+      "name": "ハイデイ日高",
+      "market": "東証プライム",
+      "brands": [
+        "日高屋"
+      ],
+      "latestDisclosureDate": "2026-10-02",
+      "latestReportTitle": "2027年２月期 第２四半期（中間期）決算短信〔日本基準〕（非連結）",
+      "latestReportPdfUrl": "https://tdnet-pdf.kabutan.jp/20261002/140120261002545200.pdf",
+      "latestLocalPdfPath": "assets/pdfs/7611/20261002_140120261002545200.pdf",
+      "preferredPdfUrl": "assets/pdfs/7611/20261002_140120261002545200.pdf"
+    },
+    {
+      "code": "2695",
+      "name": "くら寿司",
+      "market": "東証プライム",
+      "brands": [
+        "くら寿司"
+      ],
+      "latestDisclosureDate": "2026-09-11",
+      "latestReportTitle": "2026年10月期第3四半期決算短信〔日本基準〕（連結）",
+      "latestReportPdfUrl": "https://tdnet-pdf.kabutan.jp/20260911/140120260910534371.pdf",
+      "latestLocalPdfPath": "assets/pdfs/2695/20260911_140120260910534371.pdf",
+      "preferredPdfUrl": "assets/pdfs/2695/20260911_140120260910534371.pdf"
+    },
+    {
+      "code": "9936",
+      "name": "王将フードサービス",
+      "market": "東証プライム",
+      "brands": [
+        "餃子の王将"
+      ],
+      "latestDisclosureDate": "2026-08-18",
+      "latestReportTitle": "[Delayed] Consolidated Financial Results for the First Quarter of the Fiscal Year Ending March 31, 2027",
+      "latestReportPdfUrl": "https://tdnet-pdf.kabutan.jp/20260818/140120260817522092.pdf",
+      "latestLocalPdfPath": "assets/pdfs/9936/20260818_140120260817522092.pdf",
+      "preferredPdfUrl": "assets/pdfs/9936/20260818_140120260817522092.pdf"
+    },
+    {
+      "code": "3397",
+      "name": "トリドールホールディングス",
+      "market": "東証プライム",
+      "brands": [
+        "丸亀製麺",
+        "コナズ珈琲"
+      ],
+      "latestDisclosureDate": "2026-08-14",
+      "latestReportTitle": "2027年３月期 第１四半期決算短信〔ＩＦＲＳ〕（連結）",
+      "latestReportPdfUrl": "https://tdnet-pdf.kabutan.jp/20260814/140120260813519608.pdf",
+      "latestLocalPdfPath": "assets/pdfs/3397/20260814_140120260813519608.pdf",
+      "preferredPdfUrl": "assets/pdfs/3397/20260814_140120260813519608.pdf"
+    },
+    {
+      "code": "7522",
+      "name": "ワタミ",
+      "market": "東証プライム",
+      "brands": [
+        "鳥メロ",
+        "焼肉の和民",
+        "サブウェイ国内運営"
+      ],
+      "latestDisclosureDate": "2026-08-14",
+      "latestReportTitle": "2027年３月期 第１四半期決算短信〔日本基準〕（連結）",
+      "latestReportPdfUrl": "https://tdnet-pdf.kabutan.jp/20260814/140120260814520278.pdf",
+      "latestLocalPdfPath": "assets/pdfs/7522/20260814_140120260814520278.pdf",
+      "preferredPdfUrl": "assets/pdfs/7522/20260814_140120260814520278.pdf"
+    },
+    {
+      "code": "3196",
+      "name": "ホットランドホールディングス",
+      "market": "東証プライム",
+      "brands": [
+        "築地銀だこ",
+        "銀のあん"
+      ],
+      "latestDisclosureDate": "2026-08-14",
+      "latestReportTitle": "2026年12月期 第２四半期（中間期）決算短信〔日本基準〕（連結）",
+      "latestReportPdfUrl": "https://tdnet-pdf.kabutan.jp/20260814/140120260814521000.pdf",
+      "latestLocalPdfPath": "assets/pdfs/3196/20260814_140120260814521000.pdf",
+      "preferredPdfUrl": "assets/pdfs/3196/20260814_140120260814521000.pdf"
+    },
+    {
+      "code": "3197",
+      "name": "すかいらーくホールディングス",
+      "market": "東証プライム",
+      "brands": [
+        "ガスト",
+        "バーミヤン",
+        "ジョナサン",
+        "しゃぶ葉"
+      ],
+      "latestDisclosureDate": "2026-08-13",
+      "latestReportTitle": "2026年12月期 第2四半期（中間期）決算短信〔ＩＦＲＳ〕（連結）",
+      "latestReportPdfUrl": "https://tdnet-pdf.kabutan.jp/20260813/140120260813518978.pdf",
+      "latestLocalPdfPath": "assets/pdfs/3197/20260813_140120260813518978.pdf",
+      "preferredPdfUrl": "assets/pdfs/3197/20260813_140120260813518978.pdf"
+    },
+    {
+      "code": "3561",
+      "name": "力の源ホールディングス",
+      "market": "東証プライム",
+      "brands": [
+        "一風堂",
+        "名島亭"
+      ],
+      "latestDisclosureDate": "2026-08-13",
+      "latestReportTitle": "2027年3月期 第1四半期決算短信〔日本基準〕（連結）",
+      "latestReportPdfUrl": "https://tdnet-pdf.kabutan.jp/20260813/140120260813518790.pdf",
+      "latestLocalPdfPath": "assets/pdfs/3561/20260813_140120260813518790.pdf",
+      "preferredPdfUrl": "assets/pdfs/3561/20260813_140120260813518790.pdf"
+    },
+    {
+      "code": "7616",
+      "name": "コロワイド",
+      "market": "東証プライム",
+      "brands": [
+        "甘太郎",
+        "かっぱ寿司",
+        "牛角"
+      ],
+      "latestDisclosureDate": "2026-08-12",
+      "latestReportTitle": "2027年３月期 第１四半期決算短信〔ＩＦＲＳ〕（連結）",
+      "latestReportPdfUrl": "https://tdnet-pdf.kabutan.jp/20260812/140120260812517638.pdf",
+      "latestLocalPdfPath": "assets/pdfs/7616/20260812_140120260812517638.pdf",
+      "preferredPdfUrl": "assets/pdfs/7616/20260812_140120260812517638.pdf"
+    },
+    {
+      "code": "7412",
+      "name": "アトム",
+      "market": "東証スタンダード",
+      "brands": [
+        "ステーキ宮",
+        "にぎりの徳兵衛"
+      ],
+      "latestDisclosureDate": "2026-08-12",
+      "latestReportTitle": "2027年３月期 第１四半期決算短信〔日本基準〕（非連結）(公認会計士等による期中レビューの完了)",
+      "latestReportPdfUrl": "https://tdnet-pdf.kabutan.jp/20260812/140120260810517223.pdf",
+      "latestLocalPdfPath": "assets/pdfs/7412/20260812_140120260810517223.pdf",
+      "preferredPdfUrl": "assets/pdfs/7412/20260812_140120260810517223.pdf"
+    },
+    {
+      "code": "7421",
+      "name": "カッパ・クリエイト",
+      "market": "東証プライム",
+      "brands": [
+        "かっぱ寿司"
+      ],
+      "latestDisclosureDate": "2026-08-12",
+      "latestReportTitle": "2027年３月期 第１四半期決算短信〔日本基準〕（連結）（公認会計士等による期中レビューの完了）",
+      "latestReportPdfUrl": "https://tdnet-pdf.kabutan.jp/20260812/140120260810517422.pdf",
+      "latestLocalPdfPath": "assets/pdfs/7421/20260812_140120260810517422.pdf",
+      "preferredPdfUrl": "assets/pdfs/7421/20260812_140120260810517422.pdf"
+    },
+    {
+      "code": "8160",
+      "name": "木曽路",
+      "market": "東証プライム",
+      "brands": [
+        "木曽路",
+        "大将軍"
+      ],
+      "latestDisclosureDate": "2026-08-12",
+      "latestReportTitle": "2027年3月期 第1四半期決算短信〔日本基準〕（連結）",
+      "latestReportPdfUrl": "https://tdnet-pdf.kabutan.jp/20260812/140120260811517446.pdf",
+      "latestLocalPdfPath": "assets/pdfs/8160/20260812_140120260811517446.pdf",
+      "preferredPdfUrl": "assets/pdfs/8160/20260812_140120260811517446.pdf"
+    },
+    {
+      "code": "3097",
+      "name": "物語コーポレーション",
+      "market": "東証プライム",
+      "brands": [
+        "焼肉きんぐ",
+        "丸源ラーメン",
+        "ゆず庵"
+      ],
+      "latestDisclosureDate": "2026-08-10",
+      "latestReportTitle": "2026年６月期 決算短信〔日本基準〕（連結）",
+      "latestReportPdfUrl": "https://tdnet-pdf.kabutan.jp/20260810/140120260810516706.pdf",
+      "latestLocalPdfPath": "assets/pdfs/3097/20260810_140120260810516706.pdf",
+      "preferredPdfUrl": "assets/pdfs/3097/20260810_140120260810516706.pdf"
+    },
+    {
+      "code": "7550",
+      "name": "ゼンショーホールディングス",
+      "market": "東証プライム",
+      "brands": [
+        "すき家",
+        "はま寿司",
+        "ココス",
+        "ビッグボーイ"
+      ],
+      "latestDisclosureDate": "2026-08-07",
+      "latestReportTitle": "2027年３月期 第１四半期決算短信〔日本基準〕(連結)",
+      "latestReportPdfUrl": "https://tdnet-pdf.kabutan.jp/20260807/140120260805510591.pdf",
+      "latestLocalPdfPath": "assets/pdfs/7550/20260807_140120260805510591.pdf",
+      "preferredPdfUrl": "assets/pdfs/7550/20260807_140120260805510591.pdf"
+    },
+    {
+      "code": "8163",
+      "name": "SRSホールディングス",
+      "market": "東証プライム",
+      "brands": [
+        "和食さと",
+        "にぎり長次郎"
+      ],
+      "latestDisclosureDate": "2026-08-07",
+      "latestReportTitle": "令和9年3月期 第1四半期決算短信〔日本基準〕（連結）",
+      "latestReportPdfUrl": "https://tdnet-pdf.kabutan.jp/20260807/140120260731504816.pdf",
+      "latestLocalPdfPath": "assets/pdfs/8163/20260807_140120260731504816.pdf",
+      "preferredPdfUrl": "assets/pdfs/8163/20260807_140120260731504816.pdf"
+    },
+    {
+      "code": "7554",
+      "name": "幸楽苑",
+      "market": "東証プライム",
+      "brands": [
+        "幸楽苑"
+      ],
+      "latestDisclosureDate": "2026-08-06",
+      "latestReportTitle": "2027年３月期第１四半期決算短信〔日本基準〕(非連結)",
+      "latestReportPdfUrl": "https://tdnet-pdf.kabutan.jp/20260806/140120260805509966.pdf",
+      "latestLocalPdfPath": "assets/pdfs/7554/20260806_140120260805509966.pdf",
+      "preferredPdfUrl": "assets/pdfs/7554/20260806_140120260805509966.pdf"
+    },
+    {
+      "code": "7581",
+      "name": "サイゼリヤ",
+      "market": "東証プライム",
+      "brands": [
+        "サイゼリヤ"
+      ],
+      "latestDisclosureDate": "2026-07-15",
+      "latestReportTitle": "2026年8月期 第3四半期決算短信[日本基準](連結)",
+      "latestReportPdfUrl": "https://tdnet-pdf.kabutan.jp/20260715/140120260630585220.pdf",
+      "latestLocalPdfPath": "assets/pdfs/7581/20260715_140120260630585220.pdf",
+      "preferredPdfUrl": "assets/pdfs/7581/20260715_140120260630585220.pdf"
+    },
+    {
+      "code": "3543",
+      "name": "コメダホールディングス",
+      "market": "東証プライム",
+      "brands": [
+        "コメダ珈琲店",
+        "おかげ庵"
+      ],
+      "latestDisclosureDate": "2026-07-15",
+      "latestReportTitle": "2027年２月期 第１四半期決算短信〔ＩＦＲＳ〕（連結）",
+      "latestReportPdfUrl": "https://tdnet-pdf.kabutan.jp/20260715/140120260715594215.pdf",
+      "latestLocalPdfPath": "assets/pdfs/3543/20260715_140120260715594215.pdf",
+      "preferredPdfUrl": "assets/pdfs/3543/20260715_140120260715594215.pdf"
+    }
+  ],
+  "companies": [
+    {
+      "code": "7550",
+      "slug": "zensho",
+      "name": "ゼンショーホールディングス",
+      "brands": [
+        "すき家",
+        "はま寿司",
+        "ココス",
+        "ビッグボーイ"
+      ],
+      "market": "東証プライム",
+      "accent": {
+        "colorA": "hsl(255 70% 60%)",
+        "colorB": "hsl(290 70% 48%)"
+      },
+      "disclosurePageUrl": "https://kabutan.jp/stock/news?code=7550&nmode=3",
+      "latestDisclosureDate": "2026-08-07",
+      "reports": [
+        {
+          "id": "7550-20260807-140120260805510591",
+          "docId": "140120260805510591",
+          "rawDate": "20260807",
+          "disclosureDate": "2026-08-07",
+          "title": "2027年３月期 第１四半期決算短信〔日本基準〕(連結)",
+          "detailUrl": "https://kabutan.jp/disclosures/pdf/20260807/140120260805510591/",
+          "pdfUrl": "https://tdnet-pdf.kabutan.jp/20260807/140120260805510591.pdf",
+          "localPdfPath": "assets/pdfs/7550/20260807_140120260805510591.pdf",
+          "preferredPdfUrl": "assets/pdfs/7550/20260807_140120260805510591.pdf"
+        },
+        {
+          "id": "7550-20260512-140120260512525178",
+          "docId": "140120260512525178",
+          "rawDate": "20260512",
+          "disclosureDate": "2026-05-12",
+          "title": "2026年３月期 決算短信〔日本基準〕(連結)",
+          "detailUrl": "https://kabutan.jp/disclosures/pdf/20260512/140120260512525178/",
+          "pdfUrl": "https://tdnet-pdf.kabutan.jp/20260512/140120260512525178.pdf",
+          "localPdfPath": "assets/pdfs/7550/20260512_140120260512525178.pdf",
+          "preferredPdfUrl": "assets/pdfs/7550/20260512_140120260512525178.pdf"
+        },
+        {
+          "id": "7550-20260212-140120260209551979",
+          "docId": "140120260209551979",
+          "rawDate": "20260212",
+          "disclosureDate": "2026-02-12",
+          "title": "2026年３月期 第３四半期決算短信〔日本基準〕(連結)",
+          "detailUrl": "https://kabutan.jp/disclosures/pdf/20260212/140120260209551979/",
+          "pdfUrl": "https://tdnet-pdf.kabutan.jp/20260212/140120260209551979.pdf",
+          "localPdfPath": "assets/pdfs/7550/20260212_140120260209551979.pdf",
+          "preferredPdfUrl": "assets/pdfs/7550/20260212_140120260209551979.pdf"
+        },
+        {
+          "id": "7550-20251111-140120251110594717",
+          "docId": "140120251110594717",
+          "rawDate": "20251111",
+          "disclosureDate": "2025-11-11",
+          "title": "2026年３月期 第２四半期（中間期）決算短信〔日本基準〕(連結)",
+          "detailUrl": "https://kabutan.jp/disclosures/pdf/20251111/140120251110594717/",
+          "pdfUrl": "https://tdnet-pdf.kabutan.jp/20251111/140120251110594717.pdf",
+          "localPdfPath": "assets/pdfs/7550/20251111_140120251110594717.pdf",
+          "preferredPdfUrl": "assets/pdfs/7550/20251111_140120251110594717.pdf"
+        }
+      ]
+    },
+    {
+      "code": "3197",
+      "slug": "skylark",
+      "name": "すかいらーくホールディングス",
+      "brands": [
+        "ガスト",
+        "バーミヤン",
+        "ジョナサン",
+        "しゃぶ葉"
+      ],
+      "market": "東証プライム",
+      "accent": {
+        "colorA": "hsl(114 70% 60%)",
+        "colorB": "hsl(149 70% 48%)"
+      },
+      "disclosurePageUrl": "https://kabutan.jp/stock/news?code=3197&nmode=3",
+      "latestDisclosureDate": "2026-08-13",
+      "reports": [
+        {
+          "id": "3197-20260813-140120260813518978",
+          "docId": "140120260813518978",
+          "rawDate": "20260813",
+          "disclosureDate": "2026-08-13",
+          "title": "2026年12月期 第2四半期（中間期）決算短信〔ＩＦＲＳ〕（連結）",
+          "detailUrl": "https://kabutan.jp/disclosures/pdf/20260813/140120260813518978/",
+          "pdfUrl": "https://tdnet-pdf.kabutan.jp/20260813/140120260813518978.pdf",
+          "localPdfPath": "assets/pdfs/3197/20260813_140120260813518978.pdf",
+          "preferredPdfUrl": "assets/pdfs/3197/20260813_140120260813518978.pdf"
+        },
+        {
+          "id": "3197-20260513-140120260513528286",
+          "docId": "140120260513528286",
+          "rawDate": "20260513",
+          "disclosureDate": "2026-05-13",
+          "title": "2026年12月期 第1四半期決算短信〔ＩＦＲＳ〕（連結）",
+          "detailUrl": "https://kabutan.jp/disclosures/pdf/20260513/140120260513528286/",
+          "pdfUrl": "https://tdnet-pdf.kabutan.jp/20260513/140120260513528286.pdf",
+          "localPdfPath": "assets/pdfs/3197/20260513_140120260513528286.pdf",
+          "preferredPdfUrl": "assets/pdfs/3197/20260513_140120260513528286.pdf"
+        },
+        {
+          "id": "3197-20260213-140120260213559441",
+          "docId": "140120260213559441",
+          "rawDate": "20260213",
+          "disclosureDate": "2026-02-13",
+          "title": "2025年12月期 決算短信〔ＩＦＲＳ〕（連結）",
+          "detailUrl": "https://kabutan.jp/disclosures/pdf/20260213/140120260213559441/",
+          "pdfUrl": "https://tdnet-pdf.kabutan.jp/20260213/140120260213559441.pdf",
+          "localPdfPath": "assets/pdfs/3197/20260213_140120260213559441.pdf",
+          "preferredPdfUrl": "assets/pdfs/3197/20260213_140120260213559441.pdf"
+        },
+        {
+          "id": "3197-20251113-140120251112599013",
+          "docId": "140120251112599013",
+          "rawDate": "20251113",
+          "disclosureDate": "2025-11-13",
+          "title": "2025年12月期 第3四半期決算短信〔ＩＦＲＳ〕（連結）",
+          "detailUrl": "https://kabutan.jp/disclosures/pdf/20251113/140120251112599013/",
+          "pdfUrl": "https://tdnet-pdf.kabutan.jp/20251113/140120251112599013.pdf",
+          "localPdfPath": "assets/pdfs/3197/20251113_140120251112599013.pdf",
+          "preferredPdfUrl": "assets/pdfs/3197/20251113_140120251112599013.pdf"
+        }
+      ]
+    },
+    {
+      "code": "7616",
+      "slug": "colowide",
+      "name": "コロワイド",
+      "brands": [
+        "甘太郎",
+        "かっぱ寿司",
+        "牛角"
+      ],
+      "market": "東証プライム",
+      "accent": {
+        "colorA": "hsl(71 70% 60%)",
+        "colorB": "hsl(106 70% 48%)"
+      },
+      "disclosurePageUrl": "https://kabutan.jp/stock/news?code=7616&nmode=3",
+      "latestDisclosureDate": "2026-08-12",
+      "reports": [
+        {
+          "id": "7616-20260812-140120260812517638",
+          "docId": "140120260812517638",
+          "rawDate": "20260812",
+          "disclosureDate": "2026-08-12",
+          "title": "2027年３月期 第１四半期決算短信〔ＩＦＲＳ〕（連結）",
+          "detailUrl": "https://kabutan.jp/disclosures/pdf/20260812/140120260812517638/",
+          "pdfUrl": "https://tdnet-pdf.kabutan.jp/20260812/140120260812517638.pdf",
+          "localPdfPath": "assets/pdfs/7616/20260812_140120260812517638.pdf",
+          "preferredPdfUrl": "assets/pdfs/7616/20260812_140120260812517638.pdf"
+        },
+        {
+          "id": "7616-20260508-140120260508519484",
+          "docId": "140120260508519484",
+          "rawDate": "20260508",
+          "disclosureDate": "2026-05-08",
+          "title": "2026年３月期 決算短信〔ＩＦＲＳ〕（連結）",
+          "detailUrl": "https://kabutan.jp/disclosures/pdf/20260508/140120260508519484/",
+          "pdfUrl": "https://tdnet-pdf.kabutan.jp/20260508/140120260508519484.pdf",
+          "localPdfPath": "assets/pdfs/7616/20260508_140120260508519484.pdf",
+          "preferredPdfUrl": "assets/pdfs/7616/20260508_140120260508519484.pdf"
+        },
+        {
+          "id": "7616-20260213-140120260213559105",
+          "docId": "140120260213559105",
+          "rawDate": "20260213",
+          "disclosureDate": "2026-02-13",
+          "title": "2026年３月期第３四半期決算短信〔IFRS〕(連結)（公認会計士等による期中レビューの完了）",
+          "detailUrl": "https://kabutan.jp/disclosures/pdf/20260213/140120260213559105/",
+          "pdfUrl": "https://tdnet-pdf.kabutan.jp/20260213/140120260213559105.pdf",
+          "localPdfPath": "assets/pdfs/7616/20260213_140120260213559105.pdf",
+          "preferredPdfUrl": "assets/pdfs/7616/20260213_140120260213559105.pdf"
+        },
+        {
+          "id": "7616-20260210-140120260209551510",
+          "docId": "140120260209551510",
+          "rawDate": "20260210",
+          "disclosureDate": "2026-02-10",
+          "title": "2026年３月期 第３四半期決算短信〔ＩＦＲＳ〕（連結）",
+          "detailUrl": "https://kabutan.jp/disclosures/pdf/20260210/140120260209551510/",
+          "pdfUrl": "https://tdnet-pdf.kabutan.jp/20260210/140120260209551510.pdf",
+          "localPdfPath": "assets/pdfs/7616/20260210_140120260209551510.pdf",
+          "preferredPdfUrl": "assets/pdfs/7616/20260210_140120260209551510.pdf"
+        }
+      ]
+    },
+    {
+      "code": "3397",
+      "slug": "toridoll",
+      "name": "トリドールホールディングス",
+      "brands": [
+        "丸亀製麺",
+        "コナズ珈琲"
+      ],
+      "market": "東証プライム",
+      "accent": {
+        "colorA": "hsl(92 70% 60%)",
+        "colorB": "hsl(127 70% 48%)"
+      },
+      "disclosurePageUrl": "https://kabutan.jp/stock/news?code=3397&nmode=3",
+      "latestDisclosureDate": "2026-08-14",
+      "reports": [
+        {
+          "id": "3397-20260814-140120260813519608",
+          "docId": "140120260813519608",
+          "rawDate": "20260814",
+          "disclosureDate": "2026-08-14",
+          "title": "2027年３月期 第１四半期決算短信〔ＩＦＲＳ〕（連結）",
+          "detailUrl": "https://kabutan.jp/disclosures/pdf/20260814/140120260813519608/",
+          "pdfUrl": "https://tdnet-pdf.kabutan.jp/20260814/140120260813519608.pdf",
+          "localPdfPath": "assets/pdfs/3397/20260814_140120260813519608.pdf",
+          "preferredPdfUrl": "assets/pdfs/3397/20260814_140120260813519608.pdf"
+        },
+        {
+          "id": "3397-20260515-140120260514534640",
+          "docId": "140120260514534640",
+          "rawDate": "20260515",
+          "disclosureDate": "2026-05-15",
+          "title": "2026年３月期 決算短信〔ＩＦＲＳ〕（連結）",
+          "detailUrl": "https://kabutan.jp/disclosures/pdf/20260515/140120260514534640/",
+          "pdfUrl": "https://tdnet-pdf.kabutan.jp/20260515/140120260514534640.pdf",
+          "localPdfPath": "assets/pdfs/3397/20260515_140120260514534640.pdf",
+          "preferredPdfUrl": "assets/pdfs/3397/20260515_140120260514534640.pdf"
+        },
+        {
+          "id": "3397-20260213-140120260213559629",
+          "docId": "140120260213559629",
+          "rawDate": "20260213",
+          "disclosureDate": "2026-02-13",
+          "title": "2026年３月期 第３四半期決算短信〔ＩＦＲＳ〕（連結）",
+          "detailUrl": "https://kabutan.jp/disclosures/pdf/20260213/140120260213559629/",
+          "pdfUrl": "https://tdnet-pdf.kabutan.jp/20260213/140120260213559629.pdf",
+          "localPdfPath": "assets/pdfs/3397/20260213_140120260213559629.pdf",
+          "preferredPdfUrl": "assets/pdfs/3397/20260213_140120260213559629.pdf"
+        },
+        {
+          "id": "3397-20251114-140120251114502038",
+          "docId": "140120251114502038",
+          "rawDate": "20251114",
+          "disclosureDate": "2025-11-14",
+          "title": "2026年３月期 第２四半期（中間期）決算短信〔ＩＦＲＳ〕（連結）",
+          "detailUrl": "https://kabutan.jp/disclosures/pdf/20251114/140120251114502038/",
+          "pdfUrl": "https://tdnet-pdf.kabutan.jp/20251114/140120251114502038.pdf",
+          "localPdfPath": "assets/pdfs/3397/20251114_140120251114502038.pdf",
+          "preferredPdfUrl": "assets/pdfs/3397/20251114_140120251114502038.pdf"
+        }
+      ]
+    },
+    {
+      "code": "7581",
+      "slug": "saizeriya",
+      "name": "サイゼリヤ",
+      "brands": [
+        "サイゼリヤ"
+      ],
+      "market": "東証プライム",
+      "accent": {
+        "colorA": "hsl(11 70% 60%)",
+        "colorB": "hsl(46 70% 48%)"
+      },
+      "disclosurePageUrl": "https://kabutan.jp/stock/news?code=7581&nmode=3",
+      "latestDisclosureDate": "2026-07-15",
+      "reports": [
+        {
+          "id": "7581-20260715-140120260630585220",
+          "docId": "140120260630585220",
+          "rawDate": "20260715",
+          "disclosureDate": "2026-07-15",
+          "title": "2026年8月期 第3四半期決算短信[日本基準](連結)",
+          "detailUrl": "https://kabutan.jp/disclosures/pdf/20260715/140120260630585220/",
+          "pdfUrl": "https://tdnet-pdf.kabutan.jp/20260715/140120260630585220.pdf",
+          "localPdfPath": "assets/pdfs/7581/20260715_140120260630585220.pdf",
+          "preferredPdfUrl": "assets/pdfs/7581/20260715_140120260630585220.pdf"
+        },
+        {
+          "id": "7581-20260408-140120260317583827",
+          "docId": "140120260317583827",
+          "rawDate": "20260408",
+          "disclosureDate": "2026-04-08",
+          "title": "2026年8月期第2四半期(中間期)決算短信〔日本基準〕(連結)",
+          "detailUrl": "https://kabutan.jp/disclosures/pdf/20260408/140120260317583827/",
+          "pdfUrl": "https://tdnet-pdf.kabutan.jp/20260408/140120260317583827.pdf",
+          "localPdfPath": "assets/pdfs/7581/20260408_140120260317583827.pdf",
+          "preferredPdfUrl": "assets/pdfs/7581/20260408_140120260317583827.pdf"
+        },
+        {
+          "id": "7581-20260114-140120260108530573",
+          "docId": "140120260108530573",
+          "rawDate": "20260114",
+          "disclosureDate": "2026-01-14",
+          "title": "2026年8月期 第1四半期決算短信〔日本基準〕（連結）",
+          "detailUrl": "https://kabutan.jp/disclosures/pdf/20260114/140120260108530573/",
+          "pdfUrl": "https://tdnet-pdf.kabutan.jp/20260114/140120260108530573.pdf",
+          "localPdfPath": "assets/pdfs/7581/20260114_140120260108530573.pdf",
+          "preferredPdfUrl": "assets/pdfs/7581/20260114_140120260108530573.pdf"
+        },
+        {
+          "id": "7581-20251015-140120250929563903",
+          "docId": "140120250929563903",
+          "rawDate": "20251015",
+          "disclosureDate": "2025-10-15",
+          "title": "2025年8月期 決算短信〔日本基準〕（連結）",
+          "detailUrl": "https://kabutan.jp/disclosures/pdf/20251015/140120250929563903/",
+          "pdfUrl": "https://tdnet-pdf.kabutan.jp/20251015/140120250929563903.pdf",
+          "localPdfPath": "assets/pdfs/7581/20251015_140120250929563903.pdf",
+          "preferredPdfUrl": "assets/pdfs/7581/20251015_140120250929563903.pdf"
+        }
+      ]
+    },
+    {
+      "code": "9861",
+      "slug": "yoshinoya",
+      "name": "吉野家ホールディングス",
+      "brands": [
+        "吉野家",
+        "はなまるうどん"
+      ],
+      "market": "東証プライム",
+      "accent": {
+        "colorA": "hsl(91 70% 60%)",
+        "colorB": "hsl(126 70% 48%)"
+      },
+      "disclosurePageUrl": "https://kabutan.jp/stock/news?code=9861&nmode=3",
+      "latestDisclosureDate": "2026-10-08",
+      "reports": [
+        {
+          "id": "9861-20261008-140120261008547781",
+          "docId": "140120261008547781",
+          "rawDate": "20261008",
+          "disclosureDate": "2026-10-08",
+          "title": "2027年2月期第2四半期（中間期）決算短信〔日本基準〕(連結)",
+          "detailUrl": "https://kabutan.jp/disclosures/pdf/20261008/140120261008547781/",
+          "pdfUrl": "https://tdnet-pdf.kabutan.jp/20261008/140120261008547781.pdf",
+          "localPdfPath": "assets/pdfs/9861/20261008_140120261008547781.pdf",
+          "preferredPdfUrl": "assets/pdfs/9861/20261008_140120261008547781.pdf"
+        },
+        {
+          "id": "9861-20260708-140120260707589069",
+          "docId": "140120260707589069",
+          "rawDate": "20260708",
+          "disclosureDate": "2026-07-08",
+          "title": "2027年2月期第1四半期決算短信〔日本基準〕(連結)",
+          "detailUrl": "https://kabutan.jp/disclosures/pdf/20260708/140120260707589069/",
+          "pdfUrl": "https://tdnet-pdf.kabutan.jp/20260708/140120260707589069.pdf",
+          "localPdfPath": "assets/pdfs/9861/20260708_140120260707589069.pdf",
+          "preferredPdfUrl": "assets/pdfs/9861/20260708_140120260707589069.pdf"
+        },
+        {
+          "id": "9861-20260409-140120260408500410",
+          "docId": "140120260408500410",
+          "rawDate": "20260409",
+          "disclosureDate": "2026-04-09",
+          "title": "2026年2月期決算短信〔日本基準〕(連結)",
+          "detailUrl": "https://kabutan.jp/disclosures/pdf/20260409/140120260408500410/",
+          "pdfUrl": "https://tdnet-pdf.kabutan.jp/20260409/140120260408500410.pdf",
+          "localPdfPath": "assets/pdfs/9861/20260409_140120260408500410.pdf",
+          "preferredPdfUrl": "assets/pdfs/9861/20260409_140120260408500410.pdf"
+        },
+        {
+          "id": "9861-20260107-140120260106529489",
+          "docId": "140120260106529489",
+          "rawDate": "20260107",
+          "disclosureDate": "2026-01-07",
+          "title": "2026年2月期第3四半期決算短信〔日本基準〕(連結)",
+          "detailUrl": "https://kabutan.jp/disclosures/pdf/20260107/140120260106529489/",
+          "pdfUrl": "https://tdnet-pdf.kabutan.jp/20260107/140120260106529489.pdf",
+          "localPdfPath": "assets/pdfs/9861/20260107_140120260106529489.pdf",
+          "preferredPdfUrl": "assets/pdfs/9861/20260107_140120260106529489.pdf"
+        }
+      ]
+    },
+    {
+      "code": "3543",
+      "slug": "komeda",
+      "name": "コメダホールディングス",
+      "brands": [
+        "コメダ珈琲店",
+        "おかげ庵"
+      ],
+      "market": "東証プライム",
+      "accent": {
+        "colorA": "hsl(25 70% 60%)",
+        "colorB": "hsl(60 70% 48%)"
+      },
+      "disclosurePageUrl": "https://kabutan.jp/stock/news?code=3543&nmode=3",
+      "latestDisclosureDate": "2026-07-15",
+      "reports": [
+        {
+          "id": "3543-20260715-140120260715594215",
+          "docId": "140120260715594215",
+          "rawDate": "20260715",
+          "disclosureDate": "2026-07-15",
+          "title": "2027年２月期 第１四半期決算短信〔ＩＦＲＳ〕（連結）",
+          "detailUrl": "https://kabutan.jp/disclosures/pdf/20260715/140120260715594215/",
+          "pdfUrl": "https://tdnet-pdf.kabutan.jp/20260715/140120260715594215.pdf",
+          "localPdfPath": "assets/pdfs/3543/20260715_140120260715594215.pdf",
+          "preferredPdfUrl": "assets/pdfs/3543/20260715_140120260715594215.pdf"
+        },
+        {
+          "id": "3543-20260408-140120260408599823",
+          "docId": "140120260408599823",
+          "rawDate": "20260408",
+          "disclosureDate": "2026-04-08",
+          "title": "2026年２月期 決算短信〔ＩＦＲＳ〕（連結）",
+          "detailUrl": "https://kabutan.jp/disclosures/pdf/20260408/140120260408599823/",
+          "pdfUrl": "https://tdnet-pdf.kabutan.jp/20260408/140120260408599823.pdf",
+          "localPdfPath": "assets/pdfs/3543/20260408_140120260408599823.pdf",
+          "preferredPdfUrl": "assets/pdfs/3543/20260408_140120260408599823.pdf"
+        },
+        {
+          "id": "3543-20260114-140120260114533391",
+          "docId": "140120260114533391",
+          "rawDate": "20260114",
+          "disclosureDate": "2026-01-14",
+          "title": "2026年２月期 第３四半期決算短信〔ＩＦＲＳ〕（連結）",
+          "detailUrl": "https://kabutan.jp/disclosures/pdf/20260114/140120260114533391/",
+          "pdfUrl": "https://tdnet-pdf.kabutan.jp/20260114/140120260114533391.pdf",
+          "localPdfPath": "assets/pdfs/3543/20260114_140120260114533391.pdf",
+          "preferredPdfUrl": "assets/pdfs/3543/20260114_140120260114533391.pdf"
+        },
+        {
+          "id": "3543-20251008-140120251008569942",
+          "docId": "140120251008569942",
+          "rawDate": "20251008",
+          "disclosureDate": "2025-10-08",
+          "title": "2026年２月期 第２四半期（中間期）決算短信〔ＩＦＲＳ〕（連結）",
+          "detailUrl": "https://kabutan.jp/disclosures/pdf/20251008/140120251008569942/",
+          "pdfUrl": "https://tdnet-pdf.kabutan.jp/20251008/140120251008569942.pdf",
+          "localPdfPath": "assets/pdfs/3543/20251008_140120251008569942.pdf",
+          "preferredPdfUrl": "assets/pdfs/3543/20251008_140120251008569942.pdf"
+        }
+      ]
+    },
+    {
+      "code": "3097",
+      "slug": "monogatari",
+      "name": "物語コーポレーション",
+      "brands": [
+        "焼肉きんぐ",
+        "丸源ラーメン",
+        "ゆず庵"
+      ],
+      "market": "東証プライム",
+      "accent": {
+        "colorA": "hsl(59 70% 60%)",
+        "colorB": "hsl(94 70% 48%)"
+      },
+      "disclosurePageUrl": "https://kabutan.jp/stock/news?code=3097&nmode=3",
+      "latestDisclosureDate": "2026-08-10",
+      "reports": [
+        {
+          "id": "3097-20260810-140120260810516706",
+          "docId": "140120260810516706",
+          "rawDate": "20260810",
+          "disclosureDate": "2026-08-10",
+          "title": "2026年６月期 決算短信〔日本基準〕（連結）",
+          "detailUrl": "https://kabutan.jp/disclosures/pdf/20260810/140120260810516706/",
+          "pdfUrl": "https://tdnet-pdf.kabutan.jp/20260810/140120260810516706.pdf",
+          "localPdfPath": "assets/pdfs/3097/20260810_140120260810516706.pdf",
+          "preferredPdfUrl": "assets/pdfs/3097/20260810_140120260810516706.pdf"
+        },
+        {
+          "id": "3097-20260508-140120260508519971",
+          "docId": "140120260508519971",
+          "rawDate": "20260508",
+          "disclosureDate": "2026-05-08",
+          "title": "2026年６月期 第３四半期決算短信〔日本基準〕（連結）",
+          "detailUrl": "https://kabutan.jp/disclosures/pdf/20260508/140120260508519971/",
+          "pdfUrl": "https://tdnet-pdf.kabutan.jp/20260508/140120260508519971.pdf",
+          "localPdfPath": "assets/pdfs/3097/20260508_140120260508519971.pdf",
+          "preferredPdfUrl": "assets/pdfs/3097/20260508_140120260508519971.pdf"
+        },
+        {
+          "id": "3097-20260209-140120260209551874",
+          "docId": "140120260209551874",
+          "rawDate": "20260209",
+          "disclosureDate": "2026-02-09",
+          "title": "2026年６月期 第２四半期（中間期）決算短信〔日本基準〕（連結）",
+          "detailUrl": "https://kabutan.jp/disclosures/pdf/20260209/140120260209551874/",
+          "pdfUrl": "https://tdnet-pdf.kabutan.jp/20260209/140120260209551874.pdf",
+          "localPdfPath": "assets/pdfs/3097/20260209_140120260209551874.pdf",
+          "preferredPdfUrl": "assets/pdfs/3097/20260209_140120260209551874.pdf"
+        },
+        {
+          "id": "3097-20251107-140120251107591943",
+          "docId": "140120251107591943",
+          "rawDate": "20251107",
+          "disclosureDate": "2025-11-07",
+          "title": "2026年６月期 第１四半期決算短信〔日本基準〕（連結）",
+          "detailUrl": "https://kabutan.jp/disclosures/pdf/20251107/140120251107591943/",
+          "pdfUrl": "https://tdnet-pdf.kabutan.jp/20251107/140120251107591943.pdf",
+          "localPdfPath": "assets/pdfs/3097/20251107_140120251107591943.pdf",
+          "preferredPdfUrl": "assets/pdfs/3097/20251107_140120251107591943.pdf"
+        }
+      ]
+    },
+    {
+      "code": "2695",
+      "slug": "kurasushi",
+      "name": "くら寿司",
+      "brands": [
+        "くら寿司"
+      ],
+      "market": "東証プライム",
+      "accent": {
+        "colorA": "hsl(219 70% 60%)",
+        "colorB": "hsl(254 70% 48%)"
+      },
+      "disclosurePageUrl": "https://kabutan.jp/stock/news?code=2695&nmode=3",
+      "latestDisclosureDate": "2026-09-11",
+      "reports": [
+        {
+          "id": "2695-20260911-140120260910534371",
+          "docId": "140120260910534371",
+          "rawDate": "20260911",
+          "disclosureDate": "2026-09-11",
+          "title": "2026年10月期第3四半期決算短信〔日本基準〕（連結）",
+          "detailUrl": "https://kabutan.jp/disclosures/pdf/20260911/140120260910534371/",
+          "pdfUrl": "https://tdnet-pdf.kabutan.jp/20260911/140120260910534371.pdf",
+          "localPdfPath": "assets/pdfs/2695/20260911_140120260910534371.pdf",
+          "preferredPdfUrl": "assets/pdfs/2695/20260911_140120260910534371.pdf"
+        },
+        {
+          "id": "2695-20260612-140120260611568782",
+          "docId": "140120260611568782",
+          "rawDate": "20260612",
+          "disclosureDate": "2026-06-12",
+          "title": "2026年10月期第2四半期（中間期）決算短信〔日本基準〕（連結）",
+          "detailUrl": "https://kabutan.jp/disclosures/pdf/20260612/140120260611568782/",
+          "pdfUrl": "https://tdnet-pdf.kabutan.jp/20260612/140120260611568782.pdf",
+          "localPdfPath": "assets/pdfs/2695/20260612_140120260611568782.pdf",
+          "preferredPdfUrl": "assets/pdfs/2695/20260612_140120260611568782.pdf"
+        },
+        {
+          "id": "2695-20260313-140120260312580647",
+          "docId": "140120260312580647",
+          "rawDate": "20260313",
+          "disclosureDate": "2026-03-13",
+          "title": "2026年10月期第1四半期決算短信〔日本基準〕（連結）",
+          "detailUrl": "https://kabutan.jp/disclosures/pdf/20260313/140120260312580647/",
+          "pdfUrl": "https://tdnet-pdf.kabutan.jp/20260313/140120260312580647.pdf",
+          "localPdfPath": "assets/pdfs/2695/20260313_140120260312580647.pdf",
+          "preferredPdfUrl": "assets/pdfs/2695/20260313_140120260312580647.pdf"
+        },
+        {
+          "id": "2695-20251210-140120251210517069",
+          "docId": "140120251210517069",
+          "rawDate": "20251210",
+          "disclosureDate": "2025-12-10",
+          "title": "2025年10月期決算短信〔日本基準〕（連結）",
+          "detailUrl": "https://kabutan.jp/disclosures/pdf/20251210/140120251210517069/",
+          "pdfUrl": "https://tdnet-pdf.kabutan.jp/20251210/140120251210517069.pdf",
+          "localPdfPath": "assets/pdfs/2695/20251210_140120251210517069.pdf",
+          "preferredPdfUrl": "assets/pdfs/2695/20251210_140120251210517069.pdf"
+        }
+      ]
+    },
+    {
+      "code": "9936",
+      "slug": "ohsho",
+      "name": "王将フードサービス",
+      "brands": [
+        "餃子の王将"
+      ],
+      "market": "東証プライム",
+      "accent": {
+        "colorA": "hsl(72 70% 60%)",
+        "colorB": "hsl(107 70% 48%)"
+      },
+      "disclosurePageUrl": "https://kabutan.jp/stock/news?code=9936&nmode=3",
+      "latestDisclosureDate": "2026-08-18",
+      "reports": [
+        {
+          "id": "9936-20260818-140120260817522092",
+          "docId": "140120260817522092",
+          "rawDate": "20260818",
+          "disclosureDate": "2026-08-18",
+          "title": "[Delayed] Consolidated Financial Results for the First Quarter of the Fiscal Year Ending March 31, 2027",
+          "detailUrl": "https://kabutan.jp/disclosures/pdf/20260818/140120260817522092/",
+          "pdfUrl": "https://tdnet-pdf.kabutan.jp/20260818/140120260817522092.pdf",
+          "localPdfPath": "assets/pdfs/9936/20260818_140120260817522092.pdf",
+          "preferredPdfUrl": "assets/pdfs/9936/20260818_140120260817522092.pdf"
+        },
+        {
+          "id": "9936-20260731-140120260717596229",
+          "docId": "140120260717596229",
+          "rawDate": "20260731",
+          "disclosureDate": "2026-07-31",
+          "title": "2027年3月期 第1四半期決算短信〔日本基準〕（連結）",
+          "detailUrl": "https://kabutan.jp/disclosures/pdf/20260731/140120260717596229/",
+          "pdfUrl": "https://tdnet-pdf.kabutan.jp/20260731/140120260717596229.pdf",
+          "localPdfPath": "assets/pdfs/9936/20260731_140120260717596229.pdf",
+          "preferredPdfUrl": "assets/pdfs/9936/20260731_140120260717596229.pdf"
+        },
+        {
+          "id": "9936-20260610-140120260610566945",
+          "docId": "140120260610566945",
+          "rawDate": "20260610",
+          "disclosureDate": "2026-06-10",
+          "title": "[Updated]Consolidated Financial Results for the Fiscal Year Ended March 31, 2026",
+          "detailUrl": "https://kabutan.jp/disclosures/pdf/20260610/140120260610566945/",
+          "pdfUrl": "https://tdnet-pdf.kabutan.jp/20260610/140120260610566945.pdf",
+          "localPdfPath": "assets/pdfs/9936/20260610_140120260610566945.pdf",
+          "preferredPdfUrl": "assets/pdfs/9936/20260610_140120260610566945.pdf"
+        },
+        {
+          "id": "9936-20260515-140120260423509585",
+          "docId": "140120260423509585",
+          "rawDate": "20260515",
+          "disclosureDate": "2026-05-15",
+          "title": "2026年3月期決算短信〔日本基準〕（連結）",
+          "detailUrl": "https://kabutan.jp/disclosures/pdf/20260515/140120260423509585/",
+          "pdfUrl": "https://tdnet-pdf.kabutan.jp/20260515/140120260423509585.pdf",
+          "localPdfPath": "assets/pdfs/9936/20260515_140120260423509585.pdf",
+          "preferredPdfUrl": "assets/pdfs/9936/20260515_140120260423509585.pdf"
+        }
+      ]
+    },
+    {
+      "code": "3561",
+      "slug": "ippudo",
+      "name": "力の源ホールディングス",
+      "brands": [
+        "一風堂",
+        "名島亭"
+      ],
+      "market": "東証プライム",
+      "accent": {
+        "colorA": "hsl(65 70% 60%)",
+        "colorB": "hsl(100 70% 48%)"
+      },
+      "disclosurePageUrl": "https://kabutan.jp/stock/news?code=3561&nmode=3",
+      "latestDisclosureDate": "2026-08-13",
+      "reports": [
+        {
+          "id": "3561-20260813-140120260813518790",
+          "docId": "140120260813518790",
+          "rawDate": "20260813",
+          "disclosureDate": "2026-08-13",
+          "title": "2027年3月期 第1四半期決算短信〔日本基準〕（連結）",
+          "detailUrl": "https://kabutan.jp/disclosures/pdf/20260813/140120260813518790/",
+          "pdfUrl": "https://tdnet-pdf.kabutan.jp/20260813/140120260813518790.pdf",
+          "localPdfPath": "assets/pdfs/3561/20260813_140120260813518790.pdf",
+          "preferredPdfUrl": "assets/pdfs/3561/20260813_140120260813518790.pdf"
+        },
+        {
+          "id": "3561-20260514-140120260513531200",
+          "docId": "140120260513531200",
+          "rawDate": "20260514",
+          "disclosureDate": "2026-05-14",
+          "title": "2026年3月期 決算短信〔日本基準〕（連結）",
+          "detailUrl": "https://kabutan.jp/disclosures/pdf/20260514/140120260513531200/",
+          "pdfUrl": "https://tdnet-pdf.kabutan.jp/20260514/140120260513531200.pdf",
+          "localPdfPath": "assets/pdfs/3561/20260514_140120260513531200.pdf",
+          "preferredPdfUrl": "assets/pdfs/3561/20260514_140120260513531200.pdf"
+        },
+        {
+          "id": "3561-20260212-140120260210554232",
+          "docId": "140120260210554232",
+          "rawDate": "20260212",
+          "disclosureDate": "2026-02-12",
+          "title": "2026年3月期 第3四半期決算短信〔日本基準〕（連結）",
+          "detailUrl": "https://kabutan.jp/disclosures/pdf/20260212/140120260210554232/",
+          "pdfUrl": "https://tdnet-pdf.kabutan.jp/20260212/140120260210554232.pdf",
+          "localPdfPath": "assets/pdfs/3561/20260212_140120260210554232.pdf",
+          "preferredPdfUrl": "assets/pdfs/3561/20260212_140120260210554232.pdf"
+        },
+        {
+          "id": "3561-20251113-140120251112598635",
+          "docId": "140120251112598635",
+          "rawDate": "20251113",
+          "disclosureDate": "2025-11-13",
+          "title": "2026年3月期 第2四半期（中間期）決算短信〔日本基準〕（連結）",
+          "detailUrl": "https://kabutan.jp/disclosures/pdf/20251113/140120251112598635/",
+          "pdfUrl": "https://tdnet-pdf.kabutan.jp/20251113/140120251112598635.pdf",
+          "localPdfPath": "assets/pdfs/3561/20251113_140120251112598635.pdf",
+          "preferredPdfUrl": "assets/pdfs/3561/20251113_140120251112598635.pdf"
+        }
+      ]
+    },
+    {
+      "code": "7611",
+      "slug": "hiday",
+      "name": "ハイデイ日高",
+      "brands": [
+        "日高屋"
+      ],
+      "market": "東証プライム",
+      "accent": {
+        "colorA": "hsl(241 70% 60%)",
+        "colorB": "hsl(276 70% 48%)"
+      },
+      "disclosurePageUrl": "https://kabutan.jp/stock/news?code=7611&nmode=3",
+      "latestDisclosureDate": "2026-10-02",
+      "reports": [
+        {
+          "id": "7611-20261002-140120261002545200",
+          "docId": "140120261002545200",
+          "rawDate": "20261002",
+          "disclosureDate": "2026-10-02",
+          "title": "2027年２月期 第２四半期（中間期）決算短信〔日本基準〕（非連結）",
+          "detailUrl": "https://kabutan.jp/disclosures/pdf/20261002/140120261002545200/",
+          "pdfUrl": "https://tdnet-pdf.kabutan.jp/20261002/140120261002545200.pdf",
+          "localPdfPath": "assets/pdfs/7611/20261002_140120261002545200.pdf",
+          "preferredPdfUrl": "assets/pdfs/7611/20261002_140120261002545200.pdf"
+        },
+        {
+          "id": "7611-20260703-140120260703587460",
+          "docId": "140120260703587460",
+          "rawDate": "20260703",
+          "disclosureDate": "2026-07-03",
+          "title": "2027年２月期 第１四半期決算短信〔日本基準〕（非連結）",
+          "detailUrl": "https://kabutan.jp/disclosures/pdf/20260703/140120260703587460/",
+          "pdfUrl": "https://tdnet-pdf.kabutan.jp/20260703/140120260703587460.pdf",
+          "localPdfPath": "assets/pdfs/7611/20260703_140120260703587460.pdf",
+          "preferredPdfUrl": "assets/pdfs/7611/20260703_140120260703587460.pdf"
+        },
+        {
+          "id": "7611-20260410-140120260410501656",
+          "docId": "140120260410501656",
+          "rawDate": "20260410",
+          "disclosureDate": "2026-04-10",
+          "title": "2026年２月期 決算短信〔日本基準〕（非連結）",
+          "detailUrl": "https://kabutan.jp/disclosures/pdf/20260410/140120260410501656/",
+          "pdfUrl": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501656.pdf",
+          "localPdfPath": "assets/pdfs/7611/20260410_140120260410501656.pdf",
+          "preferredPdfUrl": "assets/pdfs/7611/20260410_140120260410501656.pdf"
+        },
+        {
+          "id": "7611-20260106-140120260106529406",
+          "docId": "140120260106529406",
+          "rawDate": "20260106",
+          "disclosureDate": "2026-01-06",
+          "title": "2026年２月期 第３四半期決算短信〔日本基準〕（非連結）",
+          "detailUrl": "https://kabutan.jp/disclosures/pdf/20260106/140120260106529406/",
+          "pdfUrl": "https://tdnet-pdf.kabutan.jp/20260106/140120260106529406.pdf",
+          "localPdfPath": "assets/pdfs/7611/20260106_140120260106529406.pdf",
+          "preferredPdfUrl": "assets/pdfs/7611/20260106_140120260106529406.pdf"
+        }
+      ]
+    },
+    {
+      "code": "8163",
+      "slug": "srs",
+      "name": "SRSホールディングス",
+      "brands": [
+        "和食さと",
+        "にぎり長次郎"
+      ],
+      "market": "東証プライム",
+      "accent": {
+        "colorA": "hsl(149 70% 60%)",
+        "colorB": "hsl(184 70% 48%)"
+      },
+      "disclosurePageUrl": "https://kabutan.jp/stock/news?code=8163&nmode=3",
+      "latestDisclosureDate": "2026-08-07",
+      "reports": [
+        {
+          "id": "8163-20260807-140120260731504816",
+          "docId": "140120260731504816",
+          "rawDate": "20260807",
+          "disclosureDate": "2026-08-07",
+          "title": "令和9年3月期 第1四半期決算短信〔日本基準〕（連結）",
+          "detailUrl": "https://kabutan.jp/disclosures/pdf/20260807/140120260731504816/",
+          "pdfUrl": "https://tdnet-pdf.kabutan.jp/20260807/140120260731504816.pdf",
+          "localPdfPath": "assets/pdfs/8163/20260807_140120260731504816.pdf",
+          "preferredPdfUrl": "assets/pdfs/8163/20260807_140120260731504816.pdf"
+        },
+        {
+          "id": "8163-20260519-140120260518539405",
+          "docId": "140120260518539405",
+          "rawDate": "20260519",
+          "disclosureDate": "2026-05-19",
+          "title": "Financial Results for the Fiscal Year Ended March 2026",
+          "detailUrl": "https://kabutan.jp/disclosures/pdf/20260519/140120260518539405/",
+          "pdfUrl": "https://tdnet-pdf.kabutan.jp/20260519/140120260518539405.pdf",
+          "localPdfPath": "assets/pdfs/8163/20260519_140120260518539405.pdf",
+          "preferredPdfUrl": "assets/pdfs/8163/20260519_140120260518539405.pdf"
+        },
+        {
+          "id": "8163-20260515-140120260514532121",
+          "docId": "140120260514532121",
+          "rawDate": "20260515",
+          "disclosureDate": "2026-05-15",
+          "title": "令和8年3月期決算短信〔日本基準〕（連結）",
+          "detailUrl": "https://kabutan.jp/disclosures/pdf/20260515/140120260514532121/",
+          "pdfUrl": "https://tdnet-pdf.kabutan.jp/20260515/140120260514532121.pdf",
+          "localPdfPath": "assets/pdfs/8163/20260515_140120260514532121.pdf",
+          "preferredPdfUrl": "assets/pdfs/8163/20260515_140120260514532121.pdf"
+        },
+        {
+          "id": "8163-20260210-140120260209552544",
+          "docId": "140120260209552544",
+          "rawDate": "20260210",
+          "disclosureDate": "2026-02-10",
+          "title": "令和8年3月期 第3四半期決算短信〔日本基準〕（連結）",
+          "detailUrl": "https://kabutan.jp/disclosures/pdf/20260210/140120260209552544/",
+          "pdfUrl": "https://tdnet-pdf.kabutan.jp/20260210/140120260209552544.pdf",
+          "localPdfPath": "assets/pdfs/8163/20260210_140120260209552544.pdf",
+          "preferredPdfUrl": "assets/pdfs/8163/20260210_140120260209552544.pdf"
+        }
+      ]
+    },
+    {
+      "code": "7522",
+      "slug": "watami",
+      "name": "ワタミ",
+      "brands": [
+        "鳥メロ",
+        "焼肉の和民",
+        "サブウェイ国内運営"
+      ],
+      "market": "東証プライム",
+      "accent": {
+        "colorA": "hsl(103 70% 60%)",
+        "colorB": "hsl(138 70% 48%)"
+      },
+      "disclosurePageUrl": "https://kabutan.jp/stock/news?code=7522&nmode=3",
+      "latestDisclosureDate": "2026-08-14",
+      "reports": [
+        {
+          "id": "7522-20260814-140120260814520278",
+          "docId": "140120260814520278",
+          "rawDate": "20260814",
+          "disclosureDate": "2026-08-14",
+          "title": "2027年３月期 第１四半期決算短信〔日本基準〕（連結）",
+          "detailUrl": "https://kabutan.jp/disclosures/pdf/20260814/140120260814520278/",
+          "pdfUrl": "https://tdnet-pdf.kabutan.jp/20260814/140120260814520278.pdf",
+          "localPdfPath": "assets/pdfs/7522/20260814_140120260814520278.pdf",
+          "preferredPdfUrl": "assets/pdfs/7522/20260814_140120260814520278.pdf"
+        },
+        {
+          "id": "7522-20260513-140120260513528208",
+          "docId": "140120260513528208",
+          "rawDate": "20260513",
+          "disclosureDate": "2026-05-13",
+          "title": "2026年３月期 決算短信〔日本基準〕（連結）",
+          "detailUrl": "https://kabutan.jp/disclosures/pdf/20260513/140120260513528208/",
+          "pdfUrl": "https://tdnet-pdf.kabutan.jp/20260513/140120260513528208.pdf",
+          "localPdfPath": "assets/pdfs/7522/20260513_140120260513528208.pdf",
+          "preferredPdfUrl": "assets/pdfs/7522/20260513_140120260513528208.pdf"
+        },
+        {
+          "id": "7522-20260213-140120260213559998",
+          "docId": "140120260213559998",
+          "rawDate": "20260213",
+          "disclosureDate": "2026-02-13",
+          "title": "2026年３月期 第３四半期決算短信〔日本基準〕（連結）",
+          "detailUrl": "https://kabutan.jp/disclosures/pdf/20260213/140120260213559998/",
+          "pdfUrl": "https://tdnet-pdf.kabutan.jp/20260213/140120260213559998.pdf",
+          "localPdfPath": "assets/pdfs/7522/20260213_140120260213559998.pdf",
+          "preferredPdfUrl": "assets/pdfs/7522/20260213_140120260213559998.pdf"
+        },
+        {
+          "id": "7522-20251112-140120251112597512",
+          "docId": "140120251112597512",
+          "rawDate": "20251112",
+          "disclosureDate": "2025-11-12",
+          "title": "2026年３月期 第２四半期（中間期）決算短信〔日本基準〕（連結）",
+          "detailUrl": "https://kabutan.jp/disclosures/pdf/20251112/140120251112597512/",
+          "pdfUrl": "https://tdnet-pdf.kabutan.jp/20251112/140120251112597512.pdf",
+          "localPdfPath": "assets/pdfs/7522/20251112_140120251112597512.pdf",
+          "preferredPdfUrl": "assets/pdfs/7522/20251112_140120251112597512.pdf"
+        }
+      ]
+    },
+    {
+      "code": "7630",
+      "slug": "ichibanya",
+      "name": "壱番屋",
+      "brands": [
+        "CoCo壱番屋"
+      ],
+      "market": "東証プライム",
+      "accent": {
+        "colorA": "hsl(251 70% 60%)",
+        "colorB": "hsl(286 70% 48%)"
+      },
+      "disclosurePageUrl": "https://kabutan.jp/stock/news?code=7630&nmode=3",
+      "latestDisclosureDate": "2026-10-05",
+      "reports": [
+        {
+          "id": "7630-20261005-140120261005545816",
+          "docId": "140120261005545816",
+          "rawDate": "20261005",
+          "disclosureDate": "2026-10-05",
+          "title": "2027年2月期 第2四半期（中間期）決算短信〔日本基準〕（連結）",
+          "detailUrl": "https://kabutan.jp/disclosures/pdf/20261005/140120261005545816/",
+          "pdfUrl": "https://tdnet-pdf.kabutan.jp/20261005/140120261005545816.pdf",
+          "localPdfPath": "assets/pdfs/7630/20261005_140120261005545816.pdf",
+          "preferredPdfUrl": "assets/pdfs/7630/20261005_140120261005545816.pdf"
+        },
+        {
+          "id": "7630-20260626-140120260626581301",
+          "docId": "140120260626581301",
+          "rawDate": "20260626",
+          "disclosureDate": "2026-06-26",
+          "title": "2027年2月期 第1四半期決算短信〔日本基準〕（連結）",
+          "detailUrl": "https://kabutan.jp/disclosures/pdf/20260626/140120260626581301/",
+          "pdfUrl": "https://tdnet-pdf.kabutan.jp/20260626/140120260626581301.pdf",
+          "localPdfPath": "assets/pdfs/7630/20260626_140120260626581301.pdf",
+          "preferredPdfUrl": "assets/pdfs/7630/20260626_140120260626581301.pdf"
+        },
+        {
+          "id": "7630-20260406-140120260406598776",
+          "docId": "140120260406598776",
+          "rawDate": "20260406",
+          "disclosureDate": "2026-04-06",
+          "title": "2026年2月期 決算短信〔日本基準〕（連結）",
+          "detailUrl": "https://kabutan.jp/disclosures/pdf/20260406/140120260406598776/",
+          "pdfUrl": "https://tdnet-pdf.kabutan.jp/20260406/140120260406598776.pdf",
+          "localPdfPath": "assets/pdfs/7630/20260406_140120260406598776.pdf",
+          "preferredPdfUrl": "assets/pdfs/7630/20260406_140120260406598776.pdf"
+        },
+        {
+          "id": "7630-20251226-140120251226527415",
+          "docId": "140120251226527415",
+          "rawDate": "20251226",
+          "disclosureDate": "2025-12-26",
+          "title": "2026年2月期 第3四半期決算短信〔日本基準〕（連結）",
+          "detailUrl": "https://kabutan.jp/disclosures/pdf/20251226/140120251226527415/",
+          "pdfUrl": "https://tdnet-pdf.kabutan.jp/20251226/140120251226527415.pdf",
+          "localPdfPath": "assets/pdfs/7630/20251226_140120251226527415.pdf",
+          "preferredPdfUrl": "assets/pdfs/7630/20251226_140120251226527415.pdf"
+        }
+      ]
+    },
+    {
+      "code": "7412",
+      "slug": "atom",
+      "name": "アトム",
+      "brands": [
+        "ステーキ宮",
+        "にぎりの徳兵衛"
+      ],
+      "market": "東証スタンダード",
+      "accent": {
+        "colorA": "hsl(225 70% 60%)",
+        "colorB": "hsl(260 70% 48%)"
+      },
+      "disclosurePageUrl": "https://kabutan.jp/stock/news?code=7412&nmode=3",
+      "latestDisclosureDate": "2026-08-12",
+      "reports": [
+        {
+          "id": "7412-20260812-140120260810517223",
+          "docId": "140120260810517223",
+          "rawDate": "20260812",
+          "disclosureDate": "2026-08-12",
+          "title": "2027年３月期 第１四半期決算短信〔日本基準〕（非連結）(公認会計士等による期中レビューの完了)",
+          "detailUrl": "https://kabutan.jp/disclosures/pdf/20260812/140120260810517223/",
+          "pdfUrl": "https://tdnet-pdf.kabutan.jp/20260812/140120260810517223.pdf",
+          "localPdfPath": "assets/pdfs/7412/20260812_140120260810517223.pdf",
+          "preferredPdfUrl": "assets/pdfs/7412/20260812_140120260810517223.pdf"
+        },
+        {
+          "id": "7412-20260810-140120260810516239",
+          "docId": "140120260810516239",
+          "rawDate": "20260810",
+          "disclosureDate": "2026-08-10",
+          "title": "2027年３月期 第１四半期決算短信〔日本基準〕（非連結）",
+          "detailUrl": "https://kabutan.jp/disclosures/pdf/20260810/140120260810516239/",
+          "pdfUrl": "https://tdnet-pdf.kabutan.jp/20260810/140120260810516239.pdf",
+          "localPdfPath": "assets/pdfs/7412/20260810_140120260810516239.pdf",
+          "preferredPdfUrl": "assets/pdfs/7412/20260810_140120260810516239.pdf"
+        },
+        {
+          "id": "7412-20260508-140120260507518854",
+          "docId": "140120260507518854",
+          "rawDate": "20260508",
+          "disclosureDate": "2026-05-08",
+          "title": "2026年３月期 決算短信〔日本基準〕（非連結）",
+          "detailUrl": "https://kabutan.jp/disclosures/pdf/20260508/140120260507518854/",
+          "pdfUrl": "https://tdnet-pdf.kabutan.jp/20260508/140120260507518854.pdf",
+          "localPdfPath": "assets/pdfs/7412/20260508_140120260507518854.pdf",
+          "preferredPdfUrl": "assets/pdfs/7412/20260508_140120260507518854.pdf"
+        },
+        {
+          "id": "7412-20260213-140120260212556327",
+          "docId": "140120260212556327",
+          "rawDate": "20260213",
+          "disclosureDate": "2026-02-13",
+          "title": "2026年３月期 第３四半期決算短信〔日本基準〕（非連結）(公認会計士等による期中レビューの完了)",
+          "detailUrl": "https://kabutan.jp/disclosures/pdf/20260213/140120260212556327/",
+          "pdfUrl": "https://tdnet-pdf.kabutan.jp/20260213/140120260212556327.pdf",
+          "localPdfPath": "assets/pdfs/7412/20260213_140120260212556327.pdf",
+          "preferredPdfUrl": "assets/pdfs/7412/20260213_140120260212556327.pdf"
+        }
+      ]
+    },
+    {
+      "code": "7421",
+      "slug": "kappa",
+      "name": "カッパ・クリエイト",
+      "brands": [
+        "かっぱ寿司"
+      ],
+      "market": "東証プライム",
+      "accent": {
+        "colorA": "hsl(185 70% 60%)",
+        "colorB": "hsl(220 70% 48%)"
+      },
+      "disclosurePageUrl": "https://kabutan.jp/stock/news?code=7421&nmode=3",
+      "latestDisclosureDate": "2026-08-12",
+      "reports": [
+        {
+          "id": "7421-20260812-140120260810517422",
+          "docId": "140120260810517422",
+          "rawDate": "20260812",
+          "disclosureDate": "2026-08-12",
+          "title": "2027年３月期 第１四半期決算短信〔日本基準〕（連結）（公認会計士等による期中レビューの完了）",
+          "detailUrl": "https://kabutan.jp/disclosures/pdf/20260812/140120260810517422/",
+          "pdfUrl": "https://tdnet-pdf.kabutan.jp/20260812/140120260810517422.pdf",
+          "localPdfPath": "assets/pdfs/7421/20260812_140120260810517422.pdf",
+          "preferredPdfUrl": "assets/pdfs/7421/20260812_140120260810517422.pdf"
+        },
+        {
+          "id": "7421-20260810-140120260807515882",
+          "docId": "140120260807515882",
+          "rawDate": "20260810",
+          "disclosureDate": "2026-08-10",
+          "title": "2027年３月期 第１四半期決算短信〔日本基準〕（連結）",
+          "detailUrl": "https://kabutan.jp/disclosures/pdf/20260810/140120260807515882/",
+          "pdfUrl": "https://tdnet-pdf.kabutan.jp/20260810/140120260807515882.pdf",
+          "localPdfPath": "assets/pdfs/7421/20260810_140120260807515882.pdf",
+          "preferredPdfUrl": "assets/pdfs/7421/20260810_140120260807515882.pdf"
+        },
+        {
+          "id": "7421-20260508-140120260507518818",
+          "docId": "140120260507518818",
+          "rawDate": "20260508",
+          "disclosureDate": "2026-05-08",
+          "title": "2026年３月期 決算短信〔日本基準〕（連結）",
+          "detailUrl": "https://kabutan.jp/disclosures/pdf/20260508/140120260507518818/",
+          "pdfUrl": "https://tdnet-pdf.kabutan.jp/20260508/140120260507518818.pdf",
+          "localPdfPath": "assets/pdfs/7421/20260508_140120260507518818.pdf",
+          "preferredPdfUrl": "assets/pdfs/7421/20260508_140120260507518818.pdf"
+        },
+        {
+          "id": "7421-20260213-140120260212558738",
+          "docId": "140120260212558738",
+          "rawDate": "20260213",
+          "disclosureDate": "2026-02-13",
+          "title": "2026年３月期 第３四半期決算短信〔日本基準〕（連結）（公認会計士等による期中レビューの完了）",
+          "detailUrl": "https://kabutan.jp/disclosures/pdf/20260213/140120260212558738/",
+          "pdfUrl": "https://tdnet-pdf.kabutan.jp/20260213/140120260212558738.pdf",
+          "localPdfPath": "assets/pdfs/7421/20260213_140120260212558738.pdf",
+          "preferredPdfUrl": "assets/pdfs/7421/20260213_140120260212558738.pdf"
+        }
+      ]
+    },
+    {
+      "code": "8160",
+      "slug": "kisoji",
+      "name": "木曽路",
+      "brands": [
+        "木曽路",
+        "大将軍"
+      ],
+      "market": "東証プライム",
+      "accent": {
+        "colorA": "hsl(137 70% 60%)",
+        "colorB": "hsl(172 70% 48%)"
+      },
+      "disclosurePageUrl": "https://kabutan.jp/stock/news?code=8160&nmode=3",
+      "latestDisclosureDate": "2026-08-12",
+      "reports": [
+        {
+          "id": "8160-20260812-140120260811517446",
+          "docId": "140120260811517446",
+          "rawDate": "20260812",
+          "disclosureDate": "2026-08-12",
+          "title": "2027年3月期 第1四半期決算短信〔日本基準〕（連結）",
+          "detailUrl": "https://kabutan.jp/disclosures/pdf/20260812/140120260811517446/",
+          "pdfUrl": "https://tdnet-pdf.kabutan.jp/20260812/140120260811517446.pdf",
+          "localPdfPath": "assets/pdfs/8160/20260812_140120260811517446.pdf",
+          "preferredPdfUrl": "assets/pdfs/8160/20260812_140120260811517446.pdf"
+        },
+        {
+          "id": "8160-20260513-140120260507518770",
+          "docId": "140120260507518770",
+          "rawDate": "20260513",
+          "disclosureDate": "2026-05-13",
+          "title": "2026年3月期 決算短信〔日本基準〕（連結）",
+          "detailUrl": "https://kabutan.jp/disclosures/pdf/20260513/140120260507518770/",
+          "pdfUrl": "https://tdnet-pdf.kabutan.jp/20260513/140120260507518770.pdf",
+          "localPdfPath": "assets/pdfs/8160/20260513_140120260507518770.pdf",
+          "preferredPdfUrl": "assets/pdfs/8160/20260513_140120260507518770.pdf"
+        },
+        {
+          "id": "8160-20260210-140120260209551581",
+          "docId": "140120260209551581",
+          "rawDate": "20260210",
+          "disclosureDate": "2026-02-10",
+          "title": "2026年3月期 第3四半期決算短信〔日本基準〕（連結）",
+          "detailUrl": "https://kabutan.jp/disclosures/pdf/20260210/140120260209551581/",
+          "pdfUrl": "https://tdnet-pdf.kabutan.jp/20260210/140120260209551581.pdf",
+          "localPdfPath": "assets/pdfs/8160/20260210_140120260209551581.pdf",
+          "preferredPdfUrl": "assets/pdfs/8160/20260210_140120260209551581.pdf"
+        },
+        {
+          "id": "8160-20251111-140120251110594500",
+          "docId": "140120251110594500",
+          "rawDate": "20251111",
+          "disclosureDate": "2025-11-11",
+          "title": "2026年3月期 第2四半期（中間期）決算短信〔日本基準〕（連結）",
+          "detailUrl": "https://kabutan.jp/disclosures/pdf/20251111/140120251110594500/",
+          "pdfUrl": "https://tdnet-pdf.kabutan.jp/20251111/140120251110594500.pdf",
+          "localPdfPath": "assets/pdfs/8160/20251111_140120251110594500.pdf",
+          "preferredPdfUrl": "assets/pdfs/8160/20251111_140120251110594500.pdf"
+        }
+      ]
+    },
+    {
+      "code": "3196",
+      "slug": "hotland",
+      "name": "ホットランドホールディングス",
+      "brands": [
+        "築地銀だこ",
+        "銀のあん"
+      ],
+      "market": "東証プライム",
+      "accent": {
+        "colorA": "hsl(108 70% 60%)",
+        "colorB": "hsl(143 70% 48%)"
+      },
+      "disclosurePageUrl": "https://kabutan.jp/stock/news?code=3196&nmode=3",
+      "latestDisclosureDate": "2026-08-14",
+      "reports": [
+        {
+          "id": "3196-20260814-140120260814521000",
+          "docId": "140120260814521000",
+          "rawDate": "20260814",
+          "disclosureDate": "2026-08-14",
+          "title": "2026年12月期 第２四半期（中間期）決算短信〔日本基準〕（連結）",
+          "detailUrl": "https://kabutan.jp/disclosures/pdf/20260814/140120260814521000/",
+          "pdfUrl": "https://tdnet-pdf.kabutan.jp/20260814/140120260814521000.pdf",
+          "localPdfPath": "assets/pdfs/3196/20260814_140120260814521000.pdf",
+          "preferredPdfUrl": "assets/pdfs/3196/20260814_140120260814521000.pdf"
+        },
+        {
+          "id": "3196-20260515-140120260515537737",
+          "docId": "140120260515537737",
+          "rawDate": "20260515",
+          "disclosureDate": "2026-05-15",
+          "title": "2026年12月期 第１四半期決算短信〔日本基準〕（連結）",
+          "detailUrl": "https://kabutan.jp/disclosures/pdf/20260515/140120260515537737/",
+          "pdfUrl": "https://tdnet-pdf.kabutan.jp/20260515/140120260515537737.pdf",
+          "localPdfPath": "assets/pdfs/3196/20260515_140120260515537737.pdf",
+          "preferredPdfUrl": "assets/pdfs/3196/20260515_140120260515537737.pdf"
+        },
+        {
+          "id": "3196-20260213-140120260213561834",
+          "docId": "140120260213561834",
+          "rawDate": "20260213",
+          "disclosureDate": "2026-02-13",
+          "title": "2025年12月期 決算短信〔日本基準〕（連結）",
+          "detailUrl": "https://kabutan.jp/disclosures/pdf/20260213/140120260213561834/",
+          "pdfUrl": "https://tdnet-pdf.kabutan.jp/20260213/140120260213561834.pdf",
+          "localPdfPath": "assets/pdfs/3196/20260213_140120260213561834.pdf",
+          "preferredPdfUrl": "assets/pdfs/3196/20260213_140120260213561834.pdf"
+        },
+        {
+          "id": "3196-20251114-140120251114503775",
+          "docId": "140120251114503775",
+          "rawDate": "20251114",
+          "disclosureDate": "2025-11-14",
+          "title": "2025年12月期 第３四半期決算短信〔日本基準〕（連結）",
+          "detailUrl": "https://kabutan.jp/disclosures/pdf/20251114/140120251114503775/",
+          "pdfUrl": "https://tdnet-pdf.kabutan.jp/20251114/140120251114503775.pdf",
+          "localPdfPath": "assets/pdfs/3196/20251114_140120251114503775.pdf",
+          "preferredPdfUrl": "assets/pdfs/3196/20251114_140120251114503775.pdf"
+        }
+      ]
+    },
+    {
+      "code": "7554",
+      "slug": "korakuen",
+      "name": "幸楽苑",
+      "brands": [
+        "幸楽苑"
+      ],
+      "market": "東証プライム",
+      "accent": {
+        "colorA": "hsl(14 70% 60%)",
+        "colorB": "hsl(49 70% 48%)"
+      },
+      "disclosurePageUrl": "https://kabutan.jp/stock/news?code=7554&nmode=3",
+      "latestDisclosureDate": "2026-08-06",
+      "reports": [
+        {
+          "id": "7554-20260806-140120260805509966",
+          "docId": "140120260805509966",
+          "rawDate": "20260806",
+          "disclosureDate": "2026-08-06",
+          "title": "2027年３月期第１四半期決算短信〔日本基準〕(非連結)",
+          "detailUrl": "https://kabutan.jp/disclosures/pdf/20260806/140120260805509966/",
+          "pdfUrl": "https://tdnet-pdf.kabutan.jp/20260806/140120260805509966.pdf",
+          "localPdfPath": "assets/pdfs/7554/20260806_140120260805509966.pdf",
+          "preferredPdfUrl": "assets/pdfs/7554/20260806_140120260805509966.pdf"
+        },
+        {
+          "id": "7554-20260513-140120260512526871",
+          "docId": "140120260512526871",
+          "rawDate": "20260513",
+          "disclosureDate": "2026-05-13",
+          "title": "2026年３月期決算短信〔日本基準〕(非連結)",
+          "detailUrl": "https://kabutan.jp/disclosures/pdf/20260513/140120260512526871/",
+          "pdfUrl": "https://tdnet-pdf.kabutan.jp/20260513/140120260512526871.pdf",
+          "localPdfPath": "assets/pdfs/7554/20260513_140120260512526871.pdf",
+          "preferredPdfUrl": "assets/pdfs/7554/20260513_140120260512526871.pdf"
+        },
+        {
+          "id": "7554-20260210-140120260206550418",
+          "docId": "140120260206550418",
+          "rawDate": "20260210",
+          "disclosureDate": "2026-02-10",
+          "title": "2026年３月期第３四半期決算短信〔日本基準〕(非連結)",
+          "detailUrl": "https://kabutan.jp/disclosures/pdf/20260210/140120260206550418/",
+          "pdfUrl": "https://tdnet-pdf.kabutan.jp/20260210/140120260206550418.pdf",
+          "localPdfPath": "assets/pdfs/7554/20260210_140120260206550418.pdf",
+          "preferredPdfUrl": "assets/pdfs/7554/20260210_140120260206550418.pdf"
+        },
+        {
+          "id": "7554-20251112-140120251111595881",
+          "docId": "140120251111595881",
+          "rawDate": "20251112",
+          "disclosureDate": "2025-11-12",
+          "title": "2026年３月期第２四半期（中間期）決算短信〔日本基準〕(非連結)",
+          "detailUrl": "https://kabutan.jp/disclosures/pdf/20251112/140120251111595881/",
+          "pdfUrl": "https://tdnet-pdf.kabutan.jp/20251112/140120251111595881.pdf",
+          "localPdfPath": "assets/pdfs/7554/20251112_140120251111595881.pdf",
+          "preferredPdfUrl": "assets/pdfs/7554/20251112_140120251111595881.pdf"
+        }
+      ]
+    }
+  ]
 };

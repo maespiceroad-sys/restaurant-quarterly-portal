@@ -1,120 +1,31 @@
 {
   "summary": {
-    "generatedAt": "2026-08-09T06:36:58.113Z",
-    "startedAt": "2026-08-09T06:36:50.647Z",
-    "companyCount": 0,
+    "generatedAt": "2026-10-12T00:00:33.533Z",
+    "startedAt": "2026-10-12T00:00:19.992Z",
+    "companyCount": 20,
     "configuredCompanyCount": 20,
-    "totalReportCount": 0,
-    "newReportCount": 0,
-    "errorCount": 20,
+    "totalReportCount": 80,
+    "newReportCount": 1,
+    "errorCount": 0,
     "source": "kabutan.jp / tdnet-pdf.kabutan.jp",
     "maxReportsPerCompany": 4
   },
   "notification": {
-    "sent": false,
-    "reason": "not requested"
+    "sent": true,
+    "accepted": [
+      "maespiceroad@gmail.com"
+    ],
+    "rejected": [],
+    "messageId": "<ba959e1d-1cf9-bcab-085c-ef5d4feb9314@gmail.com>"
   },
-  "errors": [
+  "errors": [],
+  "newReports": [
     {
-      "code": "7550",
-      "name": "ゼンショーホールディングス",
-      "error": "405 Not Allowed"
-    },
-    {
-      "code": "3197",
-      "name": "すかいらーくホールディングス",
-      "error": "405 Not Allowed"
-    },
-    {
-      "code": "7616",
-      "name": "コロワイド",
-      "error": "405 Not Allowed"
-    },
-    {
-      "code": "3397",
-      "name": "トリドールホールディングス",
-      "error": "405 Not Allowed"
-    },
-    {
-      "code": "7581",
-      "name": "サイゼリヤ",
-      "error": "405 Not Allowed"
-    },
-    {
-      "code": "9861",
-      "name": "吉野家ホールディングス",
-      "error": "405 Not Allowed"
-    },
-    {
-      "code": "3543",
-      "name": "コメダホールディングス",
-      "error": "405 Not Allowed"
-    },
-    {
-      "code": "3097",
-      "name": "物語コーポレーション",
-      "error": "405 Not Allowed"
-    },
-    {
-      "code": "2695",
-      "name": "くら寿司",
-      "error": "405 Not Allowed"
-    },
-    {
-      "code": "9936",
-      "name": "王将フードサービス",
-      "error": "405 Not Allowed"
-    },
-    {
-      "code": "3561",
-      "name": "力の源ホールディングス",
-      "error": "405 Not Allowed"
-    },
-    {
-      "code": "7611",
-      "name": "ハイデイ日高",
-      "error": "405 Not Allowed"
-    },
-    {
-      "code": "8163",
-      "name": "SRSホールディングス",
-      "error": "405 Not Allowed"
-    },
-    {
-      "code": "7522",
-      "name": "ワタミ",
-      "error": "405 Not Allowed"
-    },
-    {
-      "code": "7630",
-      "name": "壱番屋",
-      "error": "405 Not Allowed"
-    },
-    {
-      "code": "7412",
-      "name": "アトム",
-      "error": "405 Not Allowed"
-    },
-    {
-      "code": "7421",
-      "name": "カッパ・クリエイト",
-      "error": "405 Not Allowed"
-    },
-    {
-      "code": "8160",
-      "name": "木曽路",
-      "error": "405 Not Allowed"
-    },
-    {
-      "code": "3196",
-      "name": "ホットランドホールディングス",
-      "error": "405 Not Allowed"
-    },
-    {
-      "code": "7554",
-      "name": "幸楽苑",
-      "error": "405 Not Allowed"
+      "companyCode": "9861",
+      "companyName": "吉野家ホールディングス",
+      "disclosureDate": "2026-10-08",
+      "title": "2027年2月期第2四半期（中間期）決算短信〔日本基準〕(連結)",
+      "pdfUrl": "https://tdnet-pdf.kabutan.jp/20261008/140120261008547781.pdf"
     }
-  ],
-  "newReports": []
+  ]
 }
