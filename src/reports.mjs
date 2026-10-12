@@ -28,12 +28,13 @@ export function isResultsTitle(title) {
   if (/訂正|correction/i.test(title)) return false;
   if (title.includes("決算短信")) return true;
   return /financial results|summary of business results/i.test(title) && /fiscal year|quarter|year end/i.test(title)
-    && !/presentation|material|monthly|sales flash|governance|evaluation|review report|notice|preliminary|postponement|revisions|announcement/i.test(title);
+    && !/presentation|material|briefing|explanatory|supplement|slides|transcript|monthly|sales flash|governance|evaluation|review report|notice|preliminary|postponement|revisions|announcement/i.test(title);
 }
 
 function selectReports(reports, limit) {
   const byDate = new Map();
-  for (const report of reports) {
+  const japanese = reports.filter((report) => /[ぁ-んァ-ヶ一-龠]/.test(report.title));
+  for (const report of japanese.length > 0 ? japanese : reports) {
     const existing = byDate.get(report.rawDate);
     if (!existing || (!/[ぁ-んァ-ヶ一-龠]/.test(existing.title) && /[ぁ-んァ-ヶ一-龠]/.test(report.title))) {
       byDate.set(report.rawDate, report);
@@ -115,7 +116,7 @@ export async function collectReports(company, limit = 4, fetchText = fetchResour
   }
 }
 
-export function mergeResults(configured, fetched, previous) {
+export function mergeResults(configured, fetched, previous, limit = 4) {
   const current = new Map(fetched.map((company) => [company.code, company]));
   const cached = new Map(previous.map((company) => [company.code, company]));
   return configured.map((company) => {
@@ -123,7 +124,7 @@ export function mergeResults(configured, fetched, previous) {
     const old = cached.get(company.code);
     return {
       ...old, ...company, ...fresh,
-      reports: selectReports([...(fresh?.reports ?? []), ...(old?.reports ?? [])].filter((report) => isResultsTitle(report.title ?? "")), 4),
+      reports: selectReports([...(fresh?.reports ?? []), ...(old?.reports ?? [])].filter((report) => isResultsTitle(report.title ?? "")), limit),
       dataStatus: fresh ? "fresh" : "cached"
     };
   });

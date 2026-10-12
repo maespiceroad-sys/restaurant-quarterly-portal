@@ -431,7 +431,7 @@ for (const company of companies) {
   await delay(250);
 }
 
-const companyResults = mergeResults(companies, fetchedResults, previousManifest.companies ?? []);
+const companyResults = mergeResults(companies, fetchedResults, previousManifest.companies ?? [], MAX_REPORTS_PER_COMPANY);
 for (const company of companyResults) company.accent ??= buildCompanyTone(company);
 if (fetchedResults.length === 0 || companyResults.some((company) => company.reports.length === 0)) {
   await writeRunLog({ failedAt: new Date().toISOString(), errors, reason: "Incomplete collection; previous site and manifest retained" });

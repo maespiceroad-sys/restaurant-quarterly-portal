@@ -22,7 +22,9 @@ test("prefer Japanese results; exclude unrelated documents and corrections", () 
   const html = yahooLink("Financial Results for the First Quarter of Fiscal Year 2027")
     + yahooLink("2027年3月期 第1四半期決算短信", "20260807", "20260805510592")
     + yahooLink("決算説明資料", "20261001") + yahooLink("（訂正）決算短信", "20261002")
-    + yahooLink("Notice Concerning Postponement of First-Quarter Financial Results for the Fiscal Year", "20261003");
+    + yahooLink("Notice Concerning Postponement of First-Quarter Financial Results for the Fiscal Year", "20261003")
+    + yahooLink("1st Half Financial Results Briefing for the Fiscal Year Ending July 31", "20261004")
+    + yahooLink("Financial Results for the First Quarter of Fiscal Year 2027", "20261005");
   const results = parseYahooReports(html, "7550");
   assert.equal(results.length, 1);
   assert.match(results[0].title, /決算短信/);
