@@ -6,6 +6,7 @@
   "description": "Portal for viewing recent quarterly earnings PDFs for major listed restaurant companies in Japan.",
   "main": "electron/main.mjs",
   "scripts": {
+    "test": "node --test test/*.test.mjs",
     "update": "node src/update.mjs",
     "serve": "node src/serve.mjs",
     "desktop": "electron ."

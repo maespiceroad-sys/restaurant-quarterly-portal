@@ -1,31 +1,281 @@
 {
   "summary": {
-    "generatedAt": "2026-10-12T00:00:33.533Z",
-    "startedAt": "2026-10-12T00:00:19.992Z",
-    "companyCount": 20,
-    "configuredCompanyCount": 20,
-    "totalReportCount": 80,
-    "newReportCount": 1,
+    "generatedAt": "2026-10-12T04:33:17.724Z",
+    "startedAt": "2026-10-12T04:32:36.549Z",
+    "companyCount": 50,
+    "freshCompanyCount": 50,
+    "cachedCompanyCount": 0,
+    "configuredCompanyCount": 50,
+    "totalReportCount": 200,
+    "newReportCount": 32,
     "errorCount": 0,
-    "source": "kabutan.jp / tdnet-pdf.kabutan.jp",
+    "source": "Yahoo!ファイナンス / TDnet（予備: 株探）",
+    "publicSiteUrl": "https://maespiceroad-sys.github.io/restaurant-quarterly-portal/",
+    "hostedPdfs": true,
+    "nextScheduledCheckAt": "2026-10-17T04:33:17.724Z",
     "maxReportsPerCompany": 4
   },
   "notification": {
-    "sent": true,
-    "accepted": [
-      "maespiceroad@gmail.com"
-    ],
-    "rejected": [],
-    "messageId": "<ba959e1d-1cf9-bcab-085c-ef5d4feb9314@gmail.com>"
+    "sent": false,
+    "reason": "not requested"
   },
   "errors": [],
   "newReports": [
     {
-      "companyCode": "9861",
-      "companyName": "吉野家ホールディングス",
-      "disclosureDate": "2026-10-08",
-      "title": "2027年2月期第2四半期（中間期）決算短信〔日本基準〕(連結)",
-      "pdfUrl": "https://tdnet-pdf.kabutan.jp/20261008/140120261008547781.pdf"
+      "id": "9842-20260106-140120260106529128",
+      "companyCode": "9842",
+      "companyName": "アークランズ",
+      "disclosureDate": "2026-01-06",
+      "title": "2026年２月期 第３四半期決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://tdnet-pdf.kabutan.jp/20260106/140120260106529128.pdf"
+    },
+    {
+      "id": "9842-20251003-140120251002567816",
+      "companyCode": "9842",
+      "companyName": "アークランズ",
+      "disclosureDate": "2025-10-03",
+      "title": "2026年２月期 第２四半期（中間期）決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://tdnet-pdf.kabutan.jp/20251003/140120251002567816.pdf"
+    },
+    {
+      "id": "9842-20250701-140120250701505711",
+      "companyCode": "9842",
+      "companyName": "アークランズ",
+      "disclosureDate": "2025-07-01",
+      "title": "2026年２月期 第１四半期決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://tdnet-pdf.kabutan.jp/20250701/140120250701505711.pdf"
+    },
+    {
+      "id": "3387-20260414-140120260413502316",
+      "companyCode": "3387",
+      "companyName": "クリエイト・レストランツ・ホールディングス",
+      "disclosureDate": "2026-04-14",
+      "title": "2026年２月期 決算短信〔ＩＦＲＳ〕（連結）",
+      "pdfUrl": "https://tdnet-pdf.kabutan.jp/20260414/140120260413502316.pdf"
+    },
+    {
+      "id": "3387-20260114-140120260109531884",
+      "companyCode": "3387",
+      "companyName": "クリエイト・レストランツ・ホールディングス",
+      "disclosureDate": "2026-01-14",
+      "title": "2026年２月期第３四半期決算短信〔ＩＦＲＳ〕（連結）",
+      "pdfUrl": "https://tdnet-pdf.kabutan.jp/20260114/140120260109531884.pdf"
+    },
+    {
+      "id": "3387-20251014-140120251010571656",
+      "companyCode": "3387",
+      "companyName": "クリエイト・レストランツ・ホールディングス",
+      "disclosureDate": "2025-10-14",
+      "title": "2026年２月期第２四半期（中間期）決算短信〔ＩＦＲＳ〕（連結）",
+      "pdfUrl": "https://tdnet-pdf.kabutan.jp/20251014/140120251010571656.pdf"
+    },
+    {
+      "id": "9850-20260513-140120260513528170",
+      "companyCode": "9850",
+      "companyName": "グルメ杵屋",
+      "disclosureDate": "2026-05-13",
+      "title": "2026年３月期 決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://tdnet-pdf.kabutan.jp/20260513/140120260513528170.pdf"
+    },
+    {
+      "id": "9850-20260212-140120260212557268",
+      "companyCode": "9850",
+      "companyName": "グルメ杵屋",
+      "disclosureDate": "2026-02-12",
+      "title": "2026年３月期 第３四半期決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://tdnet-pdf.kabutan.jp/20260212/140120260212557268.pdf"
+    },
+    {
+      "id": "9850-20251112-140120251111596053",
+      "companyCode": "9850",
+      "companyName": "グルメ杵屋",
+      "disclosureDate": "2025-11-12",
+      "title": "2026年３月期 第２四半期（中間期）決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://tdnet-pdf.kabutan.jp/20251112/140120251111596053.pdf"
+    },
+    {
+      "id": "8179-20251113-140120251112597020",
+      "companyCode": "8179",
+      "companyName": "ロイヤルホールディングス",
+      "disclosureDate": "2025-11-13",
+      "title": "2025年12月期 第３四半期 決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://tdnet-pdf.kabutan.jp/20251113/140120251112597020.pdf"
+    },
+    {
+      "id": "3563-20251107-140120251106590279",
+      "companyCode": "3563",
+      "companyName": "FOOD & LIFE COMPANIES",
+      "disclosureDate": "2025-11-07",
+      "title": "2025年９月期 決算短信〔ＩＦＲＳ〕（連結）",
+      "pdfUrl": "https://tdnet-pdf.kabutan.jp/20251107/140120251106590279.pdf"
+    },
+    {
+      "id": "3175-20260515-140120260515538749",
+      "companyCode": "3175",
+      "companyName": "エー・ピーホールディングス",
+      "disclosureDate": "2026-05-15",
+      "title": "2026年３月期決算短信〔日本基準〕(連結)",
+      "pdfUrl": "https://tdnet-pdf.kabutan.jp/20260515/140120260515538749.pdf"
+    },
+    {
+      "id": "3175-20260213-140120260213561698",
+      "companyCode": "3175",
+      "companyName": "エー・ピーホールディングス",
+      "disclosureDate": "2026-02-13",
+      "title": "2026年３月期第３四半期決算短信〔日本基準〕(連結)",
+      "pdfUrl": "https://tdnet-pdf.kabutan.jp/20260213/140120260213561698.pdf"
+    },
+    {
+      "id": "3175-20251114-140120251114503445",
+      "companyCode": "3175",
+      "companyName": "エー・ピーホールディングス",
+      "disclosureDate": "2025-11-14",
+      "title": "2026年３月期第２四半期（中間期）決算短信〔日本基準〕(連結)",
+      "pdfUrl": "https://tdnet-pdf.kabutan.jp/20251114/140120251114503445.pdf"
+    },
+    {
+      "id": "3193-20260605-140120260605563896",
+      "companyCode": "3193",
+      "companyName": "エターナルホスピタリティグループ",
+      "disclosureDate": "2026-06-05",
+      "title": "2026年７月期 第３四半期決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://tdnet-pdf.kabutan.jp/20260605/140120260605563896.pdf"
+    },
+    {
+      "id": "3193-20260401-140120260401595348",
+      "companyCode": "3193",
+      "companyName": "エターナルホスピタリティグループ",
+      "disclosureDate": "2026-04-01",
+      "title": "[Delayed] 1st Half Financial Results Briefing for the Fiscal Year Ending July 31, 2026",
+      "pdfUrl": "https://tdnet-pdf.kabutan.jp/20260401/140120260401595348.pdf"
+    },
+    {
+      "id": "3193-20260313-140120260204547727",
+      "companyCode": "3193",
+      "companyName": "エターナルホスピタリティグループ",
+      "disclosureDate": "2026-03-13",
+      "title": "2026年７月期 第２四半期（中間期）決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://tdnet-pdf.kabutan.jp/20260313/140120260204547727.pdf"
+    },
+    {
+      "id": "3557-20251015-140120251015574283",
+      "companyCode": "3557",
+      "companyName": "ユナイテッド＆コレクティブ",
+      "disclosureDate": "2025-10-15",
+      "title": "2026年２月期 第２四半期（中間期）決算短信［日本基準］（非連結）",
+      "pdfUrl": "https://tdnet-pdf.kabutan.jp/20251015/140120251015574283.pdf"
+    },
+    {
+      "id": "3221-20260508-140120260508519916",
+      "companyCode": "3221",
+      "companyName": "ヨシックスホールディングス",
+      "disclosureDate": "2026-05-08",
+      "title": "2026年３月期 決算短信〔日本基準〕(連結)",
+      "pdfUrl": "https://tdnet-pdf.kabutan.jp/20260508/140120260508519916.pdf"
+    },
+    {
+      "id": "3221-20260206-140120260206550414",
+      "companyCode": "3221",
+      "companyName": "ヨシックスホールディングス",
+      "disclosureDate": "2026-02-06",
+      "title": "2026年３月期 第３四半期決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://tdnet-pdf.kabutan.jp/20260206/140120260206550414.pdf"
+    },
+    {
+      "id": "3221-20251107-140120251107591953",
+      "companyCode": "3221",
+      "companyName": "ヨシックスホールディングス",
+      "disclosureDate": "2025-11-07",
+      "title": "2026年３月期第２四半期（中間期）決算短信〔日本基準〕(連結)",
+      "pdfUrl": "https://tdnet-pdf.kabutan.jp/20251107/140120251107591953.pdf"
+    },
+    {
+      "id": "2752-20251114-140120251114502669",
+      "companyCode": "2752",
+      "companyName": "フジオフードグループ本社",
+      "disclosureDate": "2025-11-14",
+      "title": "2025年12月期 第３四半期決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://tdnet-pdf.kabutan.jp/20251114/140120251114502669.pdf"
+    },
+    {
+      "id": "2882-20260114-140120260114533272",
+      "companyCode": "2882",
+      "companyName": "イートアンドホールディングス",
+      "disclosureDate": "2026-01-14",
+      "title": "2026年２月期 第３四半期決算短信〔日本基準〕(連結)",
+      "pdfUrl": "https://tdnet-pdf.kabutan.jp/20260114/140120260114533272.pdf"
+    },
+    {
+      "id": "2882-20251010-140120251010571570",
+      "companyCode": "2882",
+      "companyName": "イートアンドホールディングス",
+      "disclosureDate": "2025-10-10",
+      "title": "2026年２月期 第２四半期（中間期）決算短信〔日本基準〕(連結)",
+      "pdfUrl": "https://tdnet-pdf.kabutan.jp/20251010/140120251010571570.pdf"
+    },
+    {
+      "id": "3399-20251212-140120251212518907",
+      "companyCode": "3399",
+      "companyName": "丸千代山岡家",
+      "disclosureDate": "2025-12-12",
+      "title": "2026年１月期第３四半期決算短信〔日本基準〕(非連結)",
+      "pdfUrl": "https://tdnet-pdf.kabutan.jp/20251212/140120251212518907.pdf"
+    },
+    {
+      "id": "7674-20251212-140120251211517722",
+      "companyCode": "7674",
+      "companyName": "NATTY SWANKYホールディングス",
+      "disclosureDate": "2025-12-12",
+      "title": "2026年１月期第３四半期決算短信〔日本基準〕(連結)",
+      "pdfUrl": "https://tdnet-pdf.kabutan.jp/20251212/140120251211517722.pdf"
+    },
+    {
+      "id": "9279-20260615-140120260615570424",
+      "companyCode": "9279",
+      "companyName": "ギフトホールディングス",
+      "disclosureDate": "2026-06-15",
+      "title": "2026年10月期 第２四半期（中間期） 決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://tdnet-pdf.kabutan.jp/20260615/140120260615570424.pdf"
+    },
+    {
+      "id": "9279-20260316-140120260313581571",
+      "companyCode": "9279",
+      "companyName": "ギフトホールディングス",
+      "disclosureDate": "2026-03-16",
+      "title": "2026年10月期 第１四半期決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://tdnet-pdf.kabutan.jp/20260316/140120260313581571.pdf"
+    },
+    {
+      "id": "9279-20251215-140120251215519649",
+      "companyCode": "9279",
+      "companyName": "ギフトホールディングス",
+      "disclosureDate": "2025-12-15",
+      "title": "2025年10月期 決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://tdnet-pdf.kabutan.jp/20251215/140120251215519649.pdf"
+    },
+    {
+      "id": "3317-20260209-140120260120536083",
+      "companyCode": "3317",
+      "companyName": "フライングガーデン",
+      "disclosureDate": "2026-02-09",
+      "title": "2026年３月期第３四半期決算短信［日本基準］（非連結）",
+      "pdfUrl": "https://tdnet-pdf.kabutan.jp/20260209/140120260120536083.pdf"
+    },
+    {
+      "id": "3317-20251104-140120250926563380",
+      "companyCode": "3317",
+      "companyName": "フライングガーデン",
+      "disclosureDate": "2025-11-04",
+      "title": "2026年３月期 第２四半期（中間期）決算短信［日本基準］（非連結）",
+      "pdfUrl": "https://tdnet-pdf.kabutan.jp/20251104/140120250926563380.pdf"
+    },
+    {
+      "id": "8200-20260109-140120260109531253",
+      "companyCode": "8200",
+      "companyName": "リンガーハット",
+      "disclosureDate": "2026-01-09",
+      "title": "2026年２月期 第３四半期決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://tdnet-pdf.kabutan.jp/20260109/140120260109531253.pdf"
     }
   ]
 }

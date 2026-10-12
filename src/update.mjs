@@ -2,9 +2,9 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import crypto from "node:crypto";
-import * as cheerio from "cheerio";
 import nodemailer from "nodemailer";
 import { companies } from "./companies.mjs";
+import { collectReports, fetchResource, mergeResults, isCollectionDue, isResultsTitle } from "./reports.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const projectRoot = path.resolve(__dirname, "..");
@@ -46,77 +46,6 @@ async function loadDotEnv(dotEnvPath) {
   }
 }
 
-function formatIsoDate(rawDate) {
-  return `${rawDate.slice(0, 4)}-${rawDate.slice(4, 6)}-${rawDate.slice(6, 8)}`;
-}
-
-function buildDisclosureUrl(code) {
-  return `https://kabutan.jp/stock/news?code=${code}&nmode=3`;
-}
-
-function normalizeWhitespace(value) {
-  return value.replace(/\s+/g, " ").trim();
-}
-
-function buildPdfUrl(rawDate, docId) {
-  return `https://tdnet-pdf.kabutan.jp/${rawDate}/${docId}.pdf`;
-}
-
-function isJapaneseTitle(title) {
-  return /[ぁ-んァ-ヶ一-龠]/.test(title);
-}
-
-function isCorrectionNotice(title) {
-  const normalized = title.toLowerCase();
-  return title.includes("訂正") || title.includes("一部訂正") || normalized.includes("correction");
-}
-
-function isQuarterlyResultsTitle(title) {
-  if (isCorrectionNotice(title)) {
-    return false;
-  }
-
-  if (title.includes("決算短信")) {
-    return true;
-  }
-
-  const normalized = title.toLowerCase();
-  if (!normalized.includes("financial results")) {
-    return false;
-  }
-
-  const blockedWords = [
-    "presentation",
-    "material",
-    "monthly",
-    "sales flash",
-    "governance",
-    "evaluation",
-    "review report",
-    "notice regarding",
-    "preliminary"
-  ];
-
-  if (blockedWords.some((word) => normalized.includes(word))) {
-    return false;
-  }
-
-  return normalized.includes("fiscal year") || normalized.includes("quarter");
-}
-
-function extractDocParts(detailUrl) {
-  const match = detailUrl.match(/\/disclosures\/pdf\/(\d{8})\/(\d+)\/?$/);
-  if (!match) {
-    return null;
-  }
-
-  return {
-    rawDate: match[1],
-    docId: match[2],
-    disclosureDate: formatIsoDate(match[1])
-  };
-}
-
 function buildLocalPdfPath(companyCode, rawDate, docId) {
   const fileName = `${rawDate}_${docId}.pdf`;
   return {
@@ -132,20 +61,8 @@ function buildPreferredPdfUrl(localPdfPath, sourcePdfUrl) {
   return localPdfPath;
 }
 
-async function fetchText(url) {
-  const response = await fetch(url, { headers: REQUEST_HEADERS });
-  if (!response.ok) {
-    throw new Error(`${response.status} ${response.statusText}`);
-  }
-  return response.text();
-}
-
 async function downloadBinary(url) {
-  const response = await fetch(url, { headers: REQUEST_HEADERS });
-  if (!response.ok) {
-    throw new Error(`${response.status} ${response.statusText}`);
-  }
-  return Buffer.from(await response.arrayBuffer());
+  return fetchResource(url, true);
 }
 
 async function ensureDirectory(dirPath) {
@@ -243,8 +160,8 @@ function buildNotificationHtml(summary, newReports, latestRows) {
     <div style="font-family: 'Yu Gothic', 'Hiragino Sans', sans-serif; background:#f7f3eb; padding:24px; color:#1b1c1e;">
       <div style="max-width:900px; margin:0 auto; background:#fffdf8; border-radius:20px; padding:28px; border:1px solid #f0e3d3;">
         <p style="margin:0 0 8px; font-size:12px; letter-spacing:0.18em; text-transform:uppercase; color:#8a6f50;">Restaurant IR Update</p>
-        <h1 style="margin:0 0 16px; font-size:28px; line-height:1.2;">飲食上場20社 決算PDFアップデート</h1>
-        <p style="margin:0 0 20px; color:#5f5d59;">20社の最新決算短信PDFを確認した結果を、ざっくり見やすくまとめています。</p>
+        <h1 style="margin:0 0 16px; font-size:28px; line-height:1.2;">飲食上場${summary.configuredCompanyCount}社 決算PDFアップデート</h1>
+        <p style="margin:0 0 20px; color:#5f5d59;">${summary.configuredCompanyCount}社の最新決算短信PDFを確認した結果をまとめています。</p>
         <div style="display:grid; grid-template-columns:repeat(4, minmax(0, 1fr)); gap:12px; margin-bottom:24px;">
           ${cards.map(([label, value]) => `
             <div style="background:#fbf3e8; border-radius:16px; padding:16px; border:1px solid #efdfcb;">
@@ -266,7 +183,7 @@ function buildNotificationHtml(summary, newReports, latestRows) {
           </thead>
           <tbody>${rows}</tbody>
         </table>
-        <h2 style="font-size:18px; margin:24px 0 12px;">20社の最新一覧</h2>
+        <h2 style="font-size:18px; margin:24px 0 12px;">${summary.configuredCompanyCount}社の最新一覧</h2>
         <table style="width:100%; border-collapse:collapse; font-size:14px;">
           <thead>
             <tr>
@@ -320,7 +237,7 @@ async function sendNotification(summary, newReports, latestRows) {
   }
 
   lines.push("");
-  lines.push("20社の最新一覧:");
+  lines.push(`${summary.configuredCompanyCount}社の最新一覧:`);
   for (const row of latestRows) {
     lines.push(`- ${row.latestDisclosureDate ?? "-"} / ${row.name} (${row.code})`);
     lines.push(`  ${row.latestReportTitle ?? "-"}`);
@@ -330,13 +247,13 @@ async function sendNotification(summary, newReports, latestRows) {
   const info = await transporter.sendMail({
     from: mailConfig.from,
     to: mailConfig.to,
-    subject: `[飲食決算PDF] ${newReports.length > 0 ? `${newReports.length}件更新` : "定期サマリー"}`,
+    subject: `[飲食${summary.configuredCompanyCount}社 決算PDF] ${newReports.length > 0 ? `${newReports.length}件更新` : "定期サマリー"}`,
     text: lines.join("\n"),
     html: buildNotificationHtml(summary, newReports, latestRows)
   });
 
   return {
-    sent: true,
+    sent: info.accepted.length > 0 && info.rejected.length === 0,
     accepted: info.accepted,
     rejected: info.rejected,
     messageId: info.messageId
@@ -353,63 +270,9 @@ function buildCompanyTone(company) {
 }
 
 async function fetchCompanyReports(company) {
-  const disclosurePageUrl = buildDisclosureUrl(company.code);
-  const reportsByDate = new Map();
-  const maxPagesToScan = 8;
-
-  for (let page = 1; page <= maxPagesToScan && reportsByDate.size < MAX_REPORTS_PER_COMPANY; page += 1) {
-    const pagedUrl = page === 1 ? disclosurePageUrl : `${disclosurePageUrl}&page=${page}`;
-    const html = await fetchText(pagedUrl);
-    const $ = cheerio.load(html);
-
-    $("a[href*='/disclosures/pdf/']").each((_, anchor) => {
-      const title = normalizeWhitespace($(anchor).text());
-      if (!isQuarterlyResultsTitle(title)) {
-        return;
-      }
-
-      const href = $(anchor).attr("href");
-      if (!href) {
-        return;
-      }
-
-      const detailUrl = new URL(href, "https://kabutan.jp").toString();
-      const parts = extractDocParts(detailUrl);
-      if (!parts) {
-        return;
-      }
-
-      const nextReport = {
-        id: `${company.code}-${parts.rawDate}-${parts.docId}`,
-        docId: parts.docId,
-        rawDate: parts.rawDate,
-        disclosureDate: parts.disclosureDate,
-        title,
-        detailUrl,
-        pdfUrl: buildPdfUrl(parts.rawDate, parts.docId),
-        localPdfPath: buildLocalPdfPath(company.code, parts.rawDate, parts.docId).relative
-      };
-
-      const existing = reportsByDate.get(parts.rawDate);
-      if (!existing || (!isJapaneseTitle(existing.title) && isJapaneseTitle(nextReport.title))) {
-        reportsByDate.set(parts.rawDate, nextReport);
-      }
-    });
-  }
-
-  const reports = [...reportsByDate.values()]
-    .sort((left, right) => right.rawDate.localeCompare(left.rawDate))
-    .slice(0, MAX_REPORTS_PER_COMPANY);
-
-  if (reports.length === 0) {
-    throw new Error("決算短信PDFが見つかりませんでした");
-  }
-
   return {
-    ...company,
-    disclosurePageUrl,
-    accent: buildCompanyTone(company),
-    reports
+    ...await collectReports(company, MAX_REPORTS_PER_COMPANY),
+    accent: buildCompanyTone(company)
   };
 }
 
@@ -422,13 +285,20 @@ async function downloadMissingReports(companyReports, previousReportIds, newRepo
         try {
           await fs.access(localPdfPath.absolute);
         } catch {
-          const binary = await downloadBinary(report.pdfUrl);
+          const mirrorUrl = `https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/${report.rawDate}/${report.docId.slice(4)}.pdf`;
+          let binary;
+          try {
+            binary = await downloadBinary(mirrorUrl);
+          } catch {
+            binary = await downloadBinary(report.pdfUrl);
+          }
           await fs.writeFile(localPdfPath.absolute, binary);
         }
       }
 
       if (!previousReportIds.has(report.id)) {
         newReportsCollector.push({
+          id: report.id,
           companyCode: company.code,
           companyName: company.name,
           disclosureDate: report.disclosureDate,
@@ -436,6 +306,18 @@ async function downloadMissingReports(companyReports, previousReportIds, newRepo
           pdfUrl: report.pdfUrl
         });
       }
+    }
+  }
+}
+
+async function pruneSavedPdfs(companyReports) {
+  const retained = new Set(companyReports.flatMap((company) => company.reports.map((report) => path.resolve(siteRoot, report.localPdfPath))));
+  for (const directory of await fs.readdir(pdfRoot, { withFileTypes: true })) {
+    if (!directory.isDirectory() || !/^\d{4}$/.test(directory.name)) continue;
+    const folder = path.join(pdfRoot, directory.name);
+    for (const entry of await fs.readdir(folder, { withFileTypes: true })) {
+      const file = path.join(folder, entry.name);
+      if (entry.isFile() && /^\d{8}_\d+\.pdf$/.test(entry.name) && !retained.has(file)) await fs.unlink(file);
     }
   }
 }
@@ -448,6 +330,8 @@ function buildSitePayload(companyReports, summary) {
       name: company.name,
       market: company.market,
       brands: company.brands,
+      comparison: company.comparison ?? "全体比較",
+      dataStatus: company.dataStatus,
       latestDisclosureDate: latestReport?.disclosureDate ?? "",
       latestReportTitle: latestReport?.title ?? "",
       latestReportPdfUrl: latestReport?.pdfUrl ?? "",
@@ -467,6 +351,11 @@ function buildSitePayload(companyReports, summary) {
       name: company.name,
       brands: company.brands,
       market: company.market,
+      comparison: company.comparison ?? "全体比較",
+      comparisonNote: company.comparisonNote ?? "",
+      referenceUrl: company.referenceUrl ?? "",
+      fetchedAt: company.fetchedAt,
+      dataStatus: company.dataStatus,
       accent: company.accent,
       disclosurePageUrl: company.disclosurePageUrl,
       latestDisclosureDate: company.reports[0]?.disclosureDate ?? null,
@@ -483,11 +372,11 @@ async function writeSiteData(payload) {
   await fs.writeFile(siteDataPath, content, "utf8");
 }
 
-async function writeManifest(payload) {
+async function writeManifest(payload, state) {
   const nextManifest = {
-    version: 1,
+    version: 2,
     updatedAt: payload.summary.generatedAt,
-    knownReportIds: payload.companies.flatMap((company) => company.reports.map((report) => report.id)),
+    ...state,
     companies: payload.companies
   };
 
@@ -507,10 +396,6 @@ await loadDotEnv(path.join(projectRoot, ".env"));
 const MAX_REPORTS_PER_COMPANY = parseIntegerEnv(process.env.MAX_REPORTS_PER_COMPANY, 4);
 const DOWNLOAD_PDFS = (process.env.DOWNLOAD_PDFS ?? "true").toLowerCase() !== "false";
 const PUBLIC_SITE_URL = process.env.PUBLIC_SITE_URL ?? `http://localhost:${process.env.PORT ?? "4180"}`;
-const REQUEST_HEADERS = {
-  "Accept-Language": "ja,en-US;q=0.9,en;q=0.8",
-  "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
-};
 
 const startedAt = new Date();
 await ensureDirectory(pdfRoot);
@@ -518,14 +403,24 @@ await ensureDirectory(dataRoot);
 await ensureDirectory(logsRoot);
 
 const previousManifest = await loadManifest();
+if (process.argv.includes("--if-due") && !previousManifest.pendingNotificationReports?.length && !isCollectionDue(previousManifest.lastSuccessfulCollectionAt)) {
+  if (DOWNLOAD_PDFS) await downloadMissingReports(previousManifest.companies, new Set(previousManifest.knownReportIds), []);
+  await pruneSavedPdfs(previousManifest.companies);
+  console.log("Skipped: the last successful collection was less than five days ago.");
+  process.exit(0);
+}
+if (process.env.CI && !sendableMailConfig()) {
+  throw new Error("SMTP configuration is incomplete; configure GitHub Secrets before running.");
+}
 const previousReportIds = new Set(previousManifest.knownReportIds ?? []);
-const companyResults = [];
+const fetchedResults = [];
 const errors = [];
 
 for (const company of companies) {
   try {
     const result = await fetchCompanyReports(company);
-    companyResults.push(result);
+    fetchedResults.push(result);
+    console.log(`Collected ${company.code}: ${result.reports.length} reports (${fetchedResults.length}/${companies.length})`);
   } catch (error) {
     errors.push({
       code: company.code,
@@ -536,31 +431,58 @@ for (const company of companies) {
   await delay(250);
 }
 
+const companyResults = mergeResults(companies, fetchedResults, previousManifest.companies ?? []);
+for (const company of companyResults) company.accent ??= buildCompanyTone(company);
+if (fetchedResults.length === 0 || companyResults.some((company) => company.reports.length === 0)) {
+  await writeRunLog({ failedAt: new Date().toISOString(), errors, reason: "Incomplete collection; previous site and manifest retained" });
+  throw new Error(`Collection failed: ${fetchedResults.length}/${companies.length} companies fetched. Previous data retained.`);
+}
 const newReports = [];
 await downloadMissingReports(companyResults, previousReportIds, newReports);
+await pruneSavedPdfs(companyResults);
+const pendingReports = [...new Map([
+  ...(previousManifest.pendingNotificationReports ?? []), ...newReports
+].filter((report) => isResultsTitle(report.title) && !(
+  !/[ぁ-んァ-ヶ一-龠]/.test(report.title) && companyResults.find((company) => company.code === report.companyCode)?.reports.some((item) => item.disclosureDate === report.disclosureDate && /[ぁ-んァ-ヶ一-龠]/.test(item.title))
+)).map((report) => [report.id ?? `${report.companyCode}-${report.disclosureDate}-${report.title}`, report])).values()];
 
 const generatedAt = new Date().toISOString();
 const summary = {
   generatedAt,
   startedAt: startedAt.toISOString(),
   companyCount: companyResults.length,
+  freshCompanyCount: fetchedResults.length,
+  cachedCompanyCount: companies.length - fetchedResults.length,
   configuredCompanyCount: companies.length,
   totalReportCount: companyResults.reduce((sum, company) => sum + company.reports.length, 0),
   newReportCount: newReports.length,
   errorCount: errors.length,
-  source: "kabutan.jp / tdnet-pdf.kabutan.jp",
+  source: "Yahoo!ファイナンス / TDnet（予備: 株探）",
+  publicSiteUrl: PUBLIC_SITE_URL,
+  hostedPdfs: DOWNLOAD_PDFS,
+  nextScheduledCheckAt: new Date((errors.length ? new Date(previousManifest.lastSuccessfulCollectionAt ?? startedAt).getTime() : new Date(generatedAt).getTime()) + 5 * 24 * 60 * 60 * 1000).toISOString(),
   maxReportsPerCompany: MAX_REPORTS_PER_COMPANY
 };
 
 const payload = buildSitePayload(companyResults, summary);
 await writeSiteData(payload);
-await writeManifest(payload);
+const manifestState = {
+  knownReportIds: [...new Set([...previousReportIds, ...companyResults.flatMap((company) => company.reports.map((report) => report.id))])],
+  lastSuccessfulCollectionAt: errors.length === 0 ? generatedAt : previousManifest.lastSuccessfulCollectionAt ?? null,
+  pendingNotificationReports: pendingReports
+};
+// Persist the outbox before sending so a failed delivery is retried on the next run.
+await writeManifest(payload, manifestState);
 
 let notification = { sent: false, reason: "not requested" };
 const notifyAlways = (process.env.REPORT_NOTIFY_ALWAYS ?? "false").toLowerCase() === "true";
-if (newReports.length > 0 || notifyAlways) {
+if ((pendingReports.length > 0 || notifyAlways) && process.env.SKIP_MAIL !== "true") {
   try {
-    notification = await sendNotification(summary, newReports, payload.latestRows);
+    notification = await sendNotification(summary, pendingReports, payload.latestRows);
+    if (notification.sent) {
+      manifestState.pendingNotificationReports = [];
+      await writeManifest(payload, manifestState);
+    }
   } catch (error) {
     notification = {
       sent: false,
@@ -578,3 +500,6 @@ const runLog = {
 
 await writeRunLog(runLog);
 console.log(JSON.stringify(runLog, null, 2));
+if (errors.length > 0 || (pendingReports.length > 0 && !notification.sent && process.env.SKIP_MAIL !== "true")) {
+  process.exitCode = 1;
+}

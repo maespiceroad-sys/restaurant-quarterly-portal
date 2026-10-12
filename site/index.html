@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>上場飲食20社 四半期決算PDFポータル</title>
+    <title>上場飲食50社 四半期決算PDFポータル</title>
     <link rel="stylesheet" href="./styles.css">
   </head>
   <body>
@@ -11,9 +11,9 @@
       <header class="hero">
         <div class="hero-copy">
           <p class="eyebrow">Listed Restaurant IR Portal</p>
-          <h1>上場飲食20社の四半期決算PDFを<br>1か所で確認</h1>
+          <h1>上場飲食<span id="configured-count">50</span>社の四半期決算PDFを<br>1か所で確認</h1>
           <p class="hero-text">
-            主要飲食上場企業20社の決算短信PDFを一覧化しています。企業別の直近4件と、全体の最新データを見やすく確認できます。
+            飲食上場企業50社の決算短信PDFを一覧化。スパイスロードに近い業態・運営の比較対象も絞り込めます。5日ごとに確認し、新着をメールでお知らせします。
           </p>
         </div>
         <div class="hero-stats">
@@ -37,9 +37,20 @@
           <span>企業検索</span>
           <input id="company-search" type="search" placeholder="企業名、証券コード、ブランド名">
         </label>
+        <label class="search-box">
+          <span>比較対象</span>
+          <select id="comparison-filter">
+            <option value="all">すべての50社</option>
+            <option value="comparison">スパイスロードの比較対象（5社）</option>
+            <option value="業態が近い">業態が近い（3社）</option>
+            <option value="運営比較">運営比較（WDI）</option>
+            <option value="参考比較">参考比較（グルメ杵屋）</option>
+          </select>
+        </label>
         <div class="toolbar-note">
           <span id="summary-source">-</span>
           <span id="summary-error-count">-</span>
+          <span id="summary-next-check">-</span>
         </div>
       </section>
 
@@ -87,7 +98,7 @@
                 <h3 id="report-title">レポートを選択してください</h3>
               </div>
               <div class="frame-links">
-                <a id="local-pdf-link" href="#" target="_blank" rel="noopener">表示用PDF</a>
+                <a id="local-pdf-link" href="#" target="_blank" rel="noopener">掲載PDFを開く</a>
                 <a id="source-pdf-link" href="#" target="_blank" rel="noopener">ソースPDF</a>
               </div>
             </div>
