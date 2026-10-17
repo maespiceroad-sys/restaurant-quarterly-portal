@@ -1,18 +1,18 @@
 {
   "summary": {
-    "generatedAt": "2026-10-12T04:39:14.644Z",
-    "startedAt": "2026-10-12T04:38:29.628Z",
+    "generatedAt": "2026-10-17T04:04:58.381Z",
+    "startedAt": "2026-10-17T04:04:08.384Z",
     "companyCount": 50,
     "freshCompanyCount": 50,
     "cachedCompanyCount": 0,
     "configuredCompanyCount": 50,
     "totalReportCount": 200,
-    "newReportCount": 4,
+    "newReportCount": 9,
     "errorCount": 0,
     "source": "Yahoo!ファイナンス / TDnet（予備: 株探）",
     "publicSiteUrl": "https://maespiceroad-sys.github.io/restaurant-quarterly-portal/",
     "hostedPdfs": true,
-    "nextScheduledCheckAt": "2026-10-17T04:39:14.644Z",
+    "nextScheduledCheckAt": "2026-10-22T04:04:58.381Z",
     "maxReportsPerCompany": 4
   },
   "notification": {
@@ -21,41 +21,81 @@
       "maespiceroad@gmail.com"
     ],
     "rejected": [],
-    "messageId": "<346c06d6-25f5-2e3b-1d0f-6d8b54f4076c@gmail.com>"
+    "messageId": "<3ad97077-ce42-db57-d28b-8e49de8924b2@gmail.com>"
   },
   "errors": [],
   "newReports": [
     {
-      "id": "9936-20260130-140120260120536147",
-      "companyCode": "9936",
-      "companyName": "王将フードサービス",
-      "disclosureDate": "2026-01-30",
-      "title": "2026年3月期 第3四半期決算短信〔日本基準〕（連結）",
-      "pdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20260130/20260120536147.pdf"
+      "id": "7581-20261014-140120261012549130",
+      "companyCode": "7581",
+      "companyName": "サイゼリヤ",
+      "disclosureDate": "2026-10-14",
+      "title": "2026年8月期 決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261014/20261012549130.pdf"
     },
     {
-      "id": "9936-20251031-140120251017575428",
-      "companyCode": "9936",
-      "companyName": "王将フードサービス",
-      "disclosureDate": "2025-10-31",
-      "title": "2026年3月期第2四半期（中間期）決算短信〔日本基準〕（連結）",
-      "pdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20251031/20251017575428.pdf"
+      "id": "3543-20261014-140120261014550540",
+      "companyCode": "3543",
+      "companyName": "コメダホールディングス",
+      "disclosureDate": "2026-10-14",
+      "title": "2027年２月期 第２四半期（中間期）決算短信〔ＩＦＲＳ〕（連結）",
+      "pdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261014/20261014550540.pdf"
     },
     {
-      "id": "8163-20251110-140120251107592800",
-      "companyCode": "8163",
-      "companyName": "SRSホールディングス",
-      "disclosureDate": "2025-11-10",
-      "title": "令和8年3月期 第2四半期（中間期）決算短信〔日本基準〕（連結）",
-      "pdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20251110/20251107592800.pdf"
+      "id": "9842-20261013-140120261012549153",
+      "companyCode": "9842",
+      "companyName": "アークランズ",
+      "disclosureDate": "2026-10-13",
+      "title": "2027年２月期 第２四半期（中間期）決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261013/20261012549153.pdf"
     },
     {
-      "id": "3193-20251205-140120251205515379",
-      "companyCode": "3193",
-      "companyName": "エターナルホスピタリティグループ",
-      "disclosureDate": "2025-12-05",
-      "title": "2026年７月期 第１四半期決算短信〔日本基準〕（連結）",
-      "pdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20251205/20251205515379.pdf"
+      "id": "3387-20261014-140120261006546313",
+      "companyCode": "3387",
+      "companyName": "クリエイト・レストランツ・ホールディングス",
+      "disclosureDate": "2026-10-14",
+      "title": "2027年２月期第２四半期（中間期）決算短信〔ＩＦＲＳ〕（連結）",
+      "pdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261014/20261006546313.pdf"
+    },
+    {
+      "id": "9979-20261015-140120261015551476",
+      "companyCode": "9979",
+      "companyName": "大庄",
+      "disclosureDate": "2026-10-15",
+      "title": "2026年8月期決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261015/20261015551476.pdf"
+    },
+    {
+      "id": "3557-20261015-140120261015551814",
+      "companyCode": "3557",
+      "companyName": "ユナイテッド＆コレクティブ",
+      "disclosureDate": "2026-10-15",
+      "title": "2027年２月期 第２四半期（中間期）決算短信［日本基準］（非連結）",
+      "pdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261015/20261015551814.pdf"
+    },
+    {
+      "id": "3075-20261014-140120261013549977",
+      "companyCode": "3075",
+      "companyName": "銚子丸",
+      "disclosureDate": "2026-10-14",
+      "title": "2027年２月期 第２四半期（中間期）決算短信［日本基準］（非連結）",
+      "pdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261014/20261013549977.pdf"
+    },
+    {
+      "id": "2882-20261014-140120261014550244",
+      "companyCode": "2882",
+      "companyName": "イートアンドホールディングス",
+      "disclosureDate": "2026-10-14",
+      "title": "2027年２月期第２四半期（中間期）決算短信〔日本基準〕(連結)",
+      "pdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261014/20261014550244.pdf"
+    },
+    {
+      "id": "3030-20261014-140120261014550365",
+      "companyCode": "3030",
+      "companyName": "ハブ",
+      "disclosureDate": "2026-10-14",
+      "title": "2027年２月期第２四半期（中間期）決算短信〔日本基準〕(非連結)",
+      "pdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261014/20261014550365.pdf"
     }
   ]
 }
