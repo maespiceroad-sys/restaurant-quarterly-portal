@@ -1,101 +1,24 @@
 {
   "summary": {
-    "generatedAt": "2026-10-17T04:04:58.381Z",
-    "startedAt": "2026-10-17T04:04:08.384Z",
+    "generatedAt": "2026-10-22T04:23:30.011Z",
+    "startedAt": "2026-10-22T04:22:43.160Z",
     "companyCount": 50,
     "freshCompanyCount": 50,
     "cachedCompanyCount": 0,
     "configuredCompanyCount": 50,
     "totalReportCount": 200,
-    "newReportCount": 9,
+    "newReportCount": 0,
     "errorCount": 0,
     "source": "Yahoo!ファイナンス / TDnet（予備: 株探）",
     "publicSiteUrl": "https://maespiceroad-sys.github.io/restaurant-quarterly-portal/",
     "hostedPdfs": true,
-    "nextScheduledCheckAt": "2026-10-22T04:04:58.381Z",
+    "nextScheduledCheckAt": "2026-10-27T04:23:30.011Z",
     "maxReportsPerCompany": 4
   },
   "notification": {
-    "sent": true,
-    "accepted": [
-      "maespiceroad@gmail.com"
-    ],
-    "rejected": [],
-    "messageId": "<3ad97077-ce42-db57-d28b-8e49de8924b2@gmail.com>"
+    "sent": false,
+    "reason": "not requested"
   },
   "errors": [],
-  "newReports": [
-    {
-      "id": "7581-20261014-140120261012549130",
-      "companyCode": "7581",
-      "companyName": "サイゼリヤ",
-      "disclosureDate": "2026-10-14",
-      "title": "2026年8月期 決算短信〔日本基準〕（連結）",
-      "pdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261014/20261012549130.pdf"
-    },
-    {
-      "id": "3543-20261014-140120261014550540",
-      "companyCode": "3543",
-      "companyName": "コメダホールディングス",
-      "disclosureDate": "2026-10-14",
-      "title": "2027年２月期 第２四半期（中間期）決算短信〔ＩＦＲＳ〕（連結）",
-      "pdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261014/20261014550540.pdf"
-    },
-    {
-      "id": "9842-20261013-140120261012549153",
-      "companyCode": "9842",
-      "companyName": "アークランズ",
-      "disclosureDate": "2026-10-13",
-      "title": "2027年２月期 第２四半期（中間期）決算短信〔日本基準〕（連結）",
-      "pdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261013/20261012549153.pdf"
-    },
-    {
-      "id": "3387-20261014-140120261006546313",
-      "companyCode": "3387",
-      "companyName": "クリエイト・レストランツ・ホールディングス",
-      "disclosureDate": "2026-10-14",
-      "title": "2027年２月期第２四半期（中間期）決算短信〔ＩＦＲＳ〕（連結）",
-      "pdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261014/20261006546313.pdf"
-    },
-    {
-      "id": "9979-20261015-140120261015551476",
-      "companyCode": "9979",
-      "companyName": "大庄",
-      "disclosureDate": "2026-10-15",
-      "title": "2026年8月期決算短信〔日本基準〕（連結）",
-      "pdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261015/20261015551476.pdf"
-    },
-    {
-      "id": "3557-20261015-140120261015551814",
-      "companyCode": "3557",
-      "companyName": "ユナイテッド＆コレクティブ",
-      "disclosureDate": "2026-10-15",
-      "title": "2027年２月期 第２四半期（中間期）決算短信［日本基準］（非連結）",
-      "pdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261015/20261015551814.pdf"
-    },
-    {
-      "id": "3075-20261014-140120261013549977",
-      "companyCode": "3075",
-      "companyName": "銚子丸",
-      "disclosureDate": "2026-10-14",
-      "title": "2027年２月期 第２四半期（中間期）決算短信［日本基準］（非連結）",
-      "pdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261014/20261013549977.pdf"
-    },
-    {
-      "id": "2882-20261014-140120261014550244",
-      "companyCode": "2882",
-      "companyName": "イートアンドホールディングス",
-      "disclosureDate": "2026-10-14",
-      "title": "2027年２月期第２四半期（中間期）決算短信〔日本基準〕(連結)",
-      "pdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261014/20261014550244.pdf"
-    },
-    {
-      "id": "3030-20261014-140120261014550365",
-      "companyCode": "3030",
-      "companyName": "ハブ",
-      "disclosureDate": "2026-10-14",
-      "title": "2027年２月期第２四半期（中間期）決算短信〔日本基準〕(非連結)",
-      "pdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261014/20261014550365.pdf"
-    }
-  ]
+  "newReports": []
 }
