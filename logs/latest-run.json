@@ -1,7 +1,7 @@
 {
   "summary": {
-    "generatedAt": "2026-10-22T04:23:30.011Z",
-    "startedAt": "2026-10-22T04:22:43.160Z",
+    "generatedAt": "2026-10-27T04:44:40.827Z",
+    "startedAt": "2026-10-27T04:43:52.996Z",
     "companyCount": 50,
     "freshCompanyCount": 50,
     "cachedCompanyCount": 0,
@@ -12,7 +12,7 @@
     "source": "Yahoo!ファイナンス / TDnet（予備: 株探）",
     "publicSiteUrl": "https://maespiceroad-sys.github.io/restaurant-quarterly-portal/",
     "hostedPdfs": true,
-    "nextScheduledCheckAt": "2026-10-27T04:23:30.011Z",
+    "nextScheduledCheckAt": "2026-11-01T04:44:40.827Z",
     "maxReportsPerCompany": 4
   },
   "notification": {

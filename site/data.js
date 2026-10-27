@@ -1,7 +1,7 @@
 window.__REPORT_DATA__ = {
   "summary": {
-    "generatedAt": "2026-10-22T04:23:30.011Z",
-    "startedAt": "2026-10-22T04:22:43.160Z",
+    "generatedAt": "2026-10-27T04:44:40.827Z",
+    "startedAt": "2026-10-27T04:43:52.996Z",
     "companyCount": 50,
     "freshCompanyCount": 50,
     "cachedCompanyCount": 0,
@@ -12,7 +12,7 @@ window.__REPORT_DATA__ = {
     "source": "Yahoo!ファイナンス / TDnet（予備: 株探）",
     "publicSiteUrl": "https://maespiceroad-sys.github.io/restaurant-quarterly-portal/",
     "hostedPdfs": true,
-    "nextScheduledCheckAt": "2026-10-27T04:23:30.011Z",
+    "nextScheduledCheckAt": "2026-11-01T04:44:40.827Z",
     "maxReportsPerCompany": 4
   },
   "latestRows": [
@@ -835,7 +835,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-22T04:22:44.628Z",
+      "fetchedAt": "2026-10-27T04:43:54.425Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(255 70% 60%)",
@@ -904,7 +904,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-22T04:22:46.088Z",
+      "fetchedAt": "2026-10-27T04:43:56.073Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(114 70% 60%)",
@@ -972,7 +972,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-22T04:22:47.207Z",
+      "fetchedAt": "2026-10-27T04:43:57.198Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(71 70% 60%)",
@@ -1039,7 +1039,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-22T04:22:47.912Z",
+      "fetchedAt": "2026-10-27T04:43:57.840Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(92 70% 60%)",
@@ -1105,7 +1105,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-22T04:22:48.806Z",
+      "fetchedAt": "2026-10-27T04:43:58.862Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(11 70% 60%)",
@@ -1172,7 +1172,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-22T04:22:49.755Z",
+      "fetchedAt": "2026-10-27T04:43:59.839Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(91 70% 60%)",
@@ -1239,7 +1239,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-22T04:22:50.334Z",
+      "fetchedAt": "2026-10-27T04:44:00.452Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(25 70% 60%)",
@@ -1307,7 +1307,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-22T04:22:51.717Z",
+      "fetchedAt": "2026-10-27T04:44:01.807Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(59 70% 60%)",
@@ -1373,7 +1373,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-22T04:22:52.454Z",
+      "fetchedAt": "2026-10-27T04:44:02.500Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(219 70% 60%)",
@@ -1439,7 +1439,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-22T04:22:54.533Z",
+      "fetchedAt": "2026-10-27T04:44:04.898Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(72 70% 60%)",
@@ -1506,7 +1506,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-22T04:22:55.478Z",
+      "fetchedAt": "2026-10-27T04:44:05.921Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(65 70% 60%)",
@@ -1572,7 +1572,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-22T04:22:56.400Z",
+      "fetchedAt": "2026-10-27T04:44:07.061Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(241 70% 60%)",
@@ -1639,7 +1639,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-22T04:22:57.349Z",
+      "fetchedAt": "2026-10-27T04:44:08.112Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(149 70% 60%)",
@@ -1707,7 +1707,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-22T04:22:58.368Z",
+      "fetchedAt": "2026-10-27T04:44:09.247Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(103 70% 60%)",
@@ -1773,7 +1773,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-22T04:22:58.958Z",
+      "fetchedAt": "2026-10-27T04:44:09.852Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(251 70% 60%)",
@@ -1840,7 +1840,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-22T04:22:59.611Z",
+      "fetchedAt": "2026-10-27T04:44:10.467Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(225 70% 60%)",
@@ -1906,7 +1906,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-22T04:23:00.247Z",
+      "fetchedAt": "2026-10-27T04:44:11.106Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(185 70% 60%)",
@@ -1973,7 +1973,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-22T04:23:00.861Z",
+      "fetchedAt": "2026-10-27T04:44:11.764Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(137 70% 60%)",
@@ -2040,7 +2040,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-22T04:23:01.534Z",
+      "fetchedAt": "2026-10-27T04:44:12.401Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(108 70% 60%)",
@@ -2106,7 +2106,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-22T04:23:02.817Z",
+      "fetchedAt": "2026-10-27T04:44:13.759Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(14 70% 60%)",
@@ -2174,7 +2174,7 @@ window.__REPORT_DATA__ = {
       "comparison": "業態が近い",
       "comparisonNote": "東南アジア料理・都市型レストランの比較",
       "referenceUrl": "https://www.global-dining.com/",
-      "fetchedAt": "2026-10-22T04:23:03.470Z",
+      "fetchedAt": "2026-10-27T04:44:14.404Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(108 70% 60%)",
@@ -2242,7 +2242,7 @@ window.__REPORT_DATA__ = {
       "comparison": "業態が近い",
       "comparisonNote": "タイ料理ブランドの比較。決算はホームセンターを含む連結全体",
       "referenceUrl": "https://www.arclands.co.jp/ja/ir.html",
-      "fetchedAt": "2026-10-22T04:23:05.039Z",
+      "fetchedAt": "2026-10-27T04:44:15.709Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(240 70% 60%)",
@@ -2310,7 +2310,7 @@ window.__REPORT_DATA__ = {
       "comparison": "業態が近い",
       "comparisonNote": "アジア料理・商業施設出店・多業態運営の比較",
       "referenceUrl": "https://shop.create-restaurants.co.jp/cr2589/news/667/",
-      "fetchedAt": "2026-10-22T04:23:06.089Z",
+      "fetchedAt": "2026-10-27T04:44:16.672Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(74 70% 60%)",
@@ -2379,7 +2379,7 @@ window.__REPORT_DATA__ = {
       "comparison": "運営比較",
       "comparisonNote": "海外料理ブランド・多業態レストラン運営の比較",
       "referenceUrl": "https://www.wdi.co.jp/contact",
-      "fetchedAt": "2026-10-22T04:23:06.717Z",
+      "fetchedAt": "2026-10-27T04:44:17.279Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(245 70% 60%)",
@@ -2447,7 +2447,7 @@ window.__REPORT_DATA__ = {
       "comparison": "参考比較",
       "comparisonNote": "ティーヌン運営業態の参考比較。独立した直接競合として扱わない",
       "referenceUrl": "https://gourmet-kineya.co.jp/index.php/brands/menu/37",
-      "fetchedAt": "2026-10-22T04:23:07.726Z",
+      "fetchedAt": "2026-10-27T04:44:18.218Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(184 70% 60%)",
@@ -2513,7 +2513,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-22T04:23:08.335Z",
+      "fetchedAt": "2026-10-27T04:44:18.825Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(46 70% 60%)",
@@ -2580,7 +2580,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-22T04:23:09.248Z",
+      "fetchedAt": "2026-10-27T04:44:19.842Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(180 70% 60%)",
@@ -2647,7 +2647,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-22T04:23:10.228Z",
+      "fetchedAt": "2026-10-27T04:44:20.842Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(208 70% 60%)",
@@ -2715,7 +2715,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-22T04:23:10.822Z",
+      "fetchedAt": "2026-10-27T04:44:21.460Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(207 70% 60%)",
@@ -2782,7 +2782,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-22T04:23:11.780Z",
+      "fetchedAt": "2026-10-27T04:44:22.545Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(206 70% 60%)",
@@ -2849,7 +2849,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-22T04:23:12.623Z",
+      "fetchedAt": "2026-10-27T04:44:23.204Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(18 70% 60%)",
@@ -2916,7 +2916,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-22T04:23:13.576Z",
+      "fetchedAt": "2026-10-27T04:44:24.461Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(104 70% 60%)",
@@ -2983,7 +2983,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-22T04:23:14.139Z",
+      "fetchedAt": "2026-10-27T04:44:25.158Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(186 70% 60%)",
@@ -3050,7 +3050,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-22T04:23:15.115Z",
+      "fetchedAt": "2026-10-27T04:44:26.201Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(81 70% 60%)",
@@ -3117,7 +3117,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-22T04:23:16.483Z",
+      "fetchedAt": "2026-10-27T04:44:27.610Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(245 70% 60%)",
@@ -3183,7 +3183,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-22T04:23:17.070Z",
+      "fetchedAt": "2026-10-27T04:44:28.382Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(162 70% 60%)",
@@ -3251,7 +3251,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-22T04:23:17.669Z",
+      "fetchedAt": "2026-10-27T04:44:29.019Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(235 70% 60%)",
@@ -3318,7 +3318,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-22T04:23:18.553Z",
+      "fetchedAt": "2026-10-27T04:44:29.696Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(168 70% 60%)",
@@ -3385,7 +3385,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-22T04:23:19.641Z",
+      "fetchedAt": "2026-10-27T04:44:30.734Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(178 70% 60%)",
@@ -3452,7 +3452,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-22T04:23:20.570Z",
+      "fetchedAt": "2026-10-27T04:44:31.776Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(46 70% 60%)",
@@ -3519,7 +3519,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-22T04:23:21.163Z",
+      "fetchedAt": "2026-10-27T04:44:32.402Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(177 70% 60%)",
@@ -3586,7 +3586,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-22T04:23:21.754Z",
+      "fetchedAt": "2026-10-27T04:44:33.040Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(254 70% 60%)",
@@ -3652,7 +3652,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-22T04:23:22.676Z",
+      "fetchedAt": "2026-10-27T04:44:34.049Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(87 70% 60%)",
@@ -3718,7 +3718,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-22T04:23:24.156Z",
+      "fetchedAt": "2026-10-27T04:44:35.079Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(4 70% 60%)",
@@ -3786,7 +3786,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-22T04:23:24.749Z",
+      "fetchedAt": "2026-10-27T04:44:35.763Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(21 70% 60%)",
@@ -3853,7 +3853,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-22T04:23:26.196Z",
+      "fetchedAt": "2026-10-27T04:44:37.270Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(252 70% 60%)",
@@ -3919,7 +3919,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-22T04:23:27.311Z",
+      "fetchedAt": "2026-10-27T04:44:38.263Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(44 70% 60%)",
@@ -3985,7 +3985,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-22T04:23:27.929Z",
+      "fetchedAt": "2026-10-27T04:44:38.879Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(23 70% 60%)",
@@ -4052,7 +4052,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-22T04:23:29.139Z",
+      "fetchedAt": "2026-10-27T04:44:39.929Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(72 70% 60%)",
@@ -4119,7 +4119,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-10-22T04:23:29.747Z",
+      "fetchedAt": "2026-10-27T04:44:40.553Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(45 70% 60%)",
