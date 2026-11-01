@@ -1,24 +1,53 @@
 {
   "summary": {
-    "generatedAt": "2026-10-27T04:44:40.827Z",
-    "startedAt": "2026-10-27T04:43:52.996Z",
+    "generatedAt": "2026-11-01T05:43:32.587Z",
+    "startedAt": "2026-11-01T05:42:43.398Z",
     "companyCount": 50,
     "freshCompanyCount": 50,
     "cachedCompanyCount": 0,
     "configuredCompanyCount": 50,
     "totalReportCount": 200,
-    "newReportCount": 0,
+    "newReportCount": 3,
     "errorCount": 0,
     "source": "Yahoo!ファイナンス / TDnet（予備: 株探）",
     "publicSiteUrl": "https://maespiceroad-sys.github.io/restaurant-quarterly-portal/",
     "hostedPdfs": true,
-    "nextScheduledCheckAt": "2026-11-01T04:44:40.827Z",
+    "nextScheduledCheckAt": "2026-11-06T05:43:32.587Z",
     "maxReportsPerCompany": 4
   },
   "notification": {
-    "sent": false,
-    "reason": "not requested"
+    "sent": true,
+    "accepted": [
+      "maespiceroad@gmail.com"
+    ],
+    "rejected": [],
+    "messageId": "<fbcb0b87-5a90-9c85-3a29-9ef47147ebda@gmail.com>"
   },
   "errors": [],
-  "newReports": []
+  "newReports": [
+    {
+      "id": "9936-20261030-140120261019553137",
+      "companyCode": "9936",
+      "companyName": "王将フードサービス",
+      "disclosureDate": "2026-10-30",
+      "title": "2027年3月期第2四半期（中間期）決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261030/20261019553137.pdf"
+    },
+    {
+      "id": "7625-20261030-140120261029559307",
+      "companyCode": "7625",
+      "companyName": "グローバルダイニング",
+      "disclosureDate": "2026-10-30",
+      "title": "2026年12月期 第３四半期決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261030/20261029559307.pdf"
+    },
+    {
+      "id": "9828-20261030-140120261030560502",
+      "companyCode": "9828",
+      "companyName": "Genki Global Dining Concepts",
+      "disclosureDate": "2026-10-30",
+      "title": "2027年3月期第２四半期（中間期）決算短信〔日本基準〕(連結)",
+      "pdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261030/20261030560502.pdf"
+    }
+  ]
 }
