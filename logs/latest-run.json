@@ -1,18 +1,18 @@
 {
   "summary": {
-    "generatedAt": "2026-11-01T05:43:32.587Z",
-    "startedAt": "2026-11-01T05:42:43.398Z",
+    "generatedAt": "2026-11-06T06:14:57.523Z",
+    "startedAt": "2026-11-06T06:14:06.609Z",
     "companyCount": 50,
     "freshCompanyCount": 50,
     "cachedCompanyCount": 0,
     "configuredCompanyCount": 50,
     "totalReportCount": 200,
-    "newReportCount": 3,
+    "newReportCount": 2,
     "errorCount": 0,
     "source": "Yahoo!ファイナンス / TDnet（予備: 株探）",
     "publicSiteUrl": "https://maespiceroad-sys.github.io/restaurant-quarterly-portal/",
     "hostedPdfs": true,
-    "nextScheduledCheckAt": "2026-11-06T05:43:32.587Z",
+    "nextScheduledCheckAt": "2026-11-11T06:14:57.523Z",
     "maxReportsPerCompany": 4
   },
   "notification": {
@@ -21,33 +21,25 @@
       "maespiceroad@gmail.com"
     ],
     "rejected": [],
-    "messageId": "<fbcb0b87-5a90-9c85-3a29-9ef47147ebda@gmail.com>"
+    "messageId": "<cd500e4d-f802-c88c-e2b2-cb70947a0525@gmail.com>"
   },
   "errors": [],
   "newReports": [
     {
-      "id": "9936-20261030-140120261019553137",
-      "companyCode": "9936",
-      "companyName": "王将フードサービス",
-      "disclosureDate": "2026-10-30",
-      "title": "2027年3月期第2四半期（中間期）決算短信〔日本基準〕（連結）",
-      "pdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261030/20261019553137.pdf"
+      "id": "3563-20261106-140120261106566923",
+      "companyCode": "3563",
+      "companyName": "FOOD & LIFE COMPANIES",
+      "disclosureDate": "2026-11-06",
+      "title": "2026年９月期 決算短信〔ＩＦＲＳ〕（連結）",
+      "pdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261106/20261106566923.pdf"
     },
     {
-      "id": "7625-20261030-140120261029559307",
-      "companyCode": "7625",
-      "companyName": "グローバルダイニング",
-      "disclosureDate": "2026-10-30",
-      "title": "2026年12月期 第３四半期決算短信〔日本基準〕（連結）",
-      "pdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261030/20261029559307.pdf"
-    },
-    {
-      "id": "9828-20261030-140120261030560502",
-      "companyCode": "9828",
-      "companyName": "Genki Global Dining Concepts",
-      "disclosureDate": "2026-10-30",
-      "title": "2027年3月期第２四半期（中間期）決算短信〔日本基準〕(連結)",
-      "pdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261030/20261030560502.pdf"
+      "id": "9853-20261105-140120261103563386",
+      "companyCode": "9853",
+      "companyName": "銀座ルノアール",
+      "disclosureDate": "2026-11-05",
+      "title": "2027年３月期 第２四半期（中間期）決算短信〔日本基準〕(連結)",
+      "pdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261105/20261103563386.pdf"
     }
   ]
 }
