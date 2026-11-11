@@ -1,14 +1,14 @@
 {
   "summary": {
-    "generatedAt": "2026-11-06T06:14:57.523Z",
-    "startedAt": "2026-11-06T06:14:06.609Z",
+    "generatedAt": "2026-11-11T05:51:56.962Z",
+    "startedAt": "2026-11-11T05:50:51.518Z",
     "companyCount": 50,
-    "freshCompanyCount": 50,
-    "cachedCompanyCount": 0,
+    "freshCompanyCount": 47,
+    "cachedCompanyCount": 3,
     "configuredCompanyCount": 50,
     "totalReportCount": 200,
-    "newReportCount": 2,
-    "errorCount": 0,
+    "newReportCount": 8,
+    "errorCount": 3,
     "source": "Yahoo!ファイナンス / TDnet（予備: 株探）",
     "publicSiteUrl": "https://maespiceroad-sys.github.io/restaurant-quarterly-portal/",
     "hostedPdfs": true,
@@ -21,25 +21,89 @@
       "maespiceroad@gmail.com"
     ],
     "rejected": [],
-    "messageId": "<cd500e4d-f802-c88c-e2b2-cb70947a0525@gmail.com>"
+    "messageId": "<9fa201ea-91d9-64a9-b5c2-4421209d2b0d@gmail.com>"
   },
-  "errors": [],
-  "newReports": [
+  "errors": [
     {
-      "id": "3563-20261106-140120261106566923",
-      "companyCode": "3563",
-      "companyName": "FOOD & LIFE COMPANIES",
-      "disclosureDate": "2026-11-06",
-      "title": "2026年９月期 決算短信〔ＩＦＲＳ〕（連結）",
-      "pdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261106/20261106566923.pdf"
+      "code": "3053",
+      "name": "ペッパーフードサービス",
+      "error": "Yahoo: 500 Internal Server Error; Kabutan: 405 Not Allowed"
     },
     {
-      "id": "9853-20261105-140120261103563386",
-      "companyCode": "9853",
-      "companyName": "銀座ルノアール",
-      "disclosureDate": "2026-11-05",
-      "title": "2027年３月期 第２四半期（中間期）決算短信〔日本基準〕(連結)",
-      "pdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261105/20261103563386.pdf"
+      "code": "8200",
+      "name": "リンガーハット",
+      "error": "Yahoo: 500 Internal Server Error; Kabutan: 405 Not Allowed"
+    },
+    {
+      "code": "3030",
+      "name": "ハブ",
+      "error": "Yahoo: 500 Internal Server Error; Kabutan: 405 Not Allowed"
+    }
+  ],
+  "newReports": [
+    {
+      "id": "7616-20261106-140120261106566958",
+      "companyCode": "7616",
+      "companyName": "コロワイド",
+      "disclosureDate": "2026-11-06",
+      "title": "2027年３月期 第２四半期（中間期）決算短信〔ＩＦＲＳ〕（連結）",
+      "pdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261106/20261106566958.pdf"
+    },
+    {
+      "id": "8163-20261109-140120261106567342",
+      "companyCode": "8163",
+      "companyName": "SRSホールディングス",
+      "disclosureDate": "2026-11-09",
+      "title": "令和9年3月期 第2四半期（中間期）決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261109/20261106567342.pdf"
+    },
+    {
+      "id": "7412-20261106-140120261105565889",
+      "companyCode": "7412",
+      "companyName": "アトム",
+      "disclosureDate": "2026-11-06",
+      "title": "2027年３月期 第２四半期（中間期）決算短信〔日本基準〕（非連結）",
+      "pdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261106/20261105565889.pdf"
+    },
+    {
+      "id": "7421-20261106-140120261106567114",
+      "companyCode": "7421",
+      "companyName": "カッパ・クリエイト",
+      "disclosureDate": "2026-11-06",
+      "title": "2027年３月期 第２四半期（中間期）決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261106/20261106567114.pdf"
+    },
+    {
+      "id": "8160-20261110-140120261109568892",
+      "companyCode": "8160",
+      "companyName": "木曽路",
+      "disclosureDate": "2026-11-10",
+      "title": "2027年3月期 第2四半期（中間期）決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261110/20261109568892.pdf"
+    },
+    {
+      "id": "2702-20261110-140120261110570970",
+      "companyCode": "2702",
+      "companyName": "日本マクドナルドホールディングス",
+      "disclosureDate": "2026-11-10",
+      "title": "2026年12月期 第３四半期決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261110/20261110570970.pdf"
+    },
+    {
+      "id": "3221-20261106-140120261106567441",
+      "companyCode": "3221",
+      "companyName": "ヨシックスホールディングス",
+      "disclosureDate": "2026-11-06",
+      "title": "2027年３月期第２四半期（中間期）決算短信〔日本基準〕(連結)",
+      "pdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261106/20261106567441.pdf"
+    },
+    {
+      "id": "3317-20261109-140120260929541874",
+      "companyCode": "3317",
+      "companyName": "フライングガーデン",
+      "disclosureDate": "2026-11-09",
+      "title": "2027年３月期 第２四半期（中間期）決算短信［日本基準］（非連結）",
+      "pdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261109/20260929541874.pdf"
     }
   ]
 }
