@@ -1,21 +1,184 @@
 window.__REPORT_DATA__ = {
   "summary": {
-    "generatedAt": "2026-11-12T06:56:10.238Z",
-    "startedAt": "2026-11-12T06:55:22.739Z",
+    "generatedAt": "2026-11-17T07:40:03.525Z",
+    "startedAt": "2026-11-17T07:39:19.523Z",
     "companyCount": 50,
     "freshCompanyCount": 50,
     "cachedCompanyCount": 0,
     "configuredCompanyCount": 50,
     "totalReportCount": 200,
-    "newReportCount": 6,
+    "newReportCount": 11,
     "errorCount": 0,
     "source": "Yahoo!ファイナンス / TDnet（予備: 株探）",
     "publicSiteUrl": "https://maespiceroad-sys.github.io/restaurant-quarterly-portal/",
     "hostedPdfs": true,
-    "nextScheduledCheckAt": "2026-11-17T06:56:10.238Z",
+    "nextScheduledCheckAt": "2026-11-22T07:40:03.525Z",
     "maxReportsPerCompany": 4
   },
   "latestRows": [
+    {
+      "code": "8179",
+      "name": "ロイヤルホールディングス",
+      "market": "東証プライム",
+      "brands": [
+        "ロイヤルホスト",
+        "天丼てんや"
+      ],
+      "comparison": "全体比較",
+      "dataStatus": "fresh",
+      "latestDisclosureDate": "2026-11-16",
+      "latestReportTitle": "2026年12月期 第３四半期決算短信〔日本基準〕（連結）",
+      "latestReportPdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261116/20261113578006.pdf",
+      "latestLocalPdfPath": "assets/pdfs/8179/20261116_140120261113578006.pdf",
+      "preferredPdfUrl": "assets/pdfs/8179/20261116_140120261113578006.pdf"
+    },
+    {
+      "code": "3397",
+      "name": "トリドールホールディングス",
+      "market": "東証プライム",
+      "brands": [
+        "丸亀製麺",
+        "コナズ珈琲"
+      ],
+      "comparison": "全体比較",
+      "dataStatus": "fresh",
+      "latestDisclosureDate": "2026-11-13",
+      "latestReportTitle": "2027年３月期 第２四半期（中間期）決算短信〔ＩＦＲＳ〕（連結）",
+      "latestReportPdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261113/20261112576510.pdf",
+      "latestLocalPdfPath": "assets/pdfs/3397/20261113_140120261112576510.pdf",
+      "preferredPdfUrl": "assets/pdfs/3397/20261113_140120261112576510.pdf"
+    },
+    {
+      "code": "3097",
+      "name": "物語コーポレーション",
+      "market": "東証プライム",
+      "brands": [
+        "焼肉きんぐ",
+        "丸源ラーメン",
+        "ゆず庵"
+      ],
+      "comparison": "全体比較",
+      "dataStatus": "fresh",
+      "latestDisclosureDate": "2026-11-13",
+      "latestReportTitle": "2027年６月期 第１四半期決算短信〔日本基準〕（連結）",
+      "latestReportPdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261113/20261113577839.pdf",
+      "latestLocalPdfPath": "assets/pdfs/3097/20261113_140120261113577839.pdf",
+      "preferredPdfUrl": "assets/pdfs/3097/20261113_140120261113577839.pdf"
+    },
+    {
+      "code": "7522",
+      "name": "ワタミ",
+      "market": "東証プライム",
+      "brands": [
+        "鳥メロ",
+        "焼肉の和民",
+        "サブウェイ国内運営"
+      ],
+      "comparison": "全体比較",
+      "dataStatus": "fresh",
+      "latestDisclosureDate": "2026-11-13",
+      "latestReportTitle": "2027年３月期 第２四半期決算短信〔日本基準〕（連結）",
+      "latestReportPdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261113/20261113580290.pdf",
+      "latestLocalPdfPath": "assets/pdfs/7522/20261113_140120261113580290.pdf",
+      "preferredPdfUrl": "assets/pdfs/7522/20261113_140120261113580290.pdf"
+    },
+    {
+      "code": "3196",
+      "name": "ホットランドホールディングス",
+      "market": "東証プライム",
+      "brands": [
+        "築地銀だこ",
+        "銀のあん"
+      ],
+      "comparison": "全体比較",
+      "dataStatus": "fresh",
+      "latestDisclosureDate": "2026-11-13",
+      "latestReportTitle": "2026年12月期 第３四半期決算短信〔日本基準〕（連結）",
+      "latestReportPdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261113/20261113579762.pdf",
+      "latestLocalPdfPath": "assets/pdfs/3196/20261113_140120261113579762.pdf",
+      "preferredPdfUrl": "assets/pdfs/3196/20261113_140120261113579762.pdf"
+    },
+    {
+      "code": "3175",
+      "name": "エー・ピーホールディングス",
+      "market": "東証スタンダード",
+      "brands": [
+        "塚田農場",
+        "四十八漁場"
+      ],
+      "comparison": "全体比較",
+      "dataStatus": "fresh",
+      "latestDisclosureDate": "2026-11-13",
+      "latestReportTitle": "2027年３月期第２四半期（中間期）決算短信〔日本基準〕(連結)",
+      "latestReportPdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261113/20261113579175.pdf",
+      "latestLocalPdfPath": "assets/pdfs/3175/20261113_140120261113579175.pdf",
+      "preferredPdfUrl": "assets/pdfs/3175/20261113_140120261113579175.pdf"
+    },
+    {
+      "code": "2752",
+      "name": "フジオフードグループ本社",
+      "market": "東証プライム",
+      "brands": [
+        "まいどおおきに食堂",
+        "串家物語"
+      ],
+      "comparison": "全体比較",
+      "dataStatus": "fresh",
+      "latestDisclosureDate": "2026-11-13",
+      "latestReportTitle": "2026年12月期 第３四半期決算短信〔日本基準〕（連結）",
+      "latestReportPdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261113/20261113578809.pdf",
+      "latestLocalPdfPath": "assets/pdfs/2752/20261113_140120261113578809.pdf",
+      "preferredPdfUrl": "assets/pdfs/2752/20261113_140120261113578809.pdf"
+    },
+    {
+      "code": "3067",
+      "name": "東京一番フーズ",
+      "market": "東証スタンダード",
+      "brands": [
+        "とらふぐ亭",
+        "魚の飯"
+      ],
+      "comparison": "全体比較",
+      "dataStatus": "fresh",
+      "latestDisclosureDate": "2026-11-13",
+      "latestReportTitle": "令和８年９月期決算短信〔日本基準〕(連結)",
+      "latestReportPdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261113/20261113578101.pdf",
+      "latestLocalPdfPath": "assets/pdfs/3067/20261113_140120261113578101.pdf",
+      "preferredPdfUrl": "assets/pdfs/3067/20261113_140120261113578101.pdf"
+    },
+    {
+      "code": "3053",
+      "name": "ペッパーフードサービス",
+      "market": "東証スタンダード",
+      "brands": [
+        "いきなり！ステーキ"
+      ],
+      "comparison": "全体比較",
+      "dataStatus": "fresh",
+      "latestDisclosureDate": "2026-11-13",
+      "latestReportTitle": "2026年12月期 第３四半期決算短信〔日本基準〕（非連結）",
+      "latestReportPdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261113/20261113578838.pdf",
+      "latestLocalPdfPath": "assets/pdfs/3053/20261113_140120261113578838.pdf",
+      "preferredPdfUrl": "assets/pdfs/3053/20261113_140120261113578838.pdf"
+    },
+    {
+      "code": "7550",
+      "name": "ゼンショーホールディングス",
+      "market": "東証プライム",
+      "brands": [
+        "すき家",
+        "はま寿司",
+        "ココス",
+        "ビッグボーイ"
+      ],
+      "comparison": "全体比較",
+      "dataStatus": "fresh",
+      "latestDisclosureDate": "2026-11-12",
+      "latestReportTitle": "2027年３月期 第２四半期（中間期）決算短信〔日本基準〕(連結)",
+      "latestReportPdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261112/20261111573522.pdf",
+      "latestLocalPdfPath": "assets/pdfs/7550/20261112_140120261111573522.pdf",
+      "preferredPdfUrl": "assets/pdfs/7550/20261112_140120261111573522.pdf"
+    },
     {
       "code": "3197",
       "name": "すかいらーくホールディングス",
@@ -67,6 +230,23 @@ window.__REPORT_DATA__ = {
       "latestReportPdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261112/20261111574508.pdf",
       "latestLocalPdfPath": "assets/pdfs/3068/20261112_140120261111574508.pdf",
       "preferredPdfUrl": "assets/pdfs/3068/20261112_140120261111574508.pdf"
+    },
+    {
+      "code": "8207",
+      "name": "テンアライド",
+      "market": "東証スタンダード",
+      "brands": [
+        "天狗",
+        "神田屋",
+        "てんぐ大ホール"
+      ],
+      "comparison": "全体比較",
+      "dataStatus": "fresh",
+      "latestDisclosureDate": "2026-11-12",
+      "latestReportTitle": "2027年3月期 第2四半期（中間期）決算短信〔日本基準〕（連結）",
+      "latestReportPdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261112/20261020553403.pdf",
+      "latestLocalPdfPath": "assets/pdfs/8207/20261112_140120261020553403.pdf",
+      "preferredPdfUrl": "assets/pdfs/8207/20261112_140120261020553403.pdf"
     },
     {
       "code": "7554",
@@ -638,186 +818,6 @@ window.__REPORT_DATA__ = {
       "latestReportPdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20260910/20260909533554.pdf",
       "latestLocalPdfPath": "assets/pdfs/7682/20260910_140120260909533554.pdf",
       "preferredPdfUrl": "assets/pdfs/7682/20260910_140120260909533554.pdf"
-    },
-    {
-      "code": "3397",
-      "name": "トリドールホールディングス",
-      "market": "東証プライム",
-      "brands": [
-        "丸亀製麺",
-        "コナズ珈琲"
-      ],
-      "comparison": "全体比較",
-      "dataStatus": "fresh",
-      "latestDisclosureDate": "2026-08-14",
-      "latestReportTitle": "2027年３月期 第１四半期決算短信〔ＩＦＲＳ〕（連結）",
-      "latestReportPdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20260814/20260813519608.pdf",
-      "latestLocalPdfPath": "assets/pdfs/3397/20260814_140120260813519608.pdf",
-      "preferredPdfUrl": "assets/pdfs/3397/20260814_140120260813519608.pdf"
-    },
-    {
-      "code": "7522",
-      "name": "ワタミ",
-      "market": "東証プライム",
-      "brands": [
-        "鳥メロ",
-        "焼肉の和民",
-        "サブウェイ国内運営"
-      ],
-      "comparison": "全体比較",
-      "dataStatus": "fresh",
-      "latestDisclosureDate": "2026-08-14",
-      "latestReportTitle": "2027年３月期 第１四半期決算短信〔日本基準〕（連結）",
-      "latestReportPdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20260814/20260814520278.pdf",
-      "latestLocalPdfPath": "assets/pdfs/7522/20260814_140120260814520278.pdf",
-      "preferredPdfUrl": "assets/pdfs/7522/20260814_140120260814520278.pdf"
-    },
-    {
-      "code": "3196",
-      "name": "ホットランドホールディングス",
-      "market": "東証プライム",
-      "brands": [
-        "築地銀だこ",
-        "銀のあん"
-      ],
-      "comparison": "全体比較",
-      "dataStatus": "fresh",
-      "latestDisclosureDate": "2026-08-14",
-      "latestReportTitle": "2026年12月期 第２四半期（中間期）決算短信〔日本基準〕（連結）",
-      "latestReportPdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20260814/20260814521000.pdf",
-      "latestLocalPdfPath": "assets/pdfs/3196/20260814_140120260814521000.pdf",
-      "preferredPdfUrl": "assets/pdfs/3196/20260814_140120260814521000.pdf"
-    },
-    {
-      "code": "3175",
-      "name": "エー・ピーホールディングス",
-      "market": "東証スタンダード",
-      "brands": [
-        "塚田農場",
-        "四十八漁場"
-      ],
-      "comparison": "全体比較",
-      "dataStatus": "fresh",
-      "latestDisclosureDate": "2026-08-14",
-      "latestReportTitle": "2027年３月期第１四半期決算短信〔日本基準〕(連結)",
-      "latestReportPdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20260814/20260814521032.pdf",
-      "latestLocalPdfPath": "assets/pdfs/3175/20260814_140120260814521032.pdf",
-      "preferredPdfUrl": "assets/pdfs/3175/20260814_140120260814521032.pdf"
-    },
-    {
-      "code": "3067",
-      "name": "東京一番フーズ",
-      "market": "東証スタンダード",
-      "brands": [
-        "とらふぐ亭",
-        "魚の飯"
-      ],
-      "comparison": "全体比較",
-      "dataStatus": "fresh",
-      "latestDisclosureDate": "2026-08-14",
-      "latestReportTitle": "令和８年９月期 第３四半期決算短信〔日本基準〕(連結)",
-      "latestReportPdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20260814/20260814520998.pdf",
-      "latestLocalPdfPath": "assets/pdfs/3067/20260814_140120260814520998.pdf",
-      "preferredPdfUrl": "assets/pdfs/3067/20260814_140120260814520998.pdf"
-    },
-    {
-      "code": "3053",
-      "name": "ペッパーフードサービス",
-      "market": "東証スタンダード",
-      "brands": [
-        "いきなり！ステーキ"
-      ],
-      "comparison": "全体比較",
-      "dataStatus": "fresh",
-      "latestDisclosureDate": "2026-08-14",
-      "latestReportTitle": "2026年12月期 第２四半期（中間期）決算短信〔日本基準〕（非連結）",
-      "latestReportPdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20260814/20260814521036.pdf",
-      "latestLocalPdfPath": "assets/pdfs/3053/20260814_140120260814521036.pdf",
-      "preferredPdfUrl": "assets/pdfs/3053/20260814_140120260814521036.pdf"
-    },
-    {
-      "code": "3097",
-      "name": "物語コーポレーション",
-      "market": "東証プライム",
-      "brands": [
-        "焼肉きんぐ",
-        "丸源ラーメン",
-        "ゆず庵"
-      ],
-      "comparison": "全体比較",
-      "dataStatus": "fresh",
-      "latestDisclosureDate": "2026-08-10",
-      "latestReportTitle": "2026年６月期 決算短信〔日本基準〕（連結）",
-      "latestReportPdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20260810/20260810516706.pdf",
-      "latestLocalPdfPath": "assets/pdfs/3097/20260810_140120260810516706.pdf",
-      "preferredPdfUrl": "assets/pdfs/3097/20260810_140120260810516706.pdf"
-    },
-    {
-      "code": "2752",
-      "name": "フジオフードグループ本社",
-      "market": "東証プライム",
-      "brands": [
-        "まいどおおきに食堂",
-        "串家物語"
-      ],
-      "comparison": "全体比較",
-      "dataStatus": "fresh",
-      "latestDisclosureDate": "2026-08-10",
-      "latestReportTitle": "2026年12月期 第２四半期（中間期）決算短信〔日本基準〕（連結）",
-      "latestReportPdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20260810/20260810516372.pdf",
-      "latestLocalPdfPath": "assets/pdfs/2752/20260810_140120260810516372.pdf",
-      "preferredPdfUrl": "assets/pdfs/2752/20260810_140120260810516372.pdf"
-    },
-    {
-      "code": "7550",
-      "name": "ゼンショーホールディングス",
-      "market": "東証プライム",
-      "brands": [
-        "すき家",
-        "はま寿司",
-        "ココス",
-        "ビッグボーイ"
-      ],
-      "comparison": "全体比較",
-      "dataStatus": "fresh",
-      "latestDisclosureDate": "2026-08-07",
-      "latestReportTitle": "2027年３月期 第１四半期決算短信〔日本基準〕(連結)",
-      "latestReportPdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20260807/20260805510591.pdf",
-      "latestLocalPdfPath": "assets/pdfs/7550/20260807_140120260805510591.pdf",
-      "preferredPdfUrl": "assets/pdfs/7550/20260807_140120260805510591.pdf"
-    },
-    {
-      "code": "8179",
-      "name": "ロイヤルホールディングス",
-      "market": "東証プライム",
-      "brands": [
-        "ロイヤルホスト",
-        "天丼てんや"
-      ],
-      "comparison": "全体比較",
-      "dataStatus": "fresh",
-      "latestDisclosureDate": "2026-08-07",
-      "latestReportTitle": "2026年12月期 第２四半期（中間期） 決算短信〔日本基準〕（連結）",
-      "latestReportPdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20260807/20260806511181.pdf",
-      "latestLocalPdfPath": "assets/pdfs/8179/20260807_140120260806511181.pdf",
-      "preferredPdfUrl": "assets/pdfs/8179/20260807_140120260806511181.pdf"
-    },
-    {
-      "code": "8207",
-      "name": "テンアライド",
-      "market": "東証スタンダード",
-      "brands": [
-        "天狗",
-        "神田屋",
-        "てんぐ大ホール"
-      ],
-      "comparison": "全体比較",
-      "dataStatus": "fresh",
-      "latestDisclosureDate": "2026-08-07",
-      "latestReportTitle": "2027年3月期 第1四半期決算短信〔日本基準〕（連結）",
-      "latestReportPdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20260807/20260724598896.pdf",
-      "latestLocalPdfPath": "assets/pdfs/8207/20260807_140120260724598896.pdf",
-      "preferredPdfUrl": "assets/pdfs/8207/20260807_140120260724598896.pdf"
     }
   ],
   "companies": [
@@ -835,15 +835,26 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-11-12T06:55:23.754Z",
+      "fetchedAt": "2026-11-17T07:39:20.560Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(255 70% 60%)",
         "colorB": "hsl(290 70% 48%)"
       },
       "disclosurePageUrl": "https://finance.yahoo.co.jp/quote/7550.T/disclosure",
-      "latestDisclosureDate": "2026-08-07",
+      "latestDisclosureDate": "2026-11-12",
       "reports": [
+        {
+          "id": "7550-20261112-140120261111573522",
+          "docId": "140120261111573522",
+          "rawDate": "20261112",
+          "disclosureDate": "2026-11-12",
+          "title": "2027年３月期 第２四半期（中間期）決算短信〔日本基準〕(連結)",
+          "pdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261112/20261111573522.pdf",
+          "detailUrl": "https://finance.yahoo.co.jp/quote/7550.T/disclosure",
+          "localPdfPath": "assets/pdfs/7550/20261112_140120261111573522.pdf",
+          "preferredPdfUrl": "assets/pdfs/7550/20261112_140120261111573522.pdf"
+        },
         {
           "id": "7550-20260807-140120260805510591",
           "docId": "140120260805510591",
@@ -876,17 +887,6 @@ window.__REPORT_DATA__ = {
           "detailUrl": "https://finance.yahoo.co.jp/quote/7550.T/disclosure",
           "localPdfPath": "assets/pdfs/7550/20260212_140120260209551979.pdf",
           "preferredPdfUrl": "assets/pdfs/7550/20260212_140120260209551979.pdf"
-        },
-        {
-          "id": "7550-20251111-140120251110594717",
-          "docId": "140120251110594717",
-          "rawDate": "20251111",
-          "disclosureDate": "2025-11-11",
-          "title": "2026年３月期 第２四半期（中間期）決算短信〔日本基準〕(連結)",
-          "pdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20251111/20251110594717.pdf",
-          "detailUrl": "https://finance.yahoo.co.jp/quote/7550.T/disclosure",
-          "localPdfPath": "assets/pdfs/7550/20251111_140120251110594717.pdf",
-          "preferredPdfUrl": "assets/pdfs/7550/20251111_140120251110594717.pdf"
         }
       ]
     },
@@ -904,7 +904,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-11-12T06:55:24.940Z",
+      "fetchedAt": "2026-11-17T07:39:21.645Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(114 70% 60%)",
@@ -972,7 +972,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-11-12T06:55:25.820Z",
+      "fetchedAt": "2026-11-17T07:39:22.500Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(71 70% 60%)",
@@ -1039,15 +1039,26 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-11-12T06:55:26.370Z",
+      "fetchedAt": "2026-11-17T07:39:23.048Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(92 70% 60%)",
         "colorB": "hsl(127 70% 48%)"
       },
       "disclosurePageUrl": "https://finance.yahoo.co.jp/quote/3397.T/disclosure",
-      "latestDisclosureDate": "2026-08-14",
+      "latestDisclosureDate": "2026-11-13",
       "reports": [
+        {
+          "id": "3397-20261113-140120261112576510",
+          "docId": "140120261112576510",
+          "rawDate": "20261113",
+          "disclosureDate": "2026-11-13",
+          "title": "2027年３月期 第２四半期（中間期）決算短信〔ＩＦＲＳ〕（連結）",
+          "pdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261113/20261112576510.pdf",
+          "detailUrl": "https://finance.yahoo.co.jp/quote/3397.T/disclosure",
+          "localPdfPath": "assets/pdfs/3397/20261113_140120261112576510.pdf",
+          "preferredPdfUrl": "assets/pdfs/3397/20261113_140120261112576510.pdf"
+        },
         {
           "id": "3397-20260814-140120260813519608",
           "docId": "140120260813519608",
@@ -1080,17 +1091,6 @@ window.__REPORT_DATA__ = {
           "detailUrl": "https://finance.yahoo.co.jp/quote/3397.T/disclosure",
           "localPdfPath": "assets/pdfs/3397/20260213_140120260213559629.pdf",
           "preferredPdfUrl": "assets/pdfs/3397/20260213_140120260213559629.pdf"
-        },
-        {
-          "id": "3397-20251114-140120251114502038",
-          "docId": "140120251114502038",
-          "rawDate": "20251114",
-          "disclosureDate": "2025-11-14",
-          "title": "2026年３月期 第２四半期（中間期）決算短信〔ＩＦＲＳ〕（連結）",
-          "pdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20251114/20251114502038.pdf",
-          "detailUrl": "https://finance.yahoo.co.jp/quote/3397.T/disclosure",
-          "localPdfPath": "assets/pdfs/3397/20251114_140120251114502038.pdf",
-          "preferredPdfUrl": "assets/pdfs/3397/20251114_140120251114502038.pdf"
         }
       ]
     },
@@ -1105,7 +1105,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-11-12T06:55:27.683Z",
+      "fetchedAt": "2026-11-17T07:39:23.862Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(11 70% 60%)",
@@ -1172,7 +1172,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-11-12T06:55:28.573Z",
+      "fetchedAt": "2026-11-17T07:39:24.672Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(91 70% 60%)",
@@ -1239,7 +1239,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-11-12T06:55:29.141Z",
+      "fetchedAt": "2026-11-17T07:39:25.388Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(25 70% 60%)",
@@ -1307,15 +1307,26 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-11-12T06:55:30.337Z",
+      "fetchedAt": "2026-11-17T07:39:26.464Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(59 70% 60%)",
         "colorB": "hsl(94 70% 48%)"
       },
       "disclosurePageUrl": "https://finance.yahoo.co.jp/quote/3097.T/disclosure",
-      "latestDisclosureDate": "2026-08-10",
+      "latestDisclosureDate": "2026-11-13",
       "reports": [
+        {
+          "id": "3097-20261113-140120261113577839",
+          "docId": "140120261113577839",
+          "rawDate": "20261113",
+          "disclosureDate": "2026-11-13",
+          "title": "2027年６月期 第１四半期決算短信〔日本基準〕（連結）",
+          "pdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261113/20261113577839.pdf",
+          "detailUrl": "https://finance.yahoo.co.jp/quote/3097.T/disclosure",
+          "localPdfPath": "assets/pdfs/3097/20261113_140120261113577839.pdf",
+          "preferredPdfUrl": "assets/pdfs/3097/20261113_140120261113577839.pdf"
+        },
         {
           "id": "3097-20260810-140120260810516706",
           "docId": "140120260810516706",
@@ -1348,17 +1359,6 @@ window.__REPORT_DATA__ = {
           "detailUrl": "https://finance.yahoo.co.jp/quote/3097.T/disclosure",
           "localPdfPath": "assets/pdfs/3097/20260209_140120260209551874.pdf",
           "preferredPdfUrl": "assets/pdfs/3097/20260209_140120260209551874.pdf"
-        },
-        {
-          "id": "3097-20251107-140120251107591943",
-          "docId": "140120251107591943",
-          "rawDate": "20251107",
-          "disclosureDate": "2025-11-07",
-          "title": "2026年６月期 第１四半期決算短信〔日本基準〕（連結）",
-          "pdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20251107/20251107591943.pdf",
-          "detailUrl": "https://finance.yahoo.co.jp/quote/3097.T/disclosure",
-          "localPdfPath": "assets/pdfs/3097/20251107_140120251107591943.pdf",
-          "preferredPdfUrl": "assets/pdfs/3097/20251107_140120251107591943.pdf"
         }
       ]
     },
@@ -1373,7 +1373,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-11-12T06:55:30.889Z",
+      "fetchedAt": "2026-11-17T07:39:27.051Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(219 70% 60%)",
@@ -1439,7 +1439,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-11-12T06:55:32.429Z",
+      "fetchedAt": "2026-11-17T07:39:28.341Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(72 70% 60%)",
@@ -1506,7 +1506,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-11-12T06:55:33.280Z",
+      "fetchedAt": "2026-11-17T07:39:29.180Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(65 70% 60%)",
@@ -1572,7 +1572,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-11-12T06:55:34.448Z",
+      "fetchedAt": "2026-11-17T07:39:30.417Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(241 70% 60%)",
@@ -1639,7 +1639,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-11-12T06:55:35.354Z",
+      "fetchedAt": "2026-11-17T07:39:31.276Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(149 70% 60%)",
@@ -1707,15 +1707,26 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-11-12T06:55:36.192Z",
+      "fetchedAt": "2026-11-17T07:39:32.134Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(103 70% 60%)",
         "colorB": "hsl(138 70% 48%)"
       },
       "disclosurePageUrl": "https://finance.yahoo.co.jp/quote/7522.T/disclosure",
-      "latestDisclosureDate": "2026-08-14",
+      "latestDisclosureDate": "2026-11-13",
       "reports": [
+        {
+          "id": "7522-20261113-140120261113580290",
+          "docId": "140120261113580290",
+          "rawDate": "20261113",
+          "disclosureDate": "2026-11-13",
+          "title": "2027年３月期 第２四半期決算短信〔日本基準〕（連結）",
+          "pdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261113/20261113580290.pdf",
+          "detailUrl": "https://finance.yahoo.co.jp/quote/7522.T/disclosure",
+          "localPdfPath": "assets/pdfs/7522/20261113_140120261113580290.pdf",
+          "preferredPdfUrl": "assets/pdfs/7522/20261113_140120261113580290.pdf"
+        },
         {
           "id": "7522-20260814-140120260814520278",
           "docId": "140120260814520278",
@@ -1748,17 +1759,6 @@ window.__REPORT_DATA__ = {
           "detailUrl": "https://finance.yahoo.co.jp/quote/7522.T/disclosure",
           "localPdfPath": "assets/pdfs/7522/20260213_140120260213559998.pdf",
           "preferredPdfUrl": "assets/pdfs/7522/20260213_140120260213559998.pdf"
-        },
-        {
-          "id": "7522-20251112-140120251112597512",
-          "docId": "140120251112597512",
-          "rawDate": "20251112",
-          "disclosureDate": "2025-11-12",
-          "title": "2026年３月期 第２四半期（中間期）決算短信〔日本基準〕（連結）",
-          "pdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20251112/20251112597512.pdf",
-          "detailUrl": "https://finance.yahoo.co.jp/quote/7522.T/disclosure",
-          "localPdfPath": "assets/pdfs/7522/20251112_140120251112597512.pdf",
-          "preferredPdfUrl": "assets/pdfs/7522/20251112_140120251112597512.pdf"
         }
       ]
     },
@@ -1773,7 +1773,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-11-12T06:55:36.749Z",
+      "fetchedAt": "2026-11-17T07:39:32.639Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(251 70% 60%)",
@@ -1840,7 +1840,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-11-12T06:55:37.407Z",
+      "fetchedAt": "2026-11-17T07:39:33.175Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(225 70% 60%)",
@@ -1906,7 +1906,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-11-12T06:55:37.964Z",
+      "fetchedAt": "2026-11-17T07:39:33.751Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(185 70% 60%)",
@@ -1973,7 +1973,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-11-12T06:55:38.571Z",
+      "fetchedAt": "2026-11-17T07:39:34.298Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(137 70% 60%)",
@@ -2040,15 +2040,26 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-11-12T06:55:39.137Z",
+      "fetchedAt": "2026-11-17T07:39:34.870Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(108 70% 60%)",
         "colorB": "hsl(143 70% 48%)"
       },
       "disclosurePageUrl": "https://finance.yahoo.co.jp/quote/3196.T/disclosure",
-      "latestDisclosureDate": "2026-08-14",
+      "latestDisclosureDate": "2026-11-13",
       "reports": [
+        {
+          "id": "3196-20261113-140120261113579762",
+          "docId": "140120261113579762",
+          "rawDate": "20261113",
+          "disclosureDate": "2026-11-13",
+          "title": "2026年12月期 第３四半期決算短信〔日本基準〕（連結）",
+          "pdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261113/20261113579762.pdf",
+          "detailUrl": "https://finance.yahoo.co.jp/quote/3196.T/disclosure",
+          "localPdfPath": "assets/pdfs/3196/20261113_140120261113579762.pdf",
+          "preferredPdfUrl": "assets/pdfs/3196/20261113_140120261113579762.pdf"
+        },
         {
           "id": "3196-20260814-140120260814521000",
           "docId": "140120260814521000",
@@ -2081,17 +2092,6 @@ window.__REPORT_DATA__ = {
           "detailUrl": "https://finance.yahoo.co.jp/quote/3196.T/disclosure",
           "localPdfPath": "assets/pdfs/3196/20260213_140120260213561834.pdf",
           "preferredPdfUrl": "assets/pdfs/3196/20260213_140120260213561834.pdf"
-        },
-        {
-          "id": "3196-20251114-140120251114503775",
-          "docId": "140120251114503775",
-          "rawDate": "20251114",
-          "disclosureDate": "2025-11-14",
-          "title": "2025年12月期 第３四半期決算短信〔日本基準〕（連結）",
-          "pdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20251114/20251114503775.pdf",
-          "detailUrl": "https://finance.yahoo.co.jp/quote/3196.T/disclosure",
-          "localPdfPath": "assets/pdfs/3196/20251114_140120251114503775.pdf",
-          "preferredPdfUrl": "assets/pdfs/3196/20251114_140120251114503775.pdf"
         }
       ]
     },
@@ -2106,7 +2106,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-11-12T06:55:40.005Z",
+      "fetchedAt": "2026-11-17T07:39:35.730Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(14 70% 60%)",
@@ -2174,7 +2174,7 @@ window.__REPORT_DATA__ = {
       "comparison": "業態が近い",
       "comparisonNote": "東南アジア料理・都市型レストランの比較",
       "referenceUrl": "https://www.global-dining.com/",
-      "fetchedAt": "2026-11-12T06:55:40.603Z",
+      "fetchedAt": "2026-11-17T07:39:36.264Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(108 70% 60%)",
@@ -2242,7 +2242,7 @@ window.__REPORT_DATA__ = {
       "comparison": "業態が近い",
       "comparisonNote": "タイ料理ブランドの比較。決算はホームセンターを含む連結全体",
       "referenceUrl": "https://www.arclands.co.jp/ja/ir.html",
-      "fetchedAt": "2026-11-12T06:55:41.877Z",
+      "fetchedAt": "2026-11-17T07:39:37.371Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(240 70% 60%)",
@@ -2310,7 +2310,7 @@ window.__REPORT_DATA__ = {
       "comparison": "業態が近い",
       "comparisonNote": "アジア料理・商業施設出店・多業態運営の比較",
       "referenceUrl": "https://shop.create-restaurants.co.jp/cr2589/news/667/",
-      "fetchedAt": "2026-11-12T06:55:42.776Z",
+      "fetchedAt": "2026-11-17T07:39:38.256Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(74 70% 60%)",
@@ -2379,7 +2379,7 @@ window.__REPORT_DATA__ = {
       "comparison": "運営比較",
       "comparisonNote": "海外料理ブランド・多業態レストラン運営の比較",
       "referenceUrl": "https://www.wdi.co.jp/contact",
-      "fetchedAt": "2026-11-12T06:55:43.350Z",
+      "fetchedAt": "2026-11-17T07:39:38.830Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(245 70% 60%)",
@@ -2447,7 +2447,7 @@ window.__REPORT_DATA__ = {
       "comparison": "参考比較",
       "comparisonNote": "ティーヌン運営業態の参考比較。独立した直接競合として扱わない",
       "referenceUrl": "https://gourmet-kineya.co.jp/index.php/brands/menu/37",
-      "fetchedAt": "2026-11-12T06:55:44.218Z",
+      "fetchedAt": "2026-11-17T07:39:39.717Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(184 70% 60%)",
@@ -2513,7 +2513,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-11-12T06:55:44.808Z",
+      "fetchedAt": "2026-11-17T07:39:40.243Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(46 70% 60%)",
@@ -2580,15 +2580,26 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-11-12T06:55:45.718Z",
+      "fetchedAt": "2026-11-17T07:39:40.758Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(180 70% 60%)",
         "colorB": "hsl(215 70% 48%)"
       },
       "disclosurePageUrl": "https://finance.yahoo.co.jp/quote/8179.T/disclosure",
-      "latestDisclosureDate": "2026-08-07",
+      "latestDisclosureDate": "2026-11-16",
       "reports": [
+        {
+          "id": "8179-20261116-140120261113578006",
+          "docId": "140120261113578006",
+          "rawDate": "20261116",
+          "disclosureDate": "2026-11-16",
+          "title": "2026年12月期 第３四半期決算短信〔日本基準〕（連結）",
+          "pdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261116/20261113578006.pdf",
+          "detailUrl": "https://finance.yahoo.co.jp/quote/8179.T/disclosure",
+          "localPdfPath": "assets/pdfs/8179/20261116_140120261113578006.pdf",
+          "preferredPdfUrl": "assets/pdfs/8179/20261116_140120261113578006.pdf"
+        },
         {
           "id": "8179-20260807-140120260806511181",
           "docId": "140120260806511181",
@@ -2621,17 +2632,6 @@ window.__REPORT_DATA__ = {
           "detailUrl": "https://finance.yahoo.co.jp/quote/8179.T/disclosure",
           "localPdfPath": "assets/pdfs/8179/20260216_140120260212557935.pdf",
           "preferredPdfUrl": "assets/pdfs/8179/20260216_140120260212557935.pdf"
-        },
-        {
-          "id": "8179-20251113-140120251112597020",
-          "docId": "140120251112597020",
-          "rawDate": "20251113",
-          "disclosureDate": "2025-11-13",
-          "title": "2025年12月期 第３四半期 決算短信〔日本基準〕（連結）",
-          "pdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20251113/20251112597020.pdf",
-          "detailUrl": "https://finance.yahoo.co.jp/quote/8179.T/disclosure",
-          "localPdfPath": "assets/pdfs/8179/20251113_140120251112597020.pdf",
-          "preferredPdfUrl": "assets/pdfs/8179/20251113_140120251112597020.pdf"
         }
       ]
     },
@@ -2647,7 +2647,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-11-12T06:55:46.682Z",
+      "fetchedAt": "2026-11-17T07:39:41.549Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(208 70% 60%)",
@@ -2715,15 +2715,26 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-11-12T06:55:47.240Z",
+      "fetchedAt": "2026-11-17T07:39:42.076Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(207 70% 60%)",
         "colorB": "hsl(242 70% 48%)"
       },
       "disclosurePageUrl": "https://finance.yahoo.co.jp/quote/8207.T/disclosure",
-      "latestDisclosureDate": "2026-08-07",
+      "latestDisclosureDate": "2026-11-12",
       "reports": [
+        {
+          "id": "8207-20261112-140120261020553403",
+          "docId": "140120261020553403",
+          "rawDate": "20261112",
+          "disclosureDate": "2026-11-12",
+          "title": "2027年3月期 第2四半期（中間期）決算短信〔日本基準〕（連結）",
+          "pdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261112/20261020553403.pdf",
+          "detailUrl": "https://finance.yahoo.co.jp/quote/8207.T/disclosure",
+          "localPdfPath": "assets/pdfs/8207/20261112_140120261020553403.pdf",
+          "preferredPdfUrl": "assets/pdfs/8207/20261112_140120261020553403.pdf"
+        },
         {
           "id": "8207-20260807-140120260724598896",
           "docId": "140120260724598896",
@@ -2756,17 +2767,6 @@ window.__REPORT_DATA__ = {
           "detailUrl": "https://finance.yahoo.co.jp/quote/8207.T/disclosure",
           "localPdfPath": "assets/pdfs/8207/20260209_140120260122537098.pdf",
           "preferredPdfUrl": "assets/pdfs/8207/20260209_140120260122537098.pdf"
-        },
-        {
-          "id": "8207-20251107-140120251021576668",
-          "docId": "140120251021576668",
-          "rawDate": "20251107",
-          "disclosureDate": "2025-11-07",
-          "title": "2026年3月期 第2四半期（中間期）決算短信〔日本基準〕（連結）",
-          "pdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20251107/20251021576668.pdf",
-          "detailUrl": "https://finance.yahoo.co.jp/quote/8207.T/disclosure",
-          "localPdfPath": "assets/pdfs/8207/20251107_140120251021576668.pdf",
-          "preferredPdfUrl": "assets/pdfs/8207/20251107_140120251021576668.pdf"
         }
       ]
     },
@@ -2782,15 +2782,26 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-11-12T06:55:48.217Z",
+      "fetchedAt": "2026-11-17T07:39:42.952Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(206 70% 60%)",
         "colorB": "hsl(241 70% 48%)"
       },
       "disclosurePageUrl": "https://finance.yahoo.co.jp/quote/3175.T/disclosure",
-      "latestDisclosureDate": "2026-08-14",
+      "latestDisclosureDate": "2026-11-13",
       "reports": [
+        {
+          "id": "3175-20261113-140120261113579175",
+          "docId": "140120261113579175",
+          "rawDate": "20261113",
+          "disclosureDate": "2026-11-13",
+          "title": "2027年３月期第２四半期（中間期）決算短信〔日本基準〕(連結)",
+          "pdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261113/20261113579175.pdf",
+          "detailUrl": "https://finance.yahoo.co.jp/quote/3175.T/disclosure",
+          "localPdfPath": "assets/pdfs/3175/20261113_140120261113579175.pdf",
+          "preferredPdfUrl": "assets/pdfs/3175/20261113_140120261113579175.pdf"
+        },
         {
           "id": "3175-20260814-140120260814521032",
           "docId": "140120260814521032",
@@ -2823,17 +2834,6 @@ window.__REPORT_DATA__ = {
           "detailUrl": "https://finance.yahoo.co.jp/quote/3175.T/disclosure",
           "localPdfPath": "assets/pdfs/3175/20260213_140120260213561698.pdf",
           "preferredPdfUrl": "assets/pdfs/3175/20260213_140120260213561698.pdf"
-        },
-        {
-          "id": "3175-20251114-140120251114503445",
-          "docId": "140120251114503445",
-          "rawDate": "20251114",
-          "disclosureDate": "2025-11-14",
-          "title": "2026年３月期第２四半期（中間期）決算短信〔日本基準〕(連結)",
-          "pdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20251114/20251114503445.pdf",
-          "detailUrl": "https://finance.yahoo.co.jp/quote/3175.T/disclosure",
-          "localPdfPath": "assets/pdfs/3175/20251114_140120251114503445.pdf",
-          "preferredPdfUrl": "assets/pdfs/3175/20251114_140120251114503445.pdf"
         }
       ]
     },
@@ -2849,7 +2849,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-11-12T06:55:48.853Z",
+      "fetchedAt": "2026-11-17T07:39:43.475Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(18 70% 60%)",
@@ -2916,7 +2916,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-11-12T06:55:49.789Z",
+      "fetchedAt": "2026-11-17T07:39:44.320Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(104 70% 60%)",
@@ -2983,7 +2983,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-11-12T06:55:50.478Z",
+      "fetchedAt": "2026-11-17T07:39:44.920Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(186 70% 60%)",
@@ -3050,7 +3050,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-11-12T06:55:51.386Z",
+      "fetchedAt": "2026-11-17T07:39:45.797Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(81 70% 60%)",
@@ -3117,7 +3117,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-11-12T06:55:52.718Z",
+      "fetchedAt": "2026-11-17T07:39:46.931Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(245 70% 60%)",
@@ -3183,7 +3183,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-11-12T06:55:53.313Z",
+      "fetchedAt": "2026-11-17T07:39:47.527Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(162 70% 60%)",
@@ -3251,7 +3251,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-11-12T06:55:54.102Z",
+      "fetchedAt": "2026-11-17T07:39:48.061Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(235 70% 60%)",
@@ -3318,7 +3318,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-11-12T06:55:54.815Z",
+      "fetchedAt": "2026-11-17T07:39:48.576Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(168 70% 60%)",
@@ -3385,15 +3385,26 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-11-12T06:55:55.711Z",
+      "fetchedAt": "2026-11-17T07:39:49.157Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(178 70% 60%)",
         "colorB": "hsl(213 70% 48%)"
       },
       "disclosurePageUrl": "https://finance.yahoo.co.jp/quote/2752.T/disclosure",
-      "latestDisclosureDate": "2026-08-10",
+      "latestDisclosureDate": "2026-11-13",
       "reports": [
+        {
+          "id": "2752-20261113-140120261113578809",
+          "docId": "140120261113578809",
+          "rawDate": "20261113",
+          "disclosureDate": "2026-11-13",
+          "title": "2026年12月期 第３四半期決算短信〔日本基準〕（連結）",
+          "pdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261113/20261113578809.pdf",
+          "detailUrl": "https://finance.yahoo.co.jp/quote/2752.T/disclosure",
+          "localPdfPath": "assets/pdfs/2752/20261113_140120261113578809.pdf",
+          "preferredPdfUrl": "assets/pdfs/2752/20261113_140120261113578809.pdf"
+        },
         {
           "id": "2752-20260810-140120260810516372",
           "docId": "140120260810516372",
@@ -3426,17 +3437,6 @@ window.__REPORT_DATA__ = {
           "detailUrl": "https://finance.yahoo.co.jp/quote/2752.T/disclosure",
           "localPdfPath": "assets/pdfs/2752/20260213_140120260213561482.pdf",
           "preferredPdfUrl": "assets/pdfs/2752/20260213_140120260213561482.pdf"
-        },
-        {
-          "id": "2752-20251114-140120251114502669",
-          "docId": "140120251114502669",
-          "rawDate": "20251114",
-          "disclosureDate": "2025-11-14",
-          "title": "2025年12月期 第３四半期決算短信〔日本基準〕（連結）",
-          "pdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20251114/20251114502669.pdf",
-          "detailUrl": "https://finance.yahoo.co.jp/quote/2752.T/disclosure",
-          "localPdfPath": "assets/pdfs/2752/20251114_140120251114502669.pdf",
-          "preferredPdfUrl": "assets/pdfs/2752/20251114_140120251114502669.pdf"
         }
       ]
     },
@@ -3452,7 +3452,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-11-12T06:55:56.663Z",
+      "fetchedAt": "2026-11-17T07:39:49.989Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(46 70% 60%)",
@@ -3519,7 +3519,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-11-12T06:55:57.210Z",
+      "fetchedAt": "2026-11-17T07:39:50.517Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(177 70% 60%)",
@@ -3586,15 +3586,26 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-11-12T06:55:57.928Z",
+      "fetchedAt": "2026-11-17T07:39:51.059Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(254 70% 60%)",
         "colorB": "hsl(289 70% 48%)"
       },
       "disclosurePageUrl": "https://finance.yahoo.co.jp/quote/3067.T/disclosure",
-      "latestDisclosureDate": "2026-08-14",
+      "latestDisclosureDate": "2026-11-13",
       "reports": [
+        {
+          "id": "3067-20261113-140120261113578101",
+          "docId": "140120261113578101",
+          "rawDate": "20261113",
+          "disclosureDate": "2026-11-13",
+          "title": "令和８年９月期決算短信〔日本基準〕(連結)",
+          "pdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261113/20261113578101.pdf",
+          "detailUrl": "https://finance.yahoo.co.jp/quote/3067.T/disclosure",
+          "localPdfPath": "assets/pdfs/3067/20261113_140120261113578101.pdf",
+          "preferredPdfUrl": "assets/pdfs/3067/20261113_140120261113578101.pdf"
+        },
         {
           "id": "3067-20260814-140120260814520998",
           "docId": "140120260814520998",
@@ -3627,17 +3638,6 @@ window.__REPORT_DATA__ = {
           "detailUrl": "https://finance.yahoo.co.jp/quote/3067.T/disclosure",
           "localPdfPath": "assets/pdfs/3067/20260213_140120260213561661.pdf",
           "preferredPdfUrl": "assets/pdfs/3067/20260213_140120260213561661.pdf"
-        },
-        {
-          "id": "3067-20251114-140120251114503825",
-          "docId": "140120251114503825",
-          "rawDate": "20251114",
-          "disclosureDate": "2025-11-14",
-          "title": "令和７年９月期決算短信〔日本基準〕(連結)",
-          "pdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20251114/20251114503825.pdf",
-          "detailUrl": "https://finance.yahoo.co.jp/quote/3067.T/disclosure",
-          "localPdfPath": "assets/pdfs/3067/20251114_140120251114503825.pdf",
-          "preferredPdfUrl": "assets/pdfs/3067/20251114_140120251114503825.pdf"
         }
       ]
     },
@@ -3652,7 +3652,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-11-12T06:55:59.119Z",
+      "fetchedAt": "2026-11-17T07:39:51.977Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(87 70% 60%)",
@@ -3718,7 +3718,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-11-12T06:55:59.995Z",
+      "fetchedAt": "2026-11-17T07:39:52.840Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(4 70% 60%)",
@@ -3786,7 +3786,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-11-12T06:56:00.594Z",
+      "fetchedAt": "2026-11-17T07:39:53.360Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(21 70% 60%)",
@@ -3853,7 +3853,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-11-12T06:56:02.254Z",
+      "fetchedAt": "2026-11-17T07:39:55.081Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(252 70% 60%)",
@@ -3919,7 +3919,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-11-12T06:56:03.138Z",
+      "fetchedAt": "2026-11-17T07:39:55.940Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(44 70% 60%)",
@@ -3985,15 +3985,26 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-11-12T06:56:03.707Z",
+      "fetchedAt": "2026-11-17T07:39:56.515Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(23 70% 60%)",
         "colorB": "hsl(58 70% 48%)"
       },
       "disclosurePageUrl": "https://finance.yahoo.co.jp/quote/3053.T/disclosure",
-      "latestDisclosureDate": "2026-08-14",
+      "latestDisclosureDate": "2026-11-13",
       "reports": [
+        {
+          "id": "3053-20261113-140120261113578838",
+          "docId": "140120261113578838",
+          "rawDate": "20261113",
+          "disclosureDate": "2026-11-13",
+          "title": "2026年12月期 第３四半期決算短信〔日本基準〕（非連結）",
+          "pdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261113/20261113578838.pdf",
+          "detailUrl": "https://finance.yahoo.co.jp/quote/3053.T/disclosure",
+          "localPdfPath": "assets/pdfs/3053/20261113_140120261113578838.pdf",
+          "preferredPdfUrl": "assets/pdfs/3053/20261113_140120261113578838.pdf"
+        },
         {
           "id": "3053-20260814-140120260814521036",
           "docId": "140120260814521036",
@@ -4026,17 +4037,6 @@ window.__REPORT_DATA__ = {
           "detailUrl": "https://finance.yahoo.co.jp/quote/3053.T/disclosure",
           "localPdfPath": "assets/pdfs/3053/20260213_140120260213561685.pdf",
           "preferredPdfUrl": "assets/pdfs/3053/20260213_140120260213561685.pdf"
-        },
-        {
-          "id": "3053-20251114-140120251114503719",
-          "docId": "140120251114503719",
-          "rawDate": "20251114",
-          "disclosureDate": "2025-11-14",
-          "title": "2025年12月期 第３四半期決算短信〔日本基準〕（非連結）",
-          "pdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20251114/20251114503719.pdf",
-          "detailUrl": "https://finance.yahoo.co.jp/quote/3053.T/disclosure",
-          "localPdfPath": "assets/pdfs/3053/20251114_140120251114503719.pdf",
-          "preferredPdfUrl": "assets/pdfs/3053/20251114_140120251114503719.pdf"
         }
       ]
     },
@@ -4052,7 +4052,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-11-12T06:56:04.657Z",
+      "fetchedAt": "2026-11-17T07:39:57.328Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(72 70% 60%)",
@@ -4119,7 +4119,7 @@ window.__REPORT_DATA__ = {
       "comparison": "全体比較",
       "comparisonNote": "",
       "referenceUrl": "",
-      "fetchedAt": "2026-11-12T06:56:05.388Z",
+      "fetchedAt": "2026-11-17T07:39:57.929Z",
       "dataStatus": "fresh",
       "accent": {
         "colorA": "hsl(45 70% 60%)",
