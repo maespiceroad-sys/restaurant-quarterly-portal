@@ -1,117 +1,24 @@
 {
   "summary": {
-    "generatedAt": "2026-11-17T07:40:03.525Z",
-    "startedAt": "2026-11-17T07:39:19.523Z",
+    "generatedAt": "2026-11-22T06:22:27.545Z",
+    "startedAt": "2026-11-22T06:21:46.053Z",
     "companyCount": 50,
     "freshCompanyCount": 50,
     "cachedCompanyCount": 0,
     "configuredCompanyCount": 50,
     "totalReportCount": 200,
-    "newReportCount": 11,
+    "newReportCount": 0,
     "errorCount": 0,
     "source": "Yahoo!ファイナンス / TDnet（予備: 株探）",
     "publicSiteUrl": "https://maespiceroad-sys.github.io/restaurant-quarterly-portal/",
     "hostedPdfs": true,
-    "nextScheduledCheckAt": "2026-11-22T07:40:03.525Z",
+    "nextScheduledCheckAt": "2026-11-27T06:22:27.545Z",
     "maxReportsPerCompany": 4
   },
   "notification": {
-    "sent": true,
-    "accepted": [
-      "maespiceroad@gmail.com"
-    ],
-    "rejected": [],
-    "messageId": "<f42f16d7-f1f0-2a00-eb6a-4505803df1de@gmail.com>"
+    "sent": false,
+    "reason": "not requested"
   },
   "errors": [],
-  "newReports": [
-    {
-      "id": "7550-20261112-140120261111573522",
-      "companyCode": "7550",
-      "companyName": "ゼンショーホールディングス",
-      "disclosureDate": "2026-11-12",
-      "title": "2027年３月期 第２四半期（中間期）決算短信〔日本基準〕(連結)",
-      "pdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261112/20261111573522.pdf"
-    },
-    {
-      "id": "3397-20261113-140120261112576510",
-      "companyCode": "3397",
-      "companyName": "トリドールホールディングス",
-      "disclosureDate": "2026-11-13",
-      "title": "2027年３月期 第２四半期（中間期）決算短信〔ＩＦＲＳ〕（連結）",
-      "pdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261113/20261112576510.pdf"
-    },
-    {
-      "id": "3097-20261113-140120261113577839",
-      "companyCode": "3097",
-      "companyName": "物語コーポレーション",
-      "disclosureDate": "2026-11-13",
-      "title": "2027年６月期 第１四半期決算短信〔日本基準〕（連結）",
-      "pdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261113/20261113577839.pdf"
-    },
-    {
-      "id": "7522-20261113-140120261113580290",
-      "companyCode": "7522",
-      "companyName": "ワタミ",
-      "disclosureDate": "2026-11-13",
-      "title": "2027年３月期 第２四半期決算短信〔日本基準〕（連結）",
-      "pdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261113/20261113580290.pdf"
-    },
-    {
-      "id": "3196-20261113-140120261113579762",
-      "companyCode": "3196",
-      "companyName": "ホットランドホールディングス",
-      "disclosureDate": "2026-11-13",
-      "title": "2026年12月期 第３四半期決算短信〔日本基準〕（連結）",
-      "pdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261113/20261113579762.pdf"
-    },
-    {
-      "id": "8179-20261116-140120261113578006",
-      "companyCode": "8179",
-      "companyName": "ロイヤルホールディングス",
-      "disclosureDate": "2026-11-16",
-      "title": "2026年12月期 第３四半期決算短信〔日本基準〕（連結）",
-      "pdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261116/20261113578006.pdf"
-    },
-    {
-      "id": "8207-20261112-140120261020553403",
-      "companyCode": "8207",
-      "companyName": "テンアライド",
-      "disclosureDate": "2026-11-12",
-      "title": "2027年3月期 第2四半期（中間期）決算短信〔日本基準〕（連結）",
-      "pdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261112/20261020553403.pdf"
-    },
-    {
-      "id": "3175-20261113-140120261113579175",
-      "companyCode": "3175",
-      "companyName": "エー・ピーホールディングス",
-      "disclosureDate": "2026-11-13",
-      "title": "2027年３月期第２四半期（中間期）決算短信〔日本基準〕(連結)",
-      "pdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261113/20261113579175.pdf"
-    },
-    {
-      "id": "2752-20261113-140120261113578809",
-      "companyCode": "2752",
-      "companyName": "フジオフードグループ本社",
-      "disclosureDate": "2026-11-13",
-      "title": "2026年12月期 第３四半期決算短信〔日本基準〕（連結）",
-      "pdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261113/20261113578809.pdf"
-    },
-    {
-      "id": "3067-20261113-140120261113578101",
-      "companyCode": "3067",
-      "companyName": "東京一番フーズ",
-      "disclosureDate": "2026-11-13",
-      "title": "令和８年９月期決算短信〔日本基準〕(連結)",
-      "pdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261113/20261113578101.pdf"
-    },
-    {
-      "id": "3053-20261113-140120261113578838",
-      "companyCode": "3053",
-      "companyName": "ペッパーフードサービス",
-      "disclosureDate": "2026-11-13",
-      "title": "2026年12月期 第３四半期決算短信〔日本基準〕（非連結）",
-      "pdfUrl": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261113/20261113578838.pdf"
-    }
-  ]
+  "newReports": []
 }
